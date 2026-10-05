@@ -1,0 +1,128 @@
+{
+  "version": 2,
+  "date": "2026-09-19",
+  "tool": "built-in image_gen",
+  "scope": "seven vessel concepts and one sourced accessory panel",
+  "items": [
+    {
+      "id": "P01",
+      "title": "Forever in the Game",
+      "description": "Purple and gold basketball, coiled black snake and a wood-look pedestal.",
+      "source": "36",
+      "asset": "assets/P01-hero-v3.png",
+      "sku": "LN-SPT-COURTLEGENDBase",
+      "note": "Single-head snake correction applied. Inscription remains editable; no finished sample verified.",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "sha256": "535dbc5e8109803c40715fb0504fa237a1c5e6eb8f1a9eb4cd1657324bd86466",
+      "status": "Design concept - not yet manufactured"
+    },
+    {
+      "id": "P02",
+      "title": "MVP - Baseball Glove",
+      "description": "Weathered glove, baseball details and a wood-look tiered base.",
+      "source": "37",
+      "asset": "assets/P02-hero-v2.png",
+      "sku": "LN-SPT-MVPGLOVE",
+      "note": "Rear support baseball is occluded in this front view. Placeholder dates omitted.",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "sha256": "0e70fc1a3f1cd586474982b7ea7f24e1b392658c6b141401563cd1a76bcd4033",
+      "status": "Design concept - not yet manufactured"
+    },
+    {
+      "id": "P03",
+      "title": "Mom\u2019s Tough Love",
+      "description": "A kitchen diorama with mother and child, framed by a wood-look lid and base.",
+      "source": "38",
+      "asset": "assets/P03-hero-v2.png",
+      "sku": "LN-FAM-TOUGHLOVE",
+      "note": "Speech bubble and plaque lettering intentionally omitted for editorial review. Original closure and STL pairing unresolved.",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "sha256": "bd04021a13cf408e0aebc4735cac083376c100eb03b7bba161d0bb8a8f64e9c9",
+      "status": "Design concept - not yet manufactured"
+    },
+    {
+      "id": "P04",
+      "title": "Timeless Elegance",
+      "description": "A black vessel with gold floral ornament, fine bands and a domed lid.",
+      "source": "39",
+      "asset": "assets/P04-hero-v2.png",
+      "sku": "HC-TRD-BLKGLDFLORAL",
+      "note": "Ornamental rendering is an interpretation; confirm exact relief against CAD. Midnight Blossom file pairing remains provisional.",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "sha256": "d044f657bb2ceb40ed23e6415c2fda1d43e32f0d01ef942529a1d10ce334bef3",
+      "status": "Design concept - not yet manufactured"
+    },
+    {
+      "id": "P05",
+      "title": "Legacy Lives On",
+      "description": "Blue suede-look texture, sculpted white lacing and a rectangular pedestal.",
+      "source": "40",
+      "asset": "assets/P05-hero-v2.png",
+      "sku": "LN-SPT-SNEAKERBLUE",
+      "note": "Original blue design preserved; inscription omitted. Dimensions await engineering reconciliation.",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "sha256": "1f8feb490eef7a8d36a2a617275b60e6071567d9db9e6e686e494a9c118cc43a",
+      "status": "Design concept - not yet manufactured"
+    },
+    {
+      "id": "P06",
+      "title": "Every Step Legacy",
+      "description": "An asymmetric black and bronze vessel with tread, stitching and a sweeping divider.",
+      "source": "63",
+      "asset": "assets/P06-hero-v2.png",
+      "sku": "LN-SPT-EVERYSTEP",
+      "note": "Original athletic direction, separate from DOC NOTES trail concept. Generated texture is illustrative; CAD is being developed separately.",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "sha256": "e84dfcf5ceedbac83faf04a11f642835a425144c6deb8f35a748dc11ca1be41d",
+      "status": "Design concept - not yet manufactured"
+    },
+    {
+      "id": "D57",
+      "title": "Infinite Loop",
+      "description": "A restrained black cylinder wrapped by a sculptural ribbon.",
+      "source": "DOC NOTES Sections 3 and 5",
+      "asset": "assets/D57-infinite-loop-concept-v2.png",
+      "sku": "New concept - no production SKU",
+      "note": "Flat lid revised. A mathematically correct M\u00f6bius half-twist is still not established by this image; resolve in future geometry.",
+      "pixels": [
+        1122,
+        1402
+      ],
+      "sha256": "6ab3859918ee667a556b27c5de7de1e2a28defb5784e2860d240022e1cbbbb40",
+      "status": "Design concept - not yet manufactured"
+    },
+    {
+      "id": "A06",
+      "title": "Every Step - companion concepts",
+      "description": "Miniature keepsake, infinity-path pendant and rectangular dog-tag keychain.",
+      "source": "63 accessory specification",
+      "asset": "assets/P06-accessories-concept-v1.png",
+      "sku": "Rose-gold accessory variant",
+      "note": "Rose-gold tone is a distinct accessory proposal, not the original bronze finish. No verified scale, cavities, closures or working QR. Bracelets and heart necklace remain outside this pilot.",
+      "pixels": [
+        1672,
+        941
+      ],
+      "sha256": "1f66f73c1c842bee4ef7ec17e16d52e58e952dd607fc7cbf7d175e8845d60d76",
+      "status": "Design concept - not yet manufactured"
+    }
+  ]
+}

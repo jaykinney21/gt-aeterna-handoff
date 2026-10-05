@@ -1,0 +1,74 @@
+{
+  "status": "SOURCE-INFORMED ENGINEERING CANDIDATE; NOT APPROVED TO MANUFACTURE",
+  "parameters_mm": {
+    "height": 279.4,
+    "base_height": 50.8,
+    "base_diameter": 171.45,
+    "body_width": 139.7,
+    "body_depth": 127,
+    "nominal_radial_wall": 4,
+    "plate_width": 90,
+    "plate_depth": 70,
+    "plate_thickness": 3,
+    "screw_clearance_diameter": 4.5,
+    "insert_pilot_diameter": 5
+  },
+  "shell": {
+    "volume_mm3": 581610.29387539,
+    "nonmanifold_edges": 0,
+    "vertices": 5880,
+    "bounds_mm": [
+      171.4499969482422,
+      171.4499969482422,
+      279.3999938964844
+    ]
+  },
+  "plate": {
+    "volume_mm3": 18709.22485461866,
+    "nonmanifold_edges": 0,
+    "vertices": 1032,
+    "bounds_mm": [
+      90.0,
+      70.0,
+      3.0
+    ]
+  },
+  "empty_cavity_after_conservative_hardware": {
+    "volume_mm3": 3153877.5978954616,
+    "nonmanifold_edges": 0,
+    "vertices": 2309,
+    "bounds_mm": [
+      163.4499969482422,
+      163.4499969482422,
+      271.3999938964844
+    ]
+  },
+  "capacity_in3": 192.46141944008164,
+  "capacity_target_in3": 200,
+  "capacity_target_pass": false,
+  "Every-Step-Legacy-shell-CANDIDATE-mm.stl": {
+    "triangles": 11756,
+    "reimport_bounds_mm": [
+      171.4499969482422,
+      171.4499969482422,
+      279.3999938964844
+    ]
+  },
+  "Every-Step-Legacy-plate-CANDIDATE-mm.stl": {
+    "triangles": 2076,
+    "reimport_bounds_mm": [
+      90.0,
+      70.0,
+      3.0
+    ]
+  },
+  "limitations": [
+    "Ring loft approximates reference; not traced or owner-approved",
+    "4mm is radial construction allowance, not verified minimum normal thickness",
+    "Top is fixed; bottom plate baseline provisional",
+    "Plate lacks countersinks and gasket groove; inserts not selected",
+    "No leak, load, fit, heat, finish or packaging tests",
+    "Decorative seam/bands are visual guides only, excluded from STLs",
+    "Cavity excludes access opening volume and conservatively deducts full boss cylinders"
+  ]
+}

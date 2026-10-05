@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gt-paper: #f6f1e7;
+  --gt-surface: #efe7d8;
+  --gt-ink: #2e3d33;
+  --gt-gold: #b98e54;
+  --gt-sage: #8fa08e;
+  --gt-water: #6e8c96;
+  --gt-stone: #c9bba8;
+}
+
+/* ---- Ambient motion (from the design canvas) ---- */
+@keyframes gtDrift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(7%, -5%) scale(1.07); }
+  66% { transform: translate(-5%, 4%) scale(1.04); }
+}
+@keyframes gtDrift2 {
+  0%, 100% { transform: translate(0, 0) scale(1.05); }
+  50% { transform: translate(-8%, 6%) scale(1.12); }
+}
+@keyframes gtShimmer {
+  0% { transform: translateX(-9%); }
+  100% { transform: translateX(9%); }
+}
+@keyframes gtTurn {
+  0% { transform: rotate(-7deg); }
+  50% { transform: rotate(7deg); }
+  100% { transform: rotate(-7deg); }
+}
+@keyframes gtWordIn {
+  0% { opacity: 0; transform: translateY(14px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes gtFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+@keyframes gtPulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+/* Trust strip drift — the track holds two copies, so -50% loops seamlessly. */
+@keyframes gtMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+/* Quiet caret for the process headline type-on. */
+@keyframes gtCaret {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0.7; }
+}
+/* Featured pricing card — a slow candle-glow on the gold border. */
+@keyframes gtGlow {
+  0%, 100% { box-shadow: 0 24px 54px -28px rgba(46,61,51,.5), 0 0 0 0 rgba(185,142,84,0); }
+  50% { box-shadow: 0 24px 54px -28px rgba(46,61,51,.5), 0 0 26px -6px rgba(185,142,84,.55); }
+}
+/* Scroll-reveal (Process steps, quiet fade-up). Elements start hidden only
+   when motion is allowed; reduced motion shows them immediately. */
+@media (prefers-reduced-motion: no-preference) {
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  [data-reveal="in"] {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Hero entrance — the page settles into place once, on load. Same easing
+     family as the reveals: slow, warm, inevitable. Pure CSS, so it plays
+     before hydration and never flashes. */
+  .gt-enter {
+    animation: gtRise 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: var(--enter-delay, 0ms);
+  }
+
+  /* One-time drag-affordance sway for the urn — a hand gently rocking it. */
+  .gt-sway-hint {
+    animation: gtSwayHint 2.6s ease-in-out 0.7s 1;
+  }
+}
+@keyframes gtRise {
+  0% { opacity: 0; transform: translateY(18px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes gtSwayHint {
+  0%, 100% { transform: rotate(0deg); }
+  30% { transform: rotate(-4.5deg); }
+  65% { transform: rotate(3.5deg); }
+}
+/* Checkout summary — a soft candle-warm wash that settles as you arrive
+   with a chosen plan/urn, then fades for good. */
+@keyframes gtSummaryIn {
+  0% { background-color: rgba(185, 142, 84, 0.14); }
+  100% { background-color: rgba(185, 142, 84, 0); }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    margin: 0;
+    background: var(--gt-paper);
+    color: var(--gt-ink);
+    font-family: var(--font-sans), -apple-system, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--gt-gold);
+    color: var(--gt-paper);
+  }
+  :focus-visible {
+    outline: 2px solid var(--gt-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    [data-motion] { animation: none !important; }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /*
+   * Variant A theme scope. The whole Variant A page lives inside `.va`;
+   * toggling [data-theme="dark"] swaps the custom properties (light <-> dark).
+   * Children reference these via Tailwind arbitrary values, e.g.
+   *   bg-[var(--va-paper)] text-[var(--va-ink)] border-[var(--va-line)]
+   */
+  .va {
+    --va-paper: #f6f1e7;
+    --va-surface: #efe7d8;
+    --va-ink: #2e3d33;
+    --va-muted: rgba(46, 61, 51, 0.7);
+    --va-line: rgba(46, 61, 51, 0.12);
+    --va-gold: #b98e54;
+    --va-glass: rgba(255, 255, 255, 0.5);
+    --va-glassbrd: rgba(255, 255, 255, 0.72);
+    --va-fill: rgba(46, 61, 51, 0.05);
+    background: var(--va-paper);
+    color: var(--va-ink);
+    transition: background 0.55s ease, color 0.55s ease;
+  }
+  .va[data-theme="dark"] {
+    --va-paper: #1b2620;
+    --va-surface: #243029;
+    --va-ink: #f6f1e7;
+    --va-muted: rgba(246, 241, 231, 0.72);
+    --va-line: rgba(246, 241, 231, 0.14);
+    --va-gold: #d8b178;
+    --va-glass: rgba(246, 241, 231, 0.07);
+    --va-glassbrd: rgba(246, 241, 231, 0.22);
+    --va-fill: rgba(246, 241, 231, 0.08);
+  }
+}
+
+@layer utilities {
+  /* Tracked uppercase utility label in Spline Sans Mono. */
+  .gt-label {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.6875rem;
+    line-height: 1;
+  }
+  /* Liquid-glass surface (Variant A). */
+  .gt-glass {
+    backdrop-filter: blur(16px) saturate(1.35);
+    -webkit-backdrop-filter: blur(16px) saturate(1.35);
+  }
+  /* Tactile CTA: press-down on active, and any .gt-arrow child nudges on
+     hover. Slow ease — a settle, never a bounce. */
+  .gt-press {
+    transition: transform 0.25s ease, opacity 0.3s ease, border-color 0.3s ease,
+      box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  }
+  .gt-press:active {
+    transform: translateY(1px);
+  }
+  /* Pair with an explicit display class (inline-block/flex) so transform
+     applies; inline elements can't be transformed. */
+  .gt-arrow {
+    transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  a:hover > .gt-arrow,
+  button:hover > .gt-arrow,
+  .group:hover .gt-arrow {
+    transform: translateX(3px);
+  }
+  /* Form field settle-focus: the border warms up slowly and a faint gold
+     ring gathers around the field. */
+  .gt-field {
+    transition: border-color 0.45s ease, box-shadow 0.45s ease,
+      background-color 0.45s ease;
+  }
+  .gt-field:focus {
+    border-color: var(--va-gold, var(--gt-gold));
+    box-shadow: 0 0 0 4px rgba(185, 142, 84, 0.13);
+  }
+  /* Finish-name underline slide (urn gallery card hover). */
+  .gt-underline-slide {
+    background-image: linear-gradient(
+      currentColor,
+      currentColor
+    );
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 1px;
+    transition: background-size 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+    padding-bottom: 3px;
+  }
+  .group:hover .gt-underline-slide {
+    background-size: 100% 1px;
+  }
+}

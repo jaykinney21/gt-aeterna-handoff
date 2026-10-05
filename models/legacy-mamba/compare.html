@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kobe Vessel — Hunyuan3D vs Tripo3D Comparison</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #1a1a2e; font-family: Arial, sans-serif; color: #e0e0e0; overflow: hidden; }
+        .container { display: flex; width: 100vw; height: 100vh; }
+        .panel { flex: 1; position: relative; border-right: 2px solid #C9A962; }
+        .panel:last-child { border-right: none; }
+        .label {
+            position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.8); padding: 10px 20px; border-radius: 8px;
+            z-index: 100; text-align: center;
+        }
+        .label h3 { color: #C9A962; font-size: 16px; margin-bottom: 4px; }
+        .label p { font-size: 12px; color: #888; }
+        .label .tag { 
+            display: inline-block; padding: 2px 8px; border-radius: 4px; 
+            font-size: 11px; margin-top: 4px; font-weight: bold;
+        }
+        .free { background: #2ea52c; color: white; }
+        .paid { background: #C9A962; color: #1a1a2e; }
+        #title {
+            position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.8); padding: 10px 24px; border-radius: 8px;
+            z-index: 100; text-align: center; white-space: nowrap;
+        }
+        #title h2 { color: #C9A962; font-size: 18px; }
+        #title p { color: #888; font-size: 12px; margin-top: 4px; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel" id="panel-left">
+            <div class="label">
+                <h3>Hunyuan3D-2 (Tencent)</h3>
+                <p>446K faces • 6.6MB • 8.8s</p>
+                <span class="tag free">FREE</span>
+            </div>
+        </div>
+        <div class="panel" id="panel-right">
+            <div class="label">
+                <h3>Tripo3D (API)</h3>
+                <p>PBR Textured • 11MB • ~60s</p>
+                <span class="tag paid">30 credits (~$0.12)</span>
+            </div>
+        </div>
+    </div>
+    <div id="title">
+        <h2>🏀 Kobe "Mamba Mentality" Vessel — Side by Side</h2>
+        <p>Drag to rotate • Scroll to zoom • Both models auto-rotate in sync</p>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+        function createViewer(container, glbFile, useOriginalMaterials = false) {
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+
+            const scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x1a1a2e);
+
+            const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+            camera.position.set(0, 1.2, 3);
+
+            const renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(width, height);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.toneMapping = THREE.ACESFilmicToneMapping;
+            renderer.toneMappingExposure = 1.2;
+            container.appendChild(renderer.domElement);
+
+            // Lighting
+            scene.add(new THREE.AmbientLight(0xffffff, 0.5));
+            const d1 = new THREE.DirectionalLight(0xffffff, 1.0);
+            d1.position.set(5, 5, 5);
+            scene.add(d1);
+            const d2 = new THREE.DirectionalLight(0xC9A962, 0.5);
+            d2.position.set(-5, 3, -5);
+            scene.add(d2);
+            const d3 = new THREE.DirectionalLight(0x9CAF88, 0.3);
+            d3.position.set(0, -3, 5);
+            scene.add(d3);
+
+            // Controls
+            const controls = new OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            controls.autoRotate = true;
+            controls.autoRotateSpeed = 2.0;
+
+            // Grid
+            const grid = new THREE.GridHelper(10, 20, 0x333366, 0x222244);
+            scene.add(grid);
+
+            // Load model
+            const loader = new GLTFLoader();
+            loader.load(glbFile, (gltf) => {
+                const model = gltf.scene;
+                const box = new THREE.Box3().setFromObject(model);
+                const center = box.getCenter(new THREE.Vector3());
+                const size = box.getSize(new THREE.Vector3());
+                const maxDim = Math.max(size.x, size.y, size.z);
+                const scale = 2 / maxDim;
+                model.position.sub(center);
+                model.scale.setScalar(scale);
+
+                if (!useOriginalMaterials) {
+                    model.traverse((child) => {
+                        if (child.isMesh) {
+                            child.material = new THREE.MeshStandardMaterial({
+                                color: 0xC9A962,
+                                metalness: 0.4,
+                                roughness: 0.3,
+                            });
+                        }
+                    });
+                }
+
+                scene.add(model);
+            });
+
+            function animate() {
+                requestAnimationFrame(animate);
+                controls.update();
+                renderer.render(scene, camera);
+            }
+            animate();
+
+            window.addEventListener('resize', () => {
+                const w = container.clientWidth;
+                const h = container.clientHeight;
+                camera.aspect = w / h;
+                camera.updateProjectionMatrix();
+                renderer.setSize(w, h);
+            });
+
+            return { scene, camera, renderer, controls };
+        }
+
+        // Create both viewers
+        const left = createViewer(
+            document.getElementById('panel-left'),
+            './kobe-mamba-mentality.glb',
+            false  // brass material
+        );
+
+        const right = createViewer(
+            document.getElementById('panel-right'),
+            './kobe-mamba-tripo3d.glb',
+            true   // keep original PBR textures
+        );
+
+        // Sync rotation between panels
+        let syncing = false;
+        function syncControls(source, target) {
+            if (syncing) return;
+            syncing = true;
+            target.controls.target.copy(source.controls.target);
+            target.camera.position.copy(source.camera.position);
+            target.camera.quaternion.copy(source.camera.quaternion);
+            syncing = false;
+        }
+
+        left.controls.addEventListener('change', () => syncControls(left, right));
+        right.controls.addEventListener('change', () => syncControls(right, left));
+    </script>
+</body>
+</html>

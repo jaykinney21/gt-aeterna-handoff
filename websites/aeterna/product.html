@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product — AETERNA</title>
+<meta name="description" content="Handcrafted art urn — a museum-quality vessel designed to be displayed, not hidden away.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://api.fontshare.com">
+
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./product.css">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='none' stroke='%23C4A87C' stroke-width='1.5'/><path d='M16 6 L22 24 H10 Z' fill='none' stroke='%23C4A87C' stroke-width='1.5' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav nav--scrolled" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="AETERNA home">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="18" cy="18" r="16.5" stroke="currentColor" stroke-width="1"/>
+          <path d="M18 6.5L24.5 27H11.5L18 6.5Z" stroke="currentColor" stroke-width="1" stroke-linejoin="round" fill="none"/>
+          <circle cx="18" cy="18" r="4" stroke="currentColor" stroke-width="0.8" fill="none"/>
+        </svg>
+        <span class="nav__logo-text">AETERNA</span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="index.html#philosophy">Philosophy</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="index.html#collection">Collection</a></li>
+        <li><a href="index.html#materials">Materials</a></li>
+        <li><a href="index.html#story">Our Story</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" style="display:none">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+          </svg>
+        </button>
+        <button class="cart-trigger" onclick="openCartDrawer()" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/>
+          </svg>
+          <span class="cart-badge">0</span>
+        </button>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html#philosophy" class="mobile-menu__link">Philosophy</a>
+    <a href="shop.html" class="mobile-menu__link">Shop</a>
+    <a href="index.html#collection" class="mobile-menu__link">Collection</a>
+    <a href="index.html#materials" class="mobile-menu__link">Materials</a>
+    <a href="index.html#story" class="mobile-menu__link">Our Story</a>
+  </div>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb__list" id="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="breadcrumb__sep">/</li>
+        <li><a href="shop.html">Shop</a></li>
+        <li class="breadcrumb__sep">/</li>
+        <li class="breadcrumb__current" id="breadcrumbName">Product</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Product Detail -->
+  <section class="pdp">
+    <div class="container">
+      <div class="pdp__layout" data-product-id="" data-variant-id="" data-price="" data-sku="">
+        <!-- Image Area -->
+        <div class="pdp__image-area">
+          <div class="pdp__image-main" id="pdpImage">
+            <div class="art-shape" id="pdpArtShape"></div>
+          </div>
+        </div>
+
+        <!-- Info Panel -->
+        <div class="pdp__info">
+          <h1 class="pdp__name" id="pdpName">Product Name</h1>
+          <div class="pdp__price-row">
+            <span class="pdp__price" id="pdpPrice">$0</span>
+            <span class="pdp__affirm">Starting at <strong id="pdpAffirm">$0</strong>/mo with Affirm</span>
+          </div>
+
+          <p class="pdp__material" id="pdpMaterial">Material description</p>
+
+          <div class="pdp__dimensions" id="pdpDimensions">
+            <div class="pdp__dim-item">
+              <span class="pdp__dim-label">Height</span>
+              <span class="pdp__dim-value" id="pdpHeight">—</span>
+            </div>
+            <div class="pdp__dim-item">
+              <span class="pdp__dim-label">Width</span>
+              <span class="pdp__dim-value" id="pdpWidth">—</span>
+            </div>
+            <div class="pdp__dim-item">
+              <span class="pdp__dim-label">Capacity</span>
+              <span class="pdp__dim-value" id="pdpCapacity">—</span>
+            </div>
+          </div>
+
+          <p class="pdp__description" id="pdpDescription">Description here.</p>
+
+          <div class="pdp__divider"></div>
+
+          <!-- Variant Selector -->
+          <div class="pdp__variants" id="pdpVariants">
+            <h3 class="pdp__option-label">Color</h3>
+            <div class="pdp__swatches" id="pdpSwatches"></div>
+          </div>
+
+          <!-- Quantity -->
+          <div class="pdp__quantity">
+            <h3 class="pdp__option-label">Quantity</h3>
+            <div class="pdp__qty-control">
+              <button id="qtyDecrease">−</button>
+              <span id="qtyValue">1</span>
+              <button id="qtyIncrease">+</button>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="pdp__actions">
+            <button class="pdp__add-to-cart btn" id="addToCart">
+              Add to Cart — <span id="addToCartPrice">$0</span>
+            </button>
+            <a href="customize.html" class="pdp__customize btn btn--outline-light">Customize This Piece</a>
+          </div>
+
+          <!-- Shipping -->
+          <div class="pdp__shipping">
+            <div class="pdp__shipping-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              <span>Free shipping on all orders</span>
+            </div>
+            <div class="pdp__shipping-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <span>Handcrafted to order · 2–3 week delivery</span>
+            </div>
+          </div>
+
+          <!-- Accordion -->
+          <div class="pdp__accordions">
+            <details class="pdp__accordion">
+              <summary>Care Instructions</summary>
+              <div class="pdp__accordion-body">
+                <p>Handle with care. Clean with a soft, dry cloth. Avoid prolonged exposure to direct sunlight or extreme temperatures. Ceramic and glass pieces should not be exposed to sudden temperature changes. Metal pieces will develop a beautiful patina over time — this is by design.</p>
+              </div>
+            </details>
+            <details class="pdp__accordion">
+              <summary>Shipping & Returns</summary>
+              <div class="pdp__accordion-body">
+                <p>Each piece is handcrafted to order and ships within 2–3 weeks. Free shipping within the continental US. International shipping available. Due to the custom nature of our pieces, we offer exchanges within 30 days for unused items in original packaging.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+  <section class="related">
+    <div class="container">
+      <h2 class="related__title">You May Also Like</h2>
+      <div class="related__grid" id="relatedGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="18" cy="18" r="16.5" stroke="currentColor" stroke-width="1"/>
+              <path d="M18 6.5L24.5 27H11.5L18 6.5Z" stroke="currentColor" stroke-width="1" stroke-linejoin="round" fill="none"/>
+              <circle cx="18" cy="18" r="4" stroke="currentColor" stroke-width="0.8" fill="none"/>
+            </svg>
+            <span class="footer__logo-text">AETERNA</span>
+          </div>
+          <p class="footer__tagline">Art that holds everything.</p>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Collection</h4>
+          <ul class="footer__links">
+            <li><a href="shop.html">All Pieces</a></li>
+            <li><a href="customize.html">3D Configurator</a></li>
+            <li><a href="imagine.html">AI Imagine</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Company</h4>
+          <ul class="footer__links">
+            <li><a href="index.html#story">Our Story</a></li>
+            <li><a href="index.html#materials">Materials</a></li>
+            <li><a href="index.html#process">Process</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Join the Gallery</h4>
+          <p class="footer__newsletter-text">Be first to discover new pieces.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault();">
+            <input type="email" placeholder="Your email" aria-label="Email address" required>
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 AETERNA. All rights reserved.</p>
+        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./cart.js" defer></script>
+  <script src="./product.js" defer></script>
+</body>
+</html>

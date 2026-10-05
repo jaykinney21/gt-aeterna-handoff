@@ -1,0 +1,10 @@
+37. MVP baseball glove
+
+**Original target:** 12 in overall × 8.5 in diameter; 200+ in³; bottom steel plate, four screws, inserts and gasket.
+
+**Finish brief:** Resin or PLA mentioned; ask supplier to nominate material and process. Worn-leather look, white/red balls, faux wood, metallic accents.
+
+**Mismatch / unresolved work:** Body bounds 190.87 × 190.87 × 254.26 mm (7.51 × 7.51 × 10.01 in), assuming mm: smaller than original envelope. Listed glove 9 in + base 2.5 in needs assembly/support definition. Confirm connected cavity through support elements; remove placeholder dates.
+
+
+Units and geometry are preliminary; no automatic rescaling authorized.

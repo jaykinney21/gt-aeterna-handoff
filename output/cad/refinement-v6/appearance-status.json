@@ -1,0 +1,54 @@
+{
+  "scope": "V6 appearance revision only, not engineering release",
+  "iterations": 3,
+  "source": "document63/image1.png",
+  "actual_appearance_bounds_mm": [
+    145.9523162841797,
+    146.11497497558594,
+    278.760009765625
+  ],
+  "source_written_base_diameter_mm": 171.45,
+  "appearance_xy_scale": 0.85,
+  "proportion_decision": "Source picture is narrower than its written dimensions; appearance intentionally follows picture proportions. No capacity or manufacturing-size claim.",
+  "body_font_mm_before_xy_scale": 12.3,
+  "body_text_width_multiplier": 1.23,
+  "render_resolution": [
+    900,
+    1100
+  ],
+  "cycles_samples": 64,
+  "review_views": [
+    "front",
+    "rear",
+    "side",
+    "top",
+    "detail",
+    "base-detail",
+    "front-reference",
+    "rear-reference",
+    "cap-top"
+  ],
+  "requested_changes": {
+    "stitch_shift_right_mm_at_z220": 8.7,
+    "cap_outline": "true rounded teardrop; +X tapered point at copper join",
+    "base_rows": 8,
+    "beads_per_complete_row": 136,
+    "base_row_centers_mm": [
+      8.0,
+      13.071428571428571,
+      18.142857142857142,
+      23.214285714285715,
+      28.285714285714285,
+      33.35714285714286,
+      38.42857142857143,
+      43.5
+    ]
+  },
+  "cap_top_view": "Isolated actual cap component; camera roll puts tapered point upward; geometry unchanged",
+  "limitations": [
+    "Source front/rear perspectives are conceptual and do not uniquely determine a consistent solid",
+    "Hidden depth and rolled return remain interpretations",
+    "No cavity, capacity, closure, tolerance or printability approval",
+    "Owner visual approval remains outstanding"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "bundle": "GT-AETERNA-original-rfq-baseline.zip",
+  "scope": "Ten original exported STLs for the five older quoted designs. Historical RFQ R0 baseline; not the forthcoming Tripo revision or a production release. No repairs, scaling or geometry changes were made.",
+  "members": [
+    {
+      "path": "models/original-rfq-baseline/36.-Forever-in-the-Game/Basketball.stl.stl",
+      "bytes": 48605584,
+      "sha256": "99a4e97c68de27047da3eab7c5d2633f4a488b4904fdcd08bf71d49b9d2948dc"
+    },
+    {
+      "path": "models/original-rfq-baseline/36.-Forever-in-the-Game/Basketball_Base_Plate.stl.stl",
+      "bytes": 165784,
+      "sha256": "6487267c44ba0ba94fdd94e38b460908bbd118e4050f0ffd9140e7a1c721d308"
+    },
+    {
+      "path": "models/original-rfq-baseline/37.-MVP-baseball-glove/Baseball.stl.stl",
+      "bytes": 75907984,
+      "sha256": "42e78761eee73dacfb8180800348f651f498503426de9e9f6b3957dd844228ac"
+    },
+    {
+      "path": "models/original-rfq-baseline/37.-MVP-baseball-glove/Baseball_Base_Plate.stl.stl",
+      "bytes": 156984,
+      "sha256": "b1999f636d85ba8ceea00994110d4f38bb8bc62d3bb1b441daa6d81e89c5c50b"
+    },
+    {
+      "path": "models/original-rfq-baseline/38.-Mom-s-Tough-Love/Mom Tough Love Diorama Urn Body.stl.stl",
+      "bytes": 35258084,
+      "sha256": "49c83a13d1784d9a429729da9d74ec25909d3524c06d5c8bc3ad22ba0343e8a1"
+    },
+    {
+      "path": "models/original-rfq-baseline/38.-Mom-s-Tough-Love/Mom Tough Love Diorama Urn_Base_Plate.stl.stl",
+      "bytes": 149384,
+      "sha256": "8d167b6e2e8b76ad9c31783b32ad52124ce048288d0d3daf91e8f387eaee26c9"
+    },
+    {
+      "path": "models/original-rfq-baseline/39.-Timeless-Elegance-floral/Midnight Blossom_Body.stl.stl",
+      "bytes": 26290184,
+      "sha256": "35bb0e3b258bbf300b3f247bf0b2427aa0616155e671f2acd1755dda2c62bf2b"
+    },
+    {
+      "path": "models/original-rfq-baseline/39.-Timeless-Elegance-floral/Midnight Blossom_Lid.stl.stl.stl",
+      "bytes": 3203784,
+      "sha256": "15a2e778bb9ef4bb3b586255bf1f7cfd783af39f37991940df54b2c99353c014"
+    },
+    {
+      "path": "models/original-rfq-baseline/40.-Legacy-Lives-On-blue-sneaker/Sneaker.stl.stl",
+      "bytes": 25022284,
+      "sha256": "eaece40678eba9d5614ee6ff49d62a25d6e95490ec87f45b1d11d9c0cb7b33b4"
+    },
+    {
+      "path": "models/original-rfq-baseline/40.-Legacy-Lives-On-blue-sneaker/Sneaker_Base_Plate.stl.stl",
+      "bytes": 156984,
+      "sha256": "7ee45fdf0eac5421c917d6b9e7c7d6901e21eea71570aaff06834549ea2e8e2b"
+    }
+  ],
+  "bytes": 123425866,
+  "sha256": "51e373b68d1bc2dae343cc624125491257317fd45912c5c6ab731a3a64c21d7c",
+  "file_count": 10,
+  "raw_bytes": 214917040,
+  "archive_members": [
+    {
+      "path": "models/original-rfq-baseline/36.-Forever-in-the-Game/Basketball.stl.stl",
+      "bytes": 48605584,
+      "sha256": "99a4e97c68de27047da3eab7c5d2633f4a488b4904fdcd08bf71d49b9d2948dc"
+    },
+    {
+      "path": "models/original-rfq-baseline/36.-Forever-in-the-Game/Basketball_Base_Plate.stl.stl",
+      "bytes": 165784,
+      "sha256": "6487267c44ba0ba94fdd94e38b460908bbd118e4050f0ffd9140e7a1c721d308"
+    },
+    {
+      "path": "models/original-rfq-baseline/37.-MVP-baseball-glove/Baseball.stl.stl",
+      "bytes": 75907984,
+      "sha256": "42e78761eee73dacfb8180800348f651f498503426de9e9f6b3957dd844228ac"
+    },
+    {
+      "path": "models/original-rfq-baseline/37.-MVP-baseball-glove/Baseball_Base_Plate.stl.stl",
+      "bytes": 156984,
+      "sha256": "b1999f636d85ba8ceea00994110d4f38bb8bc62d3bb1b441daa6d81e89c5c50b"
+    },
+    {
+      "path": "models/original-rfq-baseline/38.-Mom-s-Tough-Love/Mom Tough Love Diorama Urn Body.stl.stl",
+      "bytes": 35258084,
+      "sha256": "49c83a13d1784d9a429729da9d74ec25909d3524c06d5c8bc3ad22ba0343e8a1"
+    },
+    {
+      "path": "models/original-rfq-baseline/38.-Mom-s-Tough-Love/Mom Tough Love Diorama Urn_Base_Plate.stl.stl",
+      "bytes": 149384,
+      "sha256": "8d167b6e2e8b76ad9c31783b32ad52124ce048288d0d3daf91e8f387eaee26c9"
+    },
+    {
+      "path": "models/original-rfq-baseline/39.-Timeless-Elegance-floral/Midnight Blossom_Body.stl.stl",
+      "bytes": 26290184,
+      "sha256": "35bb0e3b258bbf300b3f247bf0b2427aa0616155e671f2acd1755dda2c62bf2b"
+    },
+    {
+      "path": "models/original-rfq-baseline/39.-Timeless-Elegance-floral/Midnight Blossom_Lid.stl.stl.stl",
+      "bytes": 3203784,
+      "sha256": "15a2e778bb9ef4bb3b586255bf1f7cfd783af39f37991940df54b2c99353c014"
+    },
+    {
+      "path": "models/original-rfq-baseline/40.-Legacy-Lives-On-blue-sneaker/Sneaker.stl.stl",
+      "bytes": 25022284,
+      "sha256": "eaece40678eba9d5614ee6ff49d62a25d6e95490ec87f45b1d11d9c0cb7b33b4"
+    },
+    {
+      "path": "models/original-rfq-baseline/40.-Legacy-Lives-On-blue-sneaker/Sneaker_Base_Plate.stl.stl",
+      "bytes": 156984,
+      "sha256": "7ee45fdf0eac5421c917d6b9e7c7d6901e21eea71570aaff06834549ea2e8e2b"
+    },
+    {
+      "path": "MEMBERS.json",
+      "bytes": 2496,
+      "sha256": "592e5f39e434818843ce69bc56607f57037de70eaa97c6d37dcb7316d6017999"
+    },
+    {
+      "path": "BUNDLE-README.md",
+      "bytes": 477,
+      "sha256": "1743d5f309aa03f00e05d16b3154c8a69243a34132986b281a08ea509398e403"
+    }
+  ]
+}

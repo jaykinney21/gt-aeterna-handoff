@@ -1,0 +1,10 @@
+40. Legacy Lives On blue sneaker
+
+**Original target:** 11.5 H × 7.5 W × 5 D in; rectangular base; 210+ in³; bottom steel plate, four screws, inserts and gasket.
+
+**Finish brief:** Matte blue suede-like finish, white laces/stripe, metallic gold bands. Ask for painted matte and optional flocked finish costs separately.
+
+**Mismatch / unresolved work:** Body bounds 164.57 × 170.27 × 310.89 mm (6.48 × 6.70 × 12.24 in), assuming mm: original envelope not matched under the apparent orientation. Listed 9 in upper + 3 in base conflicts with 11.5 in total unless overlapping. Confirm base shape and orientation. Source mixes PLA/resin with SLS/MJF; request a consistent process/material proposal.
+
+
+Units and geometry are preliminary; no automatic rescaling authorized.

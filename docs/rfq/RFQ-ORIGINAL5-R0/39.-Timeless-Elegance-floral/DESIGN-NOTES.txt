@@ -1,0 +1,10 @@
+39. Timeless Elegance floral
+
+**Original target:** 12 in assembled height × 7.5 in maximum diameter; 200+ in³; 4.2 in top threaded lid.
+
+**Finish brief:** High-resolution resin target; black satin/matte with gold floral relief/pinstripes, protective clear coat.
+
+**Mismatch / unresolved work:** Body bounds 178.10 × 178.13 × 265.52 mm; lid 126.98 × 126.98 × 42.00 mm, assuming mm. Body height alone is not assembled height; do not simply add component heights. Lid maximum span is about 5 in versus original 4.2 in. Confirm Midnight Blossom is the intended geometry family and inspect engagement.
+
+
+Units and geometry are preliminary; no automatic rescaling authorized.

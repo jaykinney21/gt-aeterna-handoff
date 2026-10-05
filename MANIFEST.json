@@ -1,0 +1,3307 @@
+{
+  "snapshot": "2026-10-04",
+  "status": "Public working archive; no production approval",
+  "manifest_scope": "Repository files excluding this self-referential manifest and Git metadata; model-bundle manifests under models describe separate downloads",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 106,
+      "sha256": "cafc502c125e518044b8a70dc266cdaaa1ad074f977dea56d1ae9ea1c8f0b1a8"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1487,
+      "sha256": "3b5dd5f57721cd1ad128639b815b6979982397360a24f448c74f06e9fdd2013f"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1385,
+      "sha256": "075cf015dc4e848d775077ba78f27b9f9dfe6b510719dc12c354fad526364719"
+    },
+    {
+      "path": "DOWNLOADS.md",
+      "bytes": 3168,
+      "sha256": "05c2efda04597a16add296aba09c4c8afaed1243ca2420f9b44236aa899e9bfc"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 717,
+      "sha256": "37a84e1c340a04f2b0be984ea263617b2a49e5541cdbfd16ae3eb590cc582634"
+    },
+    {
+      "path": "PROGRESS.md",
+      "bytes": 726,
+      "sha256": "5a189507a132a9b47008d840fb318106ea4efb1c43fb2865a852d2c96a804b26"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4098,
+      "sha256": "7072c18eb633d492634a4c89f33cde2ed3d4805b20ed1e58a942d350161755ae"
+    },
+    {
+      "path": "docs/ADDITIONAL-FULFILLMENT-CANDIDATES.md",
+      "bytes": 13216,
+      "sha256": "de7a676cdd3281c5b9bd2af07588821e8694133a89348d9e0392f43ef4d254b1"
+    },
+    {
+      "path": "docs/AMAZON-LAUNCH.md",
+      "bytes": 7498,
+      "sha256": "61fd642bf9442ac968952265c83fe4b65b06d1a2b25755e7338390326495d4be"
+    },
+    {
+      "path": "docs/CAD-COMPLETION-CHECKLIST.md",
+      "bytes": 7572,
+      "sha256": "d79b2dc8f30f0ecc0c1a133e8a3aabffcdd2e3a82e78adff9fd599e39b207f29"
+    },
+    {
+      "path": "docs/CAD-TOOL-READINESS.md",
+      "bytes": 9397,
+      "sha256": "591014c03845e331a48ebd8e0ebf7153cec10120e38b9c0f07966b379adb35cb"
+    },
+    {
+      "path": "docs/CATALOG-COMPLETION-CHECKLIST.md",
+      "bytes": 3736,
+      "sha256": "e978f2f693fad2d36e21cbfaf5b66a83399de5c33017a2325aab3405530e5455"
+    },
+    {
+      "path": "docs/CATALOG-PILOT-STATUS.md",
+      "bytes": 3997,
+      "sha256": "46996da63f9e44b5b4bb4a8285dc01c1b1914ba77e9eb25e0481d061400be35a"
+    },
+    {
+      "path": "docs/CATALOG-STORYBOARD-PLAN.md",
+      "bytes": 27430,
+      "sha256": "96d934b2d7e7cbcd58bb55f91625bd484f6deb6c98d6da6b6b93d438a3c9398b"
+    },
+    {
+      "path": "docs/DIGITAL-SERVICES-RESEARCH-2026-09-28.md",
+      "bytes": 15684,
+      "sha256": "a3d7b12aa06b918ded373d1701267bbe248c2f96ade3a47300db966ecea784da"
+    },
+    {
+      "path": "docs/DRIVE-REFRESH-TRIAGE.md",
+      "bytes": 15357,
+      "sha256": "2fcb5c67eb156f9a8b05afd3fc05b0b55b38fe64a87687ebf99a7b7e1e1e1332"
+    },
+    {
+      "path": "docs/EVERY-STEP-ENGINEERING-REVIEW.md",
+      "bytes": 7419,
+      "sha256": "03796053e6d848532fe3fe3329b40deb70b94293700c0ac7be60dad7da2fa611"
+    },
+    {
+      "path": "docs/EVERY-STEP-MODELING-BRIEF.md",
+      "bytes": 6799,
+      "sha256": "f97141fa2bfb0106388351e28353baf4316f1e1033fa9e5dd8bdd3fb471404e4"
+    },
+    {
+      "path": "docs/EVERY-STEP-REFINEMENT-STATUS.md",
+      "bytes": 3863,
+      "sha256": "40ee67e64b86463b85f037d6aa7087d0258b327f8a85e2f010b47ec38c550ffb"
+    },
+    {
+      "path": "docs/EVERY-STEP-REVISION-PLAN.md",
+      "bytes": 3655,
+      "sha256": "68b3537240775b02fa324fd30bcf294b94c9cb0887b28af59cf05ae065646f0d"
+    },
+    {
+      "path": "docs/EVERY-STEP-V3-VISUAL-REVIEW.md",
+      "bytes": 5429,
+      "sha256": "4cba7316d45ba03f425cb084118129176e3841943f7da2efc346ab48c38f9dc6"
+    },
+    {
+      "path": "docs/EVERY-STEP-V4-REVIEW.md",
+      "bytes": 2045,
+      "sha256": "a77b297ef8fdd411f06bd7663c7c2573be2c027d8c532b8d298291c1339a959d"
+    },
+    {
+      "path": "docs/EVERY-STEP-V4-VISUAL-REVIEW.md",
+      "bytes": 3062,
+      "sha256": "21bc6afc854407f93157889d2c0a03114aa22966acee20a2e5c39c282602e5bf"
+    },
+    {
+      "path": "docs/EVERY-STEP-V5-INDEPENDENT-REVIEW.md",
+      "bytes": 3815,
+      "sha256": "19cf3928d2708f996390c88a452ac192feef662dcf2c98afe5af1fa5c9be4342"
+    },
+    {
+      "path": "docs/EVERY-STEP-V5-REVIEW.md",
+      "bytes": 3838,
+      "sha256": "bef3de306fbe7cb21dd86bb26b2072dd48118cd98c625d617dc51e02a85115b5"
+    },
+    {
+      "path": "docs/EVERY-STEP-V6-INDEPENDENT-REVIEW.md",
+      "bytes": 2152,
+      "sha256": "0c090783fb432c2f682af7589b4541d0092b35b30b57d5a3c8bda47a0593a440"
+    },
+    {
+      "path": "docs/EVERY-STEP-V6-REVIEW.md",
+      "bytes": 2006,
+      "sha256": "8457e22387b2d57c552f21f2afc38f7df0e5a2e5f4048e174907878fbf34fe2a"
+    },
+    {
+      "path": "docs/EVERY-STEP-V7-INDEPENDENT-REVIEW.md",
+      "bytes": 3576,
+      "sha256": "e88cd80dc847e3e4584819ba703caa43b61824ce9fa66136e8d249611d540ca5"
+    },
+    {
+      "path": "docs/EVERY-STEP-V7-REVIEW.md",
+      "bytes": 2083,
+      "sha256": "6e12f1f855f5c1ddb7c3c29b5ac9b3a1b2e1c20b534fccb91a3cc04ff7ae8dd5"
+    },
+    {
+      "path": "docs/EVERY-STEP-VISUAL-AUDIT-INDEPENDENT.md",
+      "bytes": 8451,
+      "sha256": "dfe72f68f0462b8e8400f1bc8f9097448d636bed6b49f848bfcf44428343c6c8"
+    },
+    {
+      "path": "docs/FINAL-STL-FOLDER-TRIAGE.md",
+      "bytes": 12263,
+      "sha256": "70a487a03f6bbaf93ef48a55098befe7c7251417c6350b2826a409a170a2b8e5"
+    },
+    {
+      "path": "docs/FIRST-URN-BRIEF.md",
+      "bytes": 6595,
+      "sha256": "50191f0ee78c2516c66aaf395b5e74f22927d23c855dc4232371fc99bd78d803"
+    },
+    {
+      "path": "docs/GMAIL-DRIVE-TRIAGE.md",
+      "bytes": 13431,
+      "sha256": "4645b39c1a056ed6e35956737a2d578faba55e8231f9d074887d2a4eaecc0be6"
+    },
+    {
+      "path": "docs/HARDWARE-RESTART-RESEARCH.md",
+      "bytes": 17976,
+      "sha256": "454a05d69d8a395e9bb7ac6acda5e1b894ec5411607b7c45cc99b3cca6dd9e1e"
+    },
+    {
+      "path": "docs/HUMAN-REVIEW-GUIDE.md",
+      "bytes": 3524,
+      "sha256": "526d9e746ca4000c183a5d53d3c4d84c1fb047ec0cd37a8a6bd26bd197f155ee"
+    },
+    {
+      "path": "docs/JAWSTEC-FULFILLMENT.md",
+      "bytes": 5683,
+      "sha256": "cce41eb44b38a7809835e2428e69dd07d34bfd77ce95acf533361f8e79adeb46"
+    },
+    {
+      "path": "docs/MANUFACTURER-OUTREACH-DRAFTS.md",
+      "bytes": 7148,
+      "sha256": "85c9dcc55c11e626a33262892c3b040eb4b2cd2a4ceec2f4d403294e5eee55c3"
+    },
+    {
+      "path": "docs/MOM-MAC-HANDOFF-PLAN-2026-10-04.md",
+      "bytes": 13195,
+      "sha256": "61c9bbf3afd382954d8a3f4fcc463d530926bf3c1ad4641719133a798167a1ee"
+    },
+    {
+      "path": "docs/MOMS-NOTES-TRIAGE-2026-09-17.md",
+      "bytes": 8411,
+      "sha256": "d196d6e76f447a340c9d0ebc46e2f31d8e1e7a1ac28e18c802664fef9550d2c4"
+    },
+    {
+      "path": "docs/PRIMARY-WORK-PLAN.md",
+      "bytes": 25158,
+      "sha256": "1bbf60182c92f41ce432497dab298178a7daf3c7f62dff38f0752a8a439f66a9"
+    },
+    {
+      "path": "docs/PRINTAWORLD-FULFILLMENT.md",
+      "bytes": 4458,
+      "sha256": "0bdbd1395e435e729fadde899a94d77134a52b5d1766150911f1bc62c2aa883c"
+    },
+    {
+      "path": "docs/PROJECT-TRIAGE.md",
+      "bytes": 11761,
+      "sha256": "5f9234879f5a9025f984f0fe5791b4be2bce48c12797ab4c6e77091b60a86a80"
+    },
+    {
+      "path": "docs/PROTOTYPE-TEST-PLAN.md",
+      "bytes": 7993,
+      "sha256": "fdeaeddbb907b362ef6a98781eaf83065003835c6c41bbc8e4024af1acbedc5d"
+    },
+    {
+      "path": "docs/QUOTE-READINESS.md",
+      "bytes": 14470,
+      "sha256": "6a4ce2c627d992722c4c7f8a78acb52d76d493ef57572db548f361f418e6e3ce"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 4693,
+      "sha256": "bbb776b58b83f9e5b3f8b6c2a0696cbefb8d3207c94ab9653725d0b74be16cc1"
+    },
+    {
+      "path": "docs/SOCIAL-PUBLISHING.md",
+      "bytes": 1223,
+      "sha256": "9b3ef6668f513b7919fba336a49ed4985afdae07e72e62bd6c6052bbd918ddbb"
+    },
+    {
+      "path": "docs/STORAGE-HANDOFF-2026-09-25-CODEX.md",
+      "bytes": 1373,
+      "sha256": "5d1c999a2506295cc89f29f25d0f6b31dd75ac12ddf1b73a9d453f11ed59f9ba"
+    },
+    {
+      "path": "docs/SUPPLIER-AND-AMAZON-TRIAGE-2026-09-24.md",
+      "bytes": 4703,
+      "sha256": "4352303713d70cd53c1a5c3c822daa7f7bddbcee3c3e15f201e383cb7df3170a"
+    },
+    {
+      "path": "docs/SUPPLIER-FOLLOWTHROUGH-2026-09-24.md",
+      "bytes": 4141,
+      "sha256": "f6ad47ff989d71c240c90b1c802ad8cb15e9bd081d46dfa047f8b9f6ed0e4731"
+    },
+    {
+      "path": "docs/SUPPLIER-OUTREACH-2026-09-19.md",
+      "bytes": 11626,
+      "sha256": "f0309a8b8076d0b85eb8c2e92d118d5e91a0eef78e03e537080af30ad662057a"
+    },
+    {
+      "path": "docs/SUPPLIER-OUTREACH-WAVE-2.md",
+      "bytes": 11769,
+      "sha256": "a1881721aacc410ae6a72b52af56efa12f8e036e5ba60cd14f9ed6d0809c9cf3"
+    },
+    {
+      "path": "docs/SUPPLIER-REPLY-TRIAGE-2026-09-21.md",
+      "bytes": 8688,
+      "sha256": "e1ef01ae5041a03d40cd5765e240b2471b7fbf054792451e4cc3bde09f535918"
+    },
+    {
+      "path": "docs/SUPPLIER-REPLY-TRIAGE-2026-09-23.md",
+      "bytes": 5811,
+      "sha256": "d94bf586f996c6981a744490c516c50bd430be8d43d40fa1913f31698b2e9922"
+    },
+    {
+      "path": "docs/SUPPLIER-REPLY-TRIAGE-2026-09-25.md",
+      "bytes": 3258,
+      "sha256": "47a3ca4503820eca754424caae3bdf015ae247bf832204e6af597c44587c3c3e"
+    },
+    {
+      "path": "docs/TWO-LANE-ACCEPTANCE-REVIEW.md",
+      "bytes": 7082,
+      "sha256": "5857d2d5c73bc763b043827316ed82b87af9593bfa89b1be4d584e085477838e"
+    },
+    {
+      "path": "docs/TWO-LANE-DELIVERY-PLAN.md",
+      "bytes": 4072,
+      "sha256": "c8953d2e1922d9fe53e566eb23fb4b098c9f7fee49184c6d70a4219ea442d251"
+    },
+    {
+      "path": "docs/URN-REDESIGN-AND-VENDOR-TRIAGE-2026-10-04.md",
+      "bytes": 14997,
+      "sha256": "0fda38a823e8bf40c41f9e03c0bf3e8d09276a4a94f420f2e3b9c3bd73a0dd91"
+    },
+    {
+      "path": "docs/VENDOR-FULFILLMENT-RESEARCH.md",
+      "bytes": 10533,
+      "sha256": "0cd220a41c16c558c906f1345df905e313e9299d3c8ed75aae846c66775cbbe4"
+    },
+    {
+      "path": "docs/XOMETRY-FULFILLMENT.md",
+      "bytes": 7485,
+      "sha256": "c266bab57194c4453627638cf156f91e1a1147cd27e8b2fedc0f4375f65c984b"
+    },
+    {
+      "path": "docs/research/ai-mesh-pilot-2026-10-04.md",
+      "bytes": 19890,
+      "sha256": "e47e6937e432e1e3a5cdbd9e9a7464bfcde8c8948a1dd4e8ebd687b44146ee11"
+    },
+    {
+      "path": "docs/research/cemetery-fit-2026-10-04.md",
+      "bytes": 12473,
+      "sha256": "2053a0f12e37d0c09f654108d103785f152a7f67e9fe3113d787d57c3425eabd"
+    },
+    {
+      "path": "docs/research/modular-manufacturing-2026-10-04.md",
+      "bytes": 20072,
+      "sha256": "8574c372f0fbbbe3baff0fa7d0aefc3616fdffabb2443146f81300b5f3445c84"
+    },
+    {
+      "path": "docs/research/new-stl-intake-and-specification-checklist-2026-10-04.md",
+      "bytes": 16003,
+      "sha256": "f5752fe4e1bb4c866c44d09eb40196c894931ba7a2d5aa4d3dd70d842cd16ea8"
+    },
+    {
+      "path": "docs/rfq/RFQ-ORIGINAL5-R0/36.-Forever-in-the-Game/DESIGN-NOTES.txt",
+      "bytes": 658,
+      "sha256": "6eabd1176f338f0b4ecc0ad1c63b362256d41e7118345e76bfcdeba5c73aaed5"
+    },
+    {
+      "path": "docs/rfq/RFQ-ORIGINAL5-R0/37.-MVP-baseball-glove/DESIGN-NOTES.txt",
+      "bytes": 663,
+      "sha256": "74a69926873464a50a7cf77f13d7fa06777962a8d2abc8db5a2e4153b1fea57b"
+    },
+    {
+      "path": "docs/rfq/RFQ-ORIGINAL5-R0/38.-Mom-s-Tough-Love/DESIGN-NOTES.txt",
+      "bytes": 736,
+      "sha256": "0a619ccfa54168e423f6a3717f0a7f68f6073f5980389f97788f18d51ffb458d"
+    },
+    {
+      "path": "docs/rfq/RFQ-ORIGINAL5-R0/39.-Timeless-Elegance-floral/DESIGN-NOTES.txt",
+      "bytes": 676,
+      "sha256": "59a92e4c66505a03b26e35d505ae662624131ee069369db19bb7fffdf2da6f40"
+    },
+    {
+      "path": "docs/rfq/RFQ-ORIGINAL5-R0/40.-Legacy-Lives-On-blue-sneaker/DESIGN-NOTES.txt",
+      "bytes": 773,
+      "sha256": "dfe3e85f2ef02f39f85814493fa9081ef26e7af6fec422c9ed4c000f002cf93d"
+    },
+    {
+      "path": "docs/rfq/RFQ-ORIGINAL5-R0/README.txt",
+      "bytes": 1101,
+      "sha256": "a0afe6db68187707a50b1ebcdf839172d05b5b81a488b6696cf3053aefb10e77"
+    },
+    {
+      "path": "docs/source-documents/1-a-urn-3d-printing-contacts-md.md",
+      "bytes": 6628,
+      "sha256": "3d464ef3f14fba53af80ff4d5a8b0eee8d09e7443bf90ec5a5f896dc945b7302"
+    },
+    {
+      "path": "docs/source-documents/10-24-grandma-cookie-jar-urn-design.md",
+      "bytes": 5530,
+      "sha256": "b72becec86e181eadd73ad8e6e4002ba10d6f6506c21653c3e35a4978ca51d21"
+    },
+    {
+      "path": "docs/source-documents/11-23-honored-vetrans-collection-keepsake-jewelry-technical-specification-sheet.md",
+      "bytes": 5625,
+      "sha256": "c73ca5f2d20ac1662d1a2bd2abf01bcb2edd418600b1a8114f0418ff141d1498"
+    },
+    {
+      "path": "docs/source-documents/12-24-his-grace-is-sufficient-legacy-urn-design.md",
+      "bytes": 5134,
+      "sha256": "b46c961e13e3bead09496ec4eee3a4f4b59e2d764fde96a9d5543507116d7cb4"
+    },
+    {
+      "path": "docs/source-documents/13-31-blue-hoodie-urn-design-shown-in-image-d58c9f.md",
+      "bytes": 8326,
+      "sha256": "142b284aa0945fb5f7754c9c73b915c9cb70ff2b7d36b3e044819e1f5890d502"
+    },
+    {
+      "path": "docs/source-documents/14-78-urban-canvas-street-art-urn.md",
+      "bytes": 8156,
+      "sha256": "09b16585a29b5b46708e1f46ab8916547731c4b140fe9cdf04c2a142bbe3913a"
+    },
+    {
+      "path": "docs/source-documents/15-6-faith-carried-you-home-praying-hands-urn.md",
+      "bytes": 6586,
+      "sha256": "7d03ce365b544502e4c3fdfcb7a04b1f22e5c006ab1d53b81e2b93476e2c4536"
+    },
+    {
+      "path": "docs/source-documents/16-3-the-blueprint-legacy-design-shown-in-the-provided-file-image-1a9cc0.md",
+      "bytes": 8041,
+      "sha256": "8e416885bc8c5a4add49c6b37f6d9c5bda188446b70179aeaae664d4e4f56be6"
+    },
+    {
+      "path": "docs/source-documents/17-8-moms-tough-love-2-because-i-said-so.md",
+      "bytes": 3379,
+      "sha256": "8497080c9c28e40c08209e622dc9f00377674d9302a853c56e9e935e014cffed"
+    },
+    {
+      "path": "docs/source-documents/18-79-the-domino-circuit-urn-design.md",
+      "bytes": 5349,
+      "sha256": "84602a4620a4ceb8d301c0de5a585e8d53c5c963874da6ae9fbe5070e23b857f"
+    },
+    {
+      "path": "docs/source-documents/19-18-steward-stewardess-memorial-urn-the-eternal-flight.md",
+      "bytes": 10334,
+      "sha256": "ba8b6197676c6f2fa5b6dc41f9c567b8adb778952647de9d7a903b68a0790dd5"
+    },
+    {
+      "path": "docs/source-documents/2-22-the-royal-flush-legacy-urn.md",
+      "bytes": 4670,
+      "sha256": "caf04108b870cfb05c982ef5541328ccfa76829c8e09caa939879ba73c507846"
+    },
+    {
+      "path": "docs/source-documents/20-53-forever-in-motion-tennis-urn.md",
+      "bytes": 8499,
+      "sha256": "19e37bb8f21367dc6810eb8ff1bd343ffd0b2d84ff3d11e58c7e52408626b5dd"
+    },
+    {
+      "path": "docs/source-documents/21-43-can-t-guard-me-basketball-urn.md",
+      "bytes": 8437,
+      "sha256": "5acbc74a01264453942d7d5a5b86a017b42e5c78c435231c0dc0122ca1611d9f"
+    },
+    {
+      "path": "docs/source-documents/22-34-the-final-frame-bowling-tribute-urn.md",
+      "bytes": 7591,
+      "sha256": "11c0bdcd98d1218517f0dd8fdc315101968ea9283b3aea6a546bac9a7dfa6a13"
+    },
+    {
+      "path": "docs/source-documents/23-37-jazz-soul-eternal-saxophone-tribute-urn.md",
+      "bytes": 7530,
+      "sha256": "6fdfb7d56447eb69280a4c7e0f97f048da52411d1c4dac817cc5478022f1deab"
+    },
+    {
+      "path": "docs/source-documents/24-64-cookie-jar-urn.md",
+      "bytes": 6709,
+      "sha256": "b30e18dbfa8ef9c6f12772010caae0aa050053214f1ed46eba450af5325da8ad"
+    },
+    {
+      "path": "docs/source-documents/25-56-the-streetwear-inspired-design-i-m-otta-here.md",
+      "bytes": 8938,
+      "sha256": "bb53d3b24e5ad0236c210fdde3fdbc3620cbe298b21eed431fc98afc4188013a"
+    },
+    {
+      "path": "docs/source-documents/26-47-bred-legacy-sneaker-inspired-urn.md",
+      "bytes": 7599,
+      "sha256": "62a9b164a1e252acd82569be0b9817b6194ab7751fc78effb91c2ba8f1dde59a"
+    },
+    {
+      "path": "docs/source-documents/27-51-forever-bond-father-son-urn.md",
+      "bytes": 8204,
+      "sha256": "25fea94acff3c69ba90fd49d633ddedbc3b6896e33dbdc2ddeb243825c448691"
+    },
+    {
+      "path": "docs/source-documents/28-66-rise-above-sneaker-inspired-urn.md",
+      "bytes": 8015,
+      "sha256": "2ea98295ae462a7a4c8f2d908fd5a4a34ad015cc45dd0022b0eb2b5295146e59"
+    },
+    {
+      "path": "docs/source-documents/29-58-the-spark-design.md",
+      "bytes": 8658,
+      "sha256": "cfc29c94bf39947c2d98b00d6976385d901f0ae28d79eb80a0472eb8cb04254e"
+    },
+    {
+      "path": "docs/source-documents/3-11-focus-follow-through-tennis-ball-urn.md",
+      "bytes": 8130,
+      "sha256": "b390530f25585dbac1cf0b4745cc63cc18fc4485d2b3b8191f405679757fb373"
+    },
+    {
+      "path": "docs/source-documents/30-80-ancestral-legacy-african-heritage-urn.md",
+      "bytes": 9245,
+      "sha256": "630e0c2f8bbef1ef2823e0cd1c73081baf52f02f3725a3ffda061a58fde50c4e"
+    },
+    {
+      "path": "docs/source-documents/31-2-i-ll-always-love-my-mama-memorial-urn-as-shown-in-image-13.md",
+      "bytes": 7632,
+      "sha256": "3e59319d36fc4f80da1264f108832fe80c0332e834471e779904f0471ec55c1f"
+    },
+    {
+      "path": "docs/source-documents/32-46-safe-in-his-arms-urn-design-shown-in-image-817e49.md",
+      "bytes": 5560,
+      "sha256": "f1357e76417aaab4d9e0d993a4da78f8f1454ffe5bcbf5eedc41a71599d346e8"
+    },
+    {
+      "path": "docs/source-documents/33-31-mary-had-a-little-lamb-storybook-urn.md",
+      "bytes": 8176,
+      "sha256": "35cedb85461d2406bb151a19ea7047528fa3207aaed54f8dc383ed5bdf593d70"
+    },
+    {
+      "path": "docs/source-documents/34-85-service-loyalty-police-k9-urn.md",
+      "bytes": 10101,
+      "sha256": "90b5b911543fd559f03c41f882d51d799dfb8c2a7c6df280ca0908ff4e00960d"
+    },
+    {
+      "path": "docs/source-documents/35-78-whispers-of-love-urn-are-as-follows.md",
+      "bytes": 5085,
+      "sha256": "e490cf1b730b9cead4e0414109a4e46dc0184a1e2da1c5a3c3e4962cd21a0a59"
+    },
+    {
+      "path": "docs/source-documents/36-forever-in-the-game-snake-basketball-urn.md",
+      "bytes": 4565,
+      "sha256": "bf965d9ed3041dc5b7eea53d3a07331e8e19f1431223b67c633a8009203699bd"
+    },
+    {
+      "path": "docs/source-documents/37-mvp-baseball-glove-urnrev.md",
+      "bytes": 4143,
+      "sha256": "0a21ae6fd968fad5d0430b5daf8ae6926c20094cbe83c586cff012d07407f387"
+    },
+    {
+      "path": "docs/source-documents/38-mom-s-tough-love-urnrev.md",
+      "bytes": 4443,
+      "sha256": "08cfb034f4e191f5435aca665ed8eeace3e067f177c7ee8eb6aa5597ce4c67e6"
+    },
+    {
+      "path": "docs/source-documents/39-timeless-elegance-floral-urn.md",
+      "bytes": 3931,
+      "sha256": "1dce8689728b349abb1bfb8539004a9e0d992b9e4504fc7eebcefb0d953f38d7"
+    },
+    {
+      "path": "docs/source-documents/4-28-rasta-legacy-urn-design-shown-in-image-6722c2.md",
+      "bytes": 5618,
+      "sha256": "be98685f9c45606c9e5d2bf7dbbecd0f583eda2d9e905e05b4961128210efb7a"
+    },
+    {
+      "path": "docs/source-documents/40-blue-legacy-urn-rev-ver-hollow.md",
+      "bytes": 4765,
+      "sha256": "8da25cb0af72dff1e261142f3a6bf0fc2d4508c42496d19bbf2e3bd138a6f904"
+    },
+    {
+      "path": "docs/source-documents/41-100-basketball-hoops-legecy-urn.md",
+      "bytes": 9178,
+      "sha256": "9fb1173ab6650899efe511aa6c93011e00dcadbdda582b1a7fab26ee9aff672d"
+    },
+    {
+      "path": "docs/source-documents/42-96-the-forever-all-star-urn-design.md",
+      "bytes": 7997,
+      "sha256": "5f65aad763665225306a9f1de206ad4925d8ebe3158ad77d67e0044114224a44"
+    },
+    {
+      "path": "docs/source-documents/43-88-the-twinkle-twinkle-little-star-urn-design.md",
+      "bytes": 7338,
+      "sha256": "1da053128d80e00ab1f658d5df5f6cadb783894c75b57b2ff3db0928b42dfa44"
+    },
+    {
+      "path": "docs/source-documents/44-97-the-golf-sunset-urn.md",
+      "bytes": 8158,
+      "sha256": "d22f27b624739a0f5d1b860f7255f48601c25e63f884ec3d0af1f4e9065207e0"
+    },
+    {
+      "path": "docs/source-documents/45-88-the-legacy-fairway-golf-themed-file-image.md",
+      "bytes": 10467,
+      "sha256": "3a5d83443e95eeec3898b59984ca91fd34344395a0ba5d51db49db485ac1687a"
+    },
+    {
+      "path": "docs/source-documents/46-74-home-run-legacy-urn-design-shown-in-image-9c4a6a.md",
+      "bytes": 9921,
+      "sha256": "e4dfc23c8dd098bd7f40cf4b7ee5240896b14c65e72e56d5d2fba1fded9a1911"
+    },
+    {
+      "path": "docs/source-documents/47-9-5-court-legend-legacy-urn-design-shown-in-the-provided-file-image-9cb3aa.md",
+      "bytes": 7145,
+      "sha256": "c308ed83b322ca1dfcc3743d2a516b0fd9b09b714d0b0b7dce53288ea0b8b86b"
+    },
+    {
+      "path": "docs/source-documents/48-71-legacy-ascend-series-urn-design-shown-in-image-f0d019.md",
+      "bytes": 6536,
+      "sha256": "551c0f84f08bda74aad58dc144ab1c35003e463cc03cfd5054a29aa3c036d638"
+    },
+    {
+      "path": "docs/source-documents/49-72-black-gold-legacy-urn-design-shown-in-image-90f88b.md",
+      "bytes": 7700,
+      "sha256": "7cef9e70b3c2ca41e107ee2164880d5a496572845ece7803eff48f2ba3d725df"
+    },
+    {
+      "path": "docs/source-documents/5-21-forever-in-the-game-baseball-urn.md",
+      "bytes": 7365,
+      "sha256": "bc7f98bb23217cf75e4cfe422f14e0228c9e874f2681d3d0300428ca4c15796e"
+    },
+    {
+      "path": "docs/source-documents/50-70-mom-s-tough-love-legacy-urn-design-shown-in-image-719ed0.md",
+      "bytes": 9902,
+      "sha256": "3f4a9ad877fdf4d239847004dc1d9b6a8c7f60d025c523b272ae940b9aa83581"
+    },
+    {
+      "path": "docs/source-documents/51-a-part-2-aeterna-digital-memorial-suite-user-interface-map-this-outlines-the-software.md",
+      "bytes": 2787,
+      "sha256": "26d2b433ec1cdd656445c3a572c57e290c6862106bc7243800c680a663e8a8c4"
+    },
+    {
+      "path": "docs/source-documents/52-a-product-tier-pricing.md",
+      "bytes": 2241,
+      "sha256": "b4b55a2266568854df5c5e715641cafbf6c0c7bd065e7d59dda3a7f4aa551a85"
+    },
+    {
+      "path": "docs/source-documents/53-a-adjusted-value-driven-pricing-matrix.md",
+      "bytes": 2224,
+      "sha256": "c3b4f6c5c36adc4f7530aa984cb8fd51e0a1e3516f7af545b7961febc7436c30"
+    },
+    {
+      "path": "docs/source-documents/54-a-cracking-the-distribution-network-at-major-southern-california-memorial-parks-requi.md",
+      "bytes": 3006,
+      "sha256": "75f39347c9123b337b7011878f859f408e654c8e7ad14ff7c6bac54f8172ef4f"
+    },
+    {
+      "path": "docs/source-documents/55-a-part-1-the-aeterna-filling-kit-instructions-these-instructions-should-be-printed-on.md",
+      "bytes": 2552,
+      "sha256": "774337e8167ba06d4a1cf5df88c7918ca27c20af7be7c5b20dffea65acf9a82e"
+    },
+    {
+      "path": "docs/source-documents/56-a-6-always-love-my-mama-nich-interment-suitability-critical-dimension-check.md",
+      "bytes": 2112,
+      "sha256": "8f7cc45ecda2090620ef737dc2bd326cbe0b75dae3bcc6db28ec09fb2d25fdcb"
+    },
+    {
+      "path": "docs/source-documents/57-a-hypebeast-complex-or-highsnobiety-your-press-release-disruptor-angle.md",
+      "bytes": 3810,
+      "sha256": "34b9663721b18aa9175377ca35689e364cf0d79a8c040248b39c3d15d1dd3690"
+    },
+    {
+      "path": "docs/source-documents/58-a-aeterna-s-packaging-must-mirror-the-fine-art-positioning-of-your-primary-500-to-1-5.md",
+      "bytes": 2871,
+      "sha256": "c9b2295d7d4d1db47cc3c4cc81ed245836a65c57ea556437e970d975993418c5"
+    },
+    {
+      "path": "docs/source-documents/59-a-having-the-home-court-advantage-completely-transforms-the-approach-from-a-cold-b2b.md",
+      "bytes": 2073,
+      "sha256": "51ad7f7a856a4d04f803db84e0dc09ec3f565507c5ab1e409e9c2e094163d4cc"
+    },
+    {
+      "path": "docs/source-documents/6-27-all-star-tribute-urn-design-shown-in-the-provided-file-image-bf7e0a.md",
+      "bytes": 6653,
+      "sha256": "430ba5910421dbf6fa817d17eb6e16c5b458a16fb4bb5ffc40e0ac2f6465d1da"
+    },
+    {
+      "path": "docs/source-documents/60-78-forever-royal-elephant-legacy-urn.md",
+      "bytes": 5436,
+      "sha256": "68e150b858abcd4ac58a09eae0ef39f1e85f4131e3fec1ceed7e6939b8ed9dd0"
+    },
+    {
+      "path": "docs/source-documents/61-57-where-love-grows-companion-urn.md",
+      "bytes": 8319,
+      "sha256": "51eaff5d250c186de87c6ce36f1e0d113aa356d441236c9cd7f76ed3ccace80f"
+    },
+    {
+      "path": "docs/source-documents/62-33-legacy-step-design-shown-in-the-provided-file-image-37ca66.md",
+      "bytes": 8292,
+      "sha256": "8216ef895f095a229b3f949cf74f446acf9a7f4f16f72f2e8dedb7e7352770c5"
+    },
+    {
+      "path": "docs/source-documents/63-1-every-step-legacy-urn-10-keepsake-jewelry.md",
+      "bytes": 7477,
+      "sha256": "1a1292a10939b43103708d2a38a480e84bb18ce95c858760f7212a7c13000202"
+    },
+    {
+      "path": "docs/source-documents/64-38-the-horizon-design.md",
+      "bytes": 8638,
+      "sha256": "692833811d9db300169cf68b760bb87a9c0bc2860b4e49f8f40c2f37ed776cdb"
+    },
+    {
+      "path": "docs/source-documents/65-94-forever-in-our-field-farm-diorama-urn-rev.md",
+      "bytes": 9155,
+      "sha256": "7a2a8146da15b6d4db25bbb530a3cf2b99fa54278040a79cba09725b099e0bf4"
+    },
+    {
+      "path": "docs/source-documents/66-17-black-gold-legacy-urn.md",
+      "bytes": 6294,
+      "sha256": "d1e999d9d0daf208c5da3ee61f91f47f321824bfe5ff0d999557315b248df18c"
+    },
+    {
+      "path": "docs/source-documents/67-14-multi-colored-heritage-urn-susnset-strool.md",
+      "bytes": 12496,
+      "sha256": "3a5720005fda7419ccd3b0936502ad1ab700b592bc77623dc79c18f42e3e7deb"
+    },
+    {
+      "path": "docs/source-documents/68-mint-green-the-lotus-of-purity-urn-design-shown-in-image-562635.md",
+      "bytes": 2356,
+      "sha256": "e464efc0912bad3716163da686710716a6519bad2cb7d19d5262d68d421f155c"
+    },
+    {
+      "path": "docs/source-documents/69-40-the-digital-heart-urn-design-shown-in-the-provided-file-image-dd0a46.md",
+      "bytes": 6367,
+      "sha256": "7659a66abd51f020fa4e906c2a6bbd46c7d266ee7e37b83560f8ce373e7748f8"
+    },
+    {
+      "path": "docs/source-documents/7-27-ballin-in-heaven-legacy-urn-design-shown-in-image-721674.md",
+      "bytes": 5711,
+      "sha256": "749ea88034e1f9fc031953ce144702591f3abe962344d50921d746e894798fa7"
+    },
+    {
+      "path": "docs/source-documents/70-77-legacy-yard-marker-design.md",
+      "bytes": 10932,
+      "sha256": "bf5523dc174c221363b2e60d06eed99435ff326db0e2aa3b6ea7ea281c71ee7d"
+    },
+    {
+      "path": "docs/source-documents/71-12-trust-in-the-lord-urn-proverbs-3-5-6.md",
+      "bytes": 9992,
+      "sha256": "de887b7a6840c1ba8ff458e90fda3053fe08a040626f716ce195c1eff34ed906"
+    },
+    {
+      "path": "docs/source-documents/72-42-the-embrace-companion-urn.md",
+      "bytes": 7953,
+      "sha256": "e6430c20e52f59f8871b833386b91b50d81f8fb87b56c78854bc6f0acb4af16e"
+    },
+    {
+      "path": "docs/source-documents/73-81-endless-waters-egyptian-heritage-urn.md",
+      "bytes": 9192,
+      "sha256": "25031a56c188e7fa814e5183666990a4dda7bf84c8d27edf4ce7a3c39a4bfb98"
+    },
+    {
+      "path": "docs/source-documents/74-30-forever-in-motion-dance-tribute-urn.md",
+      "bytes": 8009,
+      "sha256": "2e64fbe72ec3789e1818310281270941c3b13fee34ac9d1ebb4651d1ebe52ad9"
+    },
+    {
+      "path": "docs/source-documents/75-79-sunset-legacy-family-sculpted-box-urn.md",
+      "bytes": 6862,
+      "sha256": "8a20a4f0981aafda1596aee33efd5eec3f9d102daebbce81778837c726cadab1"
+    },
+    {
+      "path": "docs/source-documents/76-67-infinite-loop-urn.md",
+      "bytes": 5822,
+      "sha256": "93b2d5b982ca22dde86e2f82ab3d271f7a204e07d039d365a2d47379a2203789"
+    },
+    {
+      "path": "docs/source-documents/77-the-endless-waters-legacy-urn-design-shown-in-the-provided-file-image-f2297d.md",
+      "bytes": 2905,
+      "sha256": "78251682b49b0c99df83ac4c3e9111f6968963969279b15c15880476611bf3b9"
+    },
+    {
+      "path": "docs/source-documents/78-29-our-beautiful-mother-rose-petal-urn.md",
+      "bytes": 7620,
+      "sha256": "a3456ff9bee97124a1c7ad9075da605e7facafe491bdd63b26217da1e3339a37"
+    },
+    {
+      "path": "docs/source-documents/79-94-path-of-the-ancestors-sculpted-box-urn.md",
+      "bytes": 8867,
+      "sha256": "f6b657aef4005a3e8b3fcc3523ca19c56a786c1b340b451cc4be9efa6931a54b"
+    },
+    {
+      "path": "docs/source-documents/8-62-taught-us-to-walk-ceramic-box-urn.md",
+      "bytes": 7994,
+      "sha256": "052d0fe6872cf801fdfd95d40cf285f410ffb8cf5359b0db89e766a38d438200"
+    },
+    {
+      "path": "docs/source-documents/80-25-cowboy-boot-hat-legacy-urn-design-shown-in-image-90172e.md",
+      "bytes": 5643,
+      "sha256": "0f04110aad531e7cff46b86e3f656f6a2e338ccafbe4a12480fdbc85797d734c"
+    },
+    {
+      "path": "docs/source-documents/81-41-the-standing-ovation-design.md",
+      "bytes": 5984,
+      "sha256": "ff40bb96518da7ff671a6fe6ae11d9eabe3bf342be311be5e0c83367ac05e6ad"
+    },
+    {
+      "path": "docs/source-documents/82-be-strong-and-coregues.md",
+      "bytes": 381,
+      "sha256": "b86bf9c788dd4cf425c13f4c03ab0e61e0cd62ca243dba527bf63783929d41d7"
+    },
+    {
+      "path": "docs/source-documents/83-35-i-love-ya-more-urn-design-shown-in-the-provided-file-image-bffa23.md",
+      "bytes": 7456,
+      "sha256": "eae10c36e2438efb3fbe89ec6951cf1d824b81f56b59b3847f15bd029d0b6514"
+    },
+    {
+      "path": "docs/source-documents/84-16-the-lotus-of-purity-urn.md",
+      "bytes": 4472,
+      "sha256": "f84f89ad6dc87a6f992c2da3915d554c90ba6ca656a24007b570f33aff09ce91"
+    },
+    {
+      "path": "docs/source-documents/85-60-the-quiet-hero-design-shown-in-the-provided-file-image-2927df.md",
+      "bytes": 8502,
+      "sha256": "ff0cfee90549d175c7be2942edb6e5f6f574bead940f8a5bca2dbacd4a088e60"
+    },
+    {
+      "path": "docs/source-documents/86-87-the-pinsetter-design.md",
+      "bytes": 9567,
+      "sha256": "2cb124224857cef89a877a5be37c5b278d4d89fbf9d0c8d825089a6156b8d459"
+    },
+    {
+      "path": "docs/source-documents/87-50-the-cornerstone-design.md",
+      "bytes": 8940,
+      "sha256": "43b9122492af8087e676e9e3b3240cd3c0c01dc2c863e727fa14ad6806f809b0"
+    },
+    {
+      "path": "docs/source-documents/88-101-the-tuu-tuff-suit-and-hat-urn.md",
+      "bytes": 8277,
+      "sha256": "6d82b4f430174d92fe14c1427feccc48803eda04321e36b5216aed4e17de8300"
+    },
+    {
+      "path": "docs/source-documents/9-4-and-still-i-rise-urn-design-shown-in-the-provided-file-image-c0d400.md",
+      "bytes": 6580,
+      "sha256": "7f08940c8b9304b6e4bda422f833199c042d7a65daa4dcc4f94a227df058c5c8"
+    },
+    {
+      "path": "docs/source-documents/DOC-NOTES.md",
+      "bytes": 21050,
+      "sha256": "3a32b0d27cceb64b79d069d754988693dad3288a11b68edc47a950753c58faf4"
+    },
+    {
+      "path": "docs/source-documents/INDEX.md",
+      "bytes": 24042,
+      "sha256": "bfe02178e722633ab60650c3b027e55eb2f354357a85bbceaa64956cd91e0558"
+    },
+    {
+      "path": "docs/source-documents/drive-3d-urn-design-for-production-docx.md",
+      "bytes": 35524,
+      "sha256": "796ef2f1714c6504b8dcf01d10d69a155bf8cb01ea6b1ea36c460f69c0bf3a04"
+    },
+    {
+      "path": "docs/source-documents/drive-a-quality-control-qc-checklist-is-your-best-defense-against-production-errors-docx.md",
+      "bytes": 2923,
+      "sha256": "60026b821001625a53aaf949b0715c96aa7dd684fa178aa785ac6792a0aedfb5"
+    },
+    {
+      "path": "docs/source-documents/drive-claims-warranty-shipping-damage-clain-form-docx.md",
+      "bytes": 3416,
+      "sha256": "48b9e4434ca7bd4068e8dbbcf19dae06156628de067d38f8b0e25026a62b17f3"
+    },
+    {
+      "path": "docs/source-documents/drive-crematories-list-docx.md",
+      "bytes": 2552,
+      "sha256": "562cf7be1cd529ad0b3f4c5b8ed1f031ac2949b7dd5f19c94881677484e2fb5b"
+    },
+    {
+      "path": "docs/source-documents/drive-event-and-vendor-partnership-form-docx.md",
+      "bytes": 1052,
+      "sha256": "ab2ce8d1ae65cf82f4847acac66c2dafc4a8ad35b31dd326e661dda487a7ab2e"
+    },
+    {
+      "path": "docs/source-documents/drive-here-is-a-comprehensive-set-of-cad-modeling-and-tolerance-guidelines-specifically-tai.md",
+      "bytes": 4800,
+      "sha256": "ffbdbe0f0e45d48964d96f8192f89c28856b6a88e2bc92e1a8d055bf08b2cd43"
+    },
+    {
+      "path": "docs/source-documents/drive-master-cad-tolerence-guidelines-3d-printed-urns-f-docx.md",
+      "bytes": 4863,
+      "sha256": "f34e4dd25744a2d2d37da05433c687504b149f390fa424b84318935c125279ec"
+    },
+    {
+      "path": "docs/source-documents/drive-questions-to-ask-docx.md",
+      "bytes": 804,
+      "sha256": "1b6d795c13e157a62e181ded660ed28d717b4c284568cc5863da112d3b97c7a9"
+    },
+    {
+      "path": "docs/source-documents/drive-sample-email-to-send-after-calls-docx.md",
+      "bytes": 1621,
+      "sha256": "ecb748800263df773cf806367dcba9ab0d5911ce89163f74ea5cd1657e129ff1"
+    },
+    {
+      "path": "docs/source-documents/drive-top-10-venues-to-call-first-docx.md",
+      "bytes": 1190,
+      "sha256": "1aa026686e9807e80834b66316c96f77cef8ca049ea3715cfd20793c18be71b6"
+    },
+    {
+      "path": "docs/source-documents/drive-venue-space-listings-docx.md",
+      "bytes": 3203,
+      "sha256": "9f791fee9f04645b7300cd52baac5520fdaada9547336f81d66adffd1aa389b0"
+    },
+    {
+      "path": "docs/source-documents/drive-your-opening-docx.md",
+      "bytes": 1021,
+      "sha256": "fae4ffb376695583db9d2e9a1286d05704066478439fdba8ede8cd4d8c0d447a"
+    },
+    {
+      "path": "docs/source-documents/legacy/3D_PRINTING_MANUFACTURERS.md",
+      "bytes": 39114,
+      "sha256": "24d0122172a5807a632bccced22825a83bf6e3c4576542d44066657762c02e79"
+    },
+    {
+      "path": "docs/source-documents/legacy/BUSINESS_PLAN.md",
+      "bytes": 90258,
+      "sha256": "03152548435c1084081db55cd073a36176ae18262bbeb21d2b414bd9e5d19ed9"
+    },
+    {
+      "path": "docs/source-documents/legacy/COORDINATION_FEE_CALCULATOR.md",
+      "bytes": 8676,
+      "sha256": "6e85beb63e7b8d7ec0216a0e99515896a24c69d04a3fef86f1b47b039bd02423"
+    },
+    {
+      "path": "docs/source-documents/legacy/CORRECTED_Call_Scripts_COMPLIANT.md",
+      "bytes": 8803,
+      "sha256": "701c4df8dbb67b710a3ebb560063a960a4ce4dd946faa63c4e6c0e6de47c8751"
+    },
+    {
+      "path": "docs/source-documents/legacy/CREMATORIES_BY_REGION_LA.md",
+      "bytes": 9964,
+      "sha256": "9ce99d4de021d286ffa1bf43360c913b6323fd564d111f32491669c6956863e5"
+    },
+    {
+      "path": "docs/source-documents/legacy/LOGO_CONCEPTS.md",
+      "bytes": 4359,
+      "sha256": "0643047f199d92c1e16b643d015d5e8821e8b92465805be4dcf045bf1bc96eb6"
+    },
+    {
+      "path": "docs/source-documents/legacy/LTRFL_Call_Scripts_PRINTABLE.md",
+      "bytes": 5659,
+      "sha256": "1178b60192f0cfd56206e1573eb3b043095873b6d45d8e041ebee26313d06104"
+    },
+    {
+      "path": "docs/source-documents/legacy/LTRFL_VENDOR_DIRECTORY.md",
+      "bytes": 11973,
+      "sha256": "af2df0272d42aa736a01f0637f70b77a291de974a65d477b0f0b0612a3c06af3"
+    },
+    {
+      "path": "docs/source-documents/legacy/NAME_OPTIONS.md",
+      "bytes": 12251,
+      "sha256": "dbe4d2fc2799a939c7306b72a94d67ed03bc48a79c7914bc1b79b612ea521896"
+    },
+    {
+      "path": "docs/source-documents/legacy/PRICING_SHEET_FOR_FAMILIES.md",
+      "bytes": 6423,
+      "sha256": "78339be1a44dac7499ea89e89162f8c8eb0884eaf2a529c299458121ed421ea9"
+    },
+    {
+      "path": "docs/source-documents/legacy/SOCIAL_MEDIA_STRATEGY.md",
+      "bytes": 84945,
+      "sha256": "315225b6926964d603398e5482cd8d8885a87c4a545fba930ca0e0696e087d14"
+    },
+    {
+      "path": "docs/source-documents/legacy/STANDALONE_CREMATORIES_LA_FULL_CONTACT.md",
+      "bytes": 10378,
+      "sha256": "bb8ee9c16b9c69e6b04bed3b677a9c08aba1dfd601aa114746c9d279a5f3fef7"
+    },
+    {
+      "path": "docs/source-documents/legacy/VENDOR_PARTNERSHIP_AGREEMENT.md",
+      "bytes": 9822,
+      "sha256": "67fb37453063d9114d7a1f2d0de7680d5234c59434781c0e1786b98c6fc32ac0"
+    },
+    {
+      "path": "docs/source-documents/legacy/VENDOR_PARTNERSHIP_AGREEMENT_CORRECTED.md",
+      "bytes": 11728,
+      "sha256": "a4afea9292a529912520f7f525d0f4df6005c9cadac26212decc3eb01b00952d"
+    },
+    {
+      "path": "docs/source-documents/legacy/VENDOR_PARTNERSHIP_SIMPLE_1PAGE.md",
+      "bytes": 2978,
+      "sha256": "8fbd89f25f8f91274113c47fbfd224ce5a7d9dc7f69b2cae091aabe1defd9076"
+    },
+    {
+      "path": "docs/source-documents/legacy/VENDOR_SCRIPTS.md",
+      "bytes": 8892,
+      "sha256": "a7abc926f017483f246b2d93079d8f8654cf2b1f505d56899ad8d7bb71d95559"
+    },
+    {
+      "path": "docs/source-documents/legacy/mamba-mentality-updated.md",
+      "bytes": 3153,
+      "sha256": "da23250df82bdfb40213925ffcb4092c1a04412268a8a0cf16cc2ef3904d9bd3"
+    },
+    {
+      "path": "docs/source-documents/legacy/product-dna.md",
+      "bytes": 1230,
+      "sha256": "3dc7ff4cf4bf67b774c0bb72bde7cc1949c97f1d9592711fa36e4403a8dbc551"
+    },
+    {
+      "path": "docs/source-documents/legacy/themed-urn-catalog.md",
+      "bytes": 7741,
+      "sha256": "ff947c183fcb0cbf6c6203797a3f86e95296e5b872f5066bbe284683da4b670d"
+    },
+    {
+      "path": "docs/specifications/ARCHITECTURE-AND-SPEC-MATRIX.md",
+      "bytes": 8672,
+      "sha256": "699edd60c12426bad9c4350740bb4645f13950bb3a1256df2a8cb8dfb52efad8"
+    },
+    {
+      "path": "docs/specifications/BLACK-AND-GOLD-WORKING-SPEC.md",
+      "bytes": 4783,
+      "sha256": "26c53411773ce6d35f423cd5b9a5243b2341f6e3bb5a42ca714ac6e6697ff427"
+    },
+    {
+      "path": "docs/specifications/COURT-LEGEND-WORKING-SPEC.md",
+      "bytes": 4537,
+      "sha256": "5b0361ef4128af7d5236e78129cd7016a23066a6bef96d83fce2f20fb174a8f2"
+    },
+    {
+      "path": "docs/specifications/HOME-RUN-WORKING-SPEC.md",
+      "bytes": 4615,
+      "sha256": "31a33f40a79381f0567912801272893d62ac25e9ecc425cc86932368620636ea"
+    },
+    {
+      "path": "docs/specifications/LEGACY-ASCEND-WORKING-SPEC.md",
+      "bytes": 4769,
+      "sha256": "0272319048d69e9b181af85303ce78dedd1eedf26ffa40dbd9f2832e21b6d9ff"
+    },
+    {
+      "path": "docs/specifications/MOMS-TOUGH-LOVE-WORKING-SPEC.md",
+      "bytes": 5287,
+      "sha256": "25d938bd0feda063ebcde449c06c3dbe9a142ae99660cc75426e3f7892d77ccb"
+    },
+    {
+      "path": "models/GT-AETERNA-editable-blender-cad.manifest.json",
+      "bytes": 5046,
+      "sha256": "8fd379e8b7499f8642f22d322c4ecdf009b4ccb9bacfd4fa55a0089d33052bba"
+    },
+    {
+      "path": "models/GT-AETERNA-legacy-mamba-models.manifest.json",
+      "bytes": 2283,
+      "sha256": "b5a567eae330d222c263066496ce6254a210c01192ace9a0ebeb0909ea661854"
+    },
+    {
+      "path": "models/GT-AETERNA-original-rfq-baseline.manifest.json",
+      "bytes": 5175,
+      "sha256": "ce5faa6b4bfb107da8975af4f7cd8a504fcb7f031dbe98834240ea5fe85d7f74"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 1983,
+      "sha256": "6c3a222f70de96562e273edba343c916f8fb553aa56d4caa521d92dc02b2171e"
+    },
+    {
+      "path": "models/legacy-mamba/compare.html",
+      "bytes": 7135,
+      "sha256": "f3319b6f89bfd2110b304adb2ce087a6f06031a2e335815f4cee86b715c09ee2"
+    },
+    {
+      "path": "models/legacy-mamba/index.html",
+      "bytes": 9522,
+      "sha256": "1e74594a0ab7dbc0a9cfa3e25e76d4ec940d58800379de43c4bc4d8eed06c326"
+    },
+    {
+      "path": "models/legacy-mamba/kobe-mamba-tripo3d-render.webp",
+      "bytes": 17010,
+      "sha256": "582f6a97264d67997425f0c6d79fcaabf591b1136d3d495578d76b5717b8b0f5"
+    },
+    {
+      "path": "models/legacy-mamba/legacy-vessel-render.txt",
+      "bytes": 132,
+      "sha256": "c1adee02e19d097f5cdd4a6785f59194ce80fc9c08659258b4bb1988152f8b7e"
+    },
+    {
+      "path": "models/legacy-mamba/viewer.html",
+      "bytes": 4353,
+      "sha256": "e689a049e768e86d96e960b54379130aa4d5788aac9c0c7914d03d89ed1f6038"
+    },
+    {
+      "path": "models/native-cad-validation.json",
+      "bytes": 4671,
+      "sha256": "92837fb5e434d8eb77ac5b1c705070fa4448f2fac505d3a9fd0b1d16e3c52484"
+    },
+    {
+      "path": "output/ASSET-MANIFEST.json",
+      "bytes": 69617,
+      "sha256": "2f5278533e8a67edc67e0ad62ef5d787111a1c761f4aa20e28d3914ab6299f59"
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-plate-CANDIDATE-mm.stl",
+      "bytes": 129884,
+      "sha256": "0fff28357990a95ddc5811c006e579b674848f521ed1fed2b51b455d2cc7ca0c"
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-shell-CANDIDATE-mm-mechanical-baseline.stl",
+      "bytes": 578684,
+      "sha256": "e462eaec09fae101aad8301e78fbcc755cca8ba613c2d26d1d67df537898aa8c"
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-shell-CANDIDATE-mm.stl",
+      "bytes": 1154784,
+      "sha256": "0f1492cba1d9800f6fbdbd2ee90ff9c8f38986cced7d2ed474898d69fe0bf840"
+    },
+    {
+      "path": "output/cad/README.md",
+      "bytes": 2995,
+      "sha256": "0b8248f248e43a47b380d9349b5880cb510d33f1874e6aae40ebd98e2fcd5050"
+    },
+    {
+      "path": "output/cad/build_review.py",
+      "bytes": 6519,
+      "sha256": "cfaedd60ed0478c7194c2dbf4a8fb79aa83ffc03bd891ed86a0dce0ad0d9fab1"
+    },
+    {
+      "path": "output/cad/build_review_v3.py",
+      "bytes": 3201,
+      "sha256": "4993843882e1d625a8dc1773593e0e3feb0bbe32bda8d858dffb9d9c2200ed56"
+    },
+    {
+      "path": "output/cad/build_review_v4.py",
+      "bytes": 3513,
+      "sha256": "be4f649f5e591cc2cd3772c22fdb82bd1929a9c9a2ad2315851380b3ad82c84d"
+    },
+    {
+      "path": "output/cad/build_review_v5.py",
+      "bytes": 4413,
+      "sha256": "f71030a7ce6887624c2c063fa454db69d5e7e5d62ca23ad847fc5bc80cf037e3"
+    },
+    {
+      "path": "output/cad/build_review_v6.py",
+      "bytes": 4761,
+      "sha256": "ab43859527ed314fda5cc522b62c7cc016993333ada328c5d8193efcd3aefd13"
+    },
+    {
+      "path": "output/cad/build_review_v7.py",
+      "bytes": 5182,
+      "sha256": "c778a941ec288772451a13489b4bcf40bddd38018a7af6981bfb9766fad2c885"
+    },
+    {
+      "path": "output/cad/candidate-bottom.png",
+      "bytes": 604352,
+      "sha256": "3b8689634d59dfab577c9ddde44828633e6e8d65f22d29112d6e6f3b0fcb6dd5"
+    },
+    {
+      "path": "output/cad/candidate-front.png",
+      "bytes": 665682,
+      "sha256": "cf8d0edf8025e8301552660e63447e2eabefc04e7ddcf29979701d7308a22f36"
+    },
+    {
+      "path": "output/cad/candidate-perspective.png",
+      "bytes": 684046,
+      "sha256": "6d939c17e80e47205b0b8741b5ff5f39cc4f473d38f7e351ac750000dd54141f"
+    },
+    {
+      "path": "output/cad/candidate-rear.png",
+      "bytes": 708252,
+      "sha256": "27abff58dd6d87fd28e90af73831b8fddd9d892c6327517c01bea5b597b4d9b7"
+    },
+    {
+      "path": "output/cad/candidate-section.png",
+      "bytes": 606341,
+      "sha256": "f8a980709b6d7156e19e994b330f29e3b8e06984d0d06b2d592088b238a95c0c"
+    },
+    {
+      "path": "output/cad/candidate-side.png",
+      "bytes": 671577,
+      "sha256": "32c0a657a75359bc8ab1495de15caafb58904f42e4f9b690f2e29ce51bdf4852"
+    },
+    {
+      "path": "output/cad/envelope_study.py",
+      "bytes": 3660,
+      "sha256": "87401edf921adfa1fd5c7f7114af2e7e5dc014b0c084fbc581c9ec2cd8e5db24"
+    },
+    {
+      "path": "output/cad/feasibility.json",
+      "bytes": 957,
+      "sha256": "159f1156198a7b99c7f2999370b8fb1533e0e7b6b2a270772658062f1417d307"
+    },
+    {
+      "path": "output/cad/independent_review.py",
+      "bytes": 3372,
+      "sha256": "b00746d9f5713c03765aeb034cedccfe0984c8afaa7b99fcb1b9ede847bf8f62"
+    },
+    {
+      "path": "output/cad/refinement-v2/Every-Step-Legacy-plate-CANDIDATE-mm.stl",
+      "bytes": 129884,
+      "sha256": "0fff28357990a95ddc5811c006e579b674848f521ed1fed2b51b455d2cc7ca0c"
+    },
+    {
+      "path": "output/cad/refinement-v2/Every-Step-Legacy-review.glb",
+      "bytes": 660616,
+      "sha256": "63fb862ddd519c2f1f8affacfc7736803a3f3fd41317fcf543ad788d01d97a04"
+    },
+    {
+      "path": "output/cad/refinement-v2/Every-Step-Legacy-shell-CANDIDATE-mm.stl",
+      "bytes": 795084,
+      "sha256": "d5ea8fa153d4d16307ff3fe19d0fc960a0730733c10dfa6e4d1a7944e4193bfb"
+    },
+    {
+      "path": "output/cad/refinement-v2/candidate-bottom.png",
+      "bytes": 606227,
+      "sha256": "70c7af8a6452c9ae59df5d45cb5ceb2f367503439a6cfe0451670733ac36ba6e"
+    },
+    {
+      "path": "output/cad/refinement-v2/candidate-front.png",
+      "bytes": 648360,
+      "sha256": "711c2f414d2ba39819cf36207c13fc30b811c2a19f19e04a273e608848846d70"
+    },
+    {
+      "path": "output/cad/refinement-v2/candidate-perspective.png",
+      "bytes": 673058,
+      "sha256": "a235b083cacd25997d8ab7a68b4d7267782dff58b0a0f04963b383fe0ec773b9"
+    },
+    {
+      "path": "output/cad/refinement-v2/candidate-rear.png",
+      "bytes": 662501,
+      "sha256": "b442168533bcf82f331a821f21c18842a638f9b80d63f2e75b0982609f78f104"
+    },
+    {
+      "path": "output/cad/refinement-v2/candidate-section.png",
+      "bytes": 605112,
+      "sha256": "8129f780b817ce957e9b46c5fe01c8387c0a633b759e9b096240c6a246e26d73"
+    },
+    {
+      "path": "output/cad/refinement-v2/candidate-side.png",
+      "bytes": 650957,
+      "sha256": "418d8ef31add4c13579e0b7343e1ba18373c74c20002a0809f25464e3c8b08f1"
+    },
+    {
+      "path": "output/cad/refinement-v2/candidate-top.png",
+      "bytes": 628042,
+      "sha256": "ffb168fb50e186cabddabae2fae55d0ea477777101d6b5a8ea2a958c75f9e572"
+    },
+    {
+      "path": "output/cad/refinement-v2/render_review.py",
+      "bytes": 1346,
+      "sha256": "012150b17979402f907ac44eac6e32bb1cff616b645742112176b14fac849031"
+    },
+    {
+      "path": "output/cad/refinement-v2/sculptural-validation.json",
+      "bytes": 3359,
+      "sha256": "f4b55501018c9a3dc236350d7853c1f8b0af857f2a0c439f0558aa3a1b05957d"
+    },
+    {
+      "path": "output/cad/refinement-v2/sculptural_candidate.py",
+      "bytes": 18232,
+      "sha256": "c24e0dbe84018fb7bc7b16773d5d2f1a8f1f74a01ee4c08ba392b80d3b46c10a"
+    },
+    {
+      "path": "output/cad/refinement-v3/README.md",
+      "bytes": 3221,
+      "sha256": "8a0ecfba7e880aba8074124ee56f0b3651e3c0038af1231fe8856894ec973531"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-base-detail.png",
+      "bytes": 1211258,
+      "sha256": "1103d1288d1580fe0f54c2eb8b816164175dfcc00378cc463ea36e3e79f30e5c"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-detail.png",
+      "bytes": 1384777,
+      "sha256": "36aeffbf977bfe958a047c0c1e5e277451bdad73be40ff0b7e76d806a12da12f"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-front-reference.png",
+      "bytes": 1279087,
+      "sha256": "13cc7fb9fcaf8ad74a299ea5887d34c9f086e3debc9a9c1e825a29e2dbee184a"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-front.png",
+      "bytes": 1252137,
+      "sha256": "e88a306df0c7339db91f7982698d40edd158d6e06bbfd61e0585eee35bf79f15"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-left.png",
+      "bytes": 1292303,
+      "sha256": "28e2bc5cd4dd271fcf37b1b81c163a60601ff7361308a5d94acc95f5447333f0"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-perspective.png",
+      "bytes": 1274775,
+      "sha256": "51d6d0979eea1b28aa19ca64f4e6a6683dbedfdb92039264cfacbf6ff2c0cdd0"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-rear-reference.png",
+      "bytes": 1268496,
+      "sha256": "a888d38636eb02a114d1774e5d8c69deb3b575e12780441a39590cc84f2df8e6"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-rear.png",
+      "bytes": 1238000,
+      "sha256": "dade88b415ec00a6c41da014342d5ab06688ae825939f062a7a490c0cb7dddf5"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-side.png",
+      "bytes": 1137993,
+      "sha256": "c7f6b3103121fe1588edc78f6051f6b6a7cea4f87b6892ddee090735faf877e8"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-status.json",
+      "bytes": 2320,
+      "sha256": "caa2427226dfdfd51547b7557e483cbda77ec737528e3beac691e404ec30811e"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance-top.png",
+      "bytes": 1316802,
+      "sha256": "c88fe3a05fb19e90376f2fd53891040146152245b2488ea60f52d0e3ce258f7a"
+    },
+    {
+      "path": "output/cad/refinement-v3/appearance_v3.py",
+      "bytes": 15414,
+      "sha256": "f4692785262541ea3ac156f7a9a2b5aab7ed1c344f62b37a4d4fe23ec803dec7"
+    },
+    {
+      "path": "output/cad/refinement-v3/finish_cap.py",
+      "bytes": 1180,
+      "sha256": "e64c168cb73322e6e9487db9ef2caaba1f68b616761d66170a294d55784cb1c3"
+    },
+    {
+      "path": "output/cad/refinement-v4/README.md",
+      "bytes": 2397,
+      "sha256": "bcf9444c6d66afd9aad7026d679c0943735520ff5102fb87e64d76fd1752c517"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-base-detail.png",
+      "bytes": 1140567,
+      "sha256": "49a00b7d012adefeac581ed905d3ef9b39169735d3cef1fa62423da576c4a9c9"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-detail.png",
+      "bytes": 1238444,
+      "sha256": "35357a751be21c274d08b0d2eb84ce6ec69e253bbc7b5ddd2275caeb36ea75b6"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-front-reference.png",
+      "bytes": 1195782,
+      "sha256": "f8297637453bad3e6b29a0a24519f15e8bfef14f23a994f598d46052cf2cfd66"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-front.png",
+      "bytes": 1169957,
+      "sha256": "08a38520a5d9b70ae7baa52cb274316e1cf3a4620070caf536c7108b5f87704c"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-left.png",
+      "bytes": 1251743,
+      "sha256": "76c51b4b570d244627e965457851c78d7ced13fbf2318f62d355c2b9a8edf47f"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-perspective.png",
+      "bytes": 1212215,
+      "sha256": "65c4f9baa32ee9e3bfb1d45dc4731f26cd9f623a2639c6e71f10c2337d360419"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-rear-reference.png",
+      "bytes": 1213756,
+      "sha256": "cfe7691c964f392a48f00a93613d4758a99b65d7209e1b04e821e78c4f73cc62"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-rear.png",
+      "bytes": 1184566,
+      "sha256": "b28d1d98579b9002ccf07b873010d3a9e37c94f55a353fe70377764ffa17b6fe"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-side.png",
+      "bytes": 1112435,
+      "sha256": "b3cfde57ba15cac2bc4e888fcc26592e912d515347bc32a9b550c4d0138389c8"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-status.json",
+      "bytes": 2219,
+      "sha256": "d662d15e57657ad6631e35261acafd44da865e72c96948915a4c0958a71e1bce"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance-top.png",
+      "bytes": 1262337,
+      "sha256": "a9e3f8c31f0cf0847e2e503aacf7e0624a717fa303fd942c9da8544fdb046ced"
+    },
+    {
+      "path": "output/cad/refinement-v4/appearance_v4.py",
+      "bytes": 17081,
+      "sha256": "24e1d6018fe0ed918396c4973735aa474f83037c95d9fbb2e1d27e2151e52460"
+    },
+    {
+      "path": "output/cad/refinement-v5/ITERATION-REVIEW.md",
+      "bytes": 5710,
+      "sha256": "1a61bfa2a2500236b9e53b188bcdf84f9aa866d3a5ac118555f56c0e16e466ba"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-base-detail.png",
+      "bytes": 1137532,
+      "sha256": "cc6deed443ec1da8ae8fa31418dec29662427f17cb428de5c2e6c92c63da5699"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-detail.png",
+      "bytes": 1275799,
+      "sha256": "b8083c56a3d266a5bb80ff174fe84aa43cfe30d46442903fe2165f2f20e0eed9"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-front-reference.png",
+      "bytes": 1217733,
+      "sha256": "1f49abc8e9cce0da784acf204bb2d7c4d45d6f81305a54c9b5caedf0ce4fcb62"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-front.png",
+      "bytes": 1217733,
+      "sha256": "72dbe01c7ca30d7cf65747f9d2a05c6a021ba749ab40e2d1132265d60bfe2b8e"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-rear-reference.png",
+      "bytes": 1214397,
+      "sha256": "2aab30a060d131b3a785194860c95c5231436fce410f8daff1478ee0b3e0d569"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-rear.png",
+      "bytes": 1214397,
+      "sha256": "9077f1e792fb79021d9a29cd924c4c23b5a3f530e4ea2dcf5afcec400c300401"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-side.png",
+      "bytes": 1130378,
+      "sha256": "cdd663fcc0bd41a6db13a1d1cad5ccb6826eb52483e5ad92c6e34150316c2f98"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-status.json",
+      "bytes": 1098,
+      "sha256": "185905fd68f48a28e874f691ed94a0ca7767c0bdc50d829e6b6503a6996b2374"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance-top.png",
+      "bytes": 1202959,
+      "sha256": "083caeba1feb3e208f0c9955fcba632e4b194e757ba8124a611267b9cce9c49d"
+    },
+    {
+      "path": "output/cad/refinement-v5/appearance_v5.py",
+      "bytes": 22872,
+      "sha256": "9ffdefbbc2042db6edbca77539d5efdc07f6c3febe12929e641f4fe744da36db"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-1-front.png",
+      "bytes": 879073,
+      "sha256": "e7d358a87c08583697d2544674555df6846742b2722e4067bc4a7b6832717d99"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-1-rear.png",
+      "bytes": 863504,
+      "sha256": "53680ba7629d0f7b8d2b7ca5ff796ad9c26406016a7c415e1b1688f962d66143"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-14-detail.png",
+      "bytes": 1280993,
+      "sha256": "72d2b5918783cc85ec187e82be2ae3aed39a5fd5d26d030654f65bc049aa88a0"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-14-front.png",
+      "bytes": 1234182,
+      "sha256": "f5bf12723d6c3fc40db38808314883e6de309631f4bd6dd35d5d67bbc0c5ee10"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-14-rear.png",
+      "bytes": 1229352,
+      "sha256": "82a40903132118c6b802d7cf4e97ad08fc09a8aaf3e508650d15fae161044d0e"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-14-side.png",
+      "bytes": 1162640,
+      "sha256": "7c30c8777405ee21c26798da61d35155246614bd723d4d5c7aa0d8803b3a3423"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-15-detail.png",
+      "bytes": 1279978,
+      "sha256": "744bef74c912042aef11c51dba313cad912aaf6139fff127333f6a8194698387"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-15.py",
+      "bytes": 21131,
+      "sha256": "447b8895c8b23e1bfde6ce807eeba4b8829facb5aa6e619fd1f2e3be2cfc81d5"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-2-front.png",
+      "bytes": 840124,
+      "sha256": "36c65ac7669325c6ce2332d98ca3cddd30b8fc9dd57b50407a5ec6ac329db190"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-2-rear.png",
+      "bytes": 829667,
+      "sha256": "3917d6f6965ae746cbb476c00a7dca08d24abef9a5bcf1e8b38a56de25d9fe48"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-3-front.png",
+      "bytes": 850147,
+      "sha256": "66bd608ab83d9d970d1c382f8fc9188f6b1e3a09c44adbe8e2e8a23bb6de96cc"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-3-rear.png",
+      "bytes": 857494,
+      "sha256": "3499a0e5e32458429f770eb29107027a39f00ffe49e8e10c5ce70284624f6378"
+    },
+    {
+      "path": "output/cad/refinement-v6/ITERATION-REVIEW.md",
+      "bytes": 2599,
+      "sha256": "aac6ecf0278bf244fe4326d808b01231f2d772c7da6482bbd66e68d8973b9e09"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-base-detail.png",
+      "bytes": 1147405,
+      "sha256": "fab67f1627d4817e72b87e6320d2e3f2e96e7b489c2b6995f1cf05d8478d9297"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-cap-top.png",
+      "bytes": 1151779,
+      "sha256": "18455e8d792d4bde5ede2ccae85ce10b7263d1f514d219d04e0ab631eb1137b5"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-detail.png",
+      "bytes": 1267678,
+      "sha256": "2526cf2b2d60a191fd53106767b226e161df0dfc367c5cd9c9f46692ec259a09"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-front-reference.png",
+      "bytes": 1217180,
+      "sha256": "a675f5e8776b7b4a2c01e0ca143c147f5c10599ae2d6ce7ea53d61e97d3690da"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-front.png",
+      "bytes": 1217180,
+      "sha256": "560ba7d47578a82d8556d0719733066809f75866bc5796e5aad2ebe6626e024c"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-rear-reference.png",
+      "bytes": 1216399,
+      "sha256": "cf4f7eca09372683b0ad26a2b96ba5c6e97a5133112a5343a7f63dac1f8d1472"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-rear.png",
+      "bytes": 1216399,
+      "sha256": "e1451d45a30685162a93563e44757a4c50577ef940aed9d489537162d928554a"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-side.png",
+      "bytes": 1148848,
+      "sha256": "2e144bdc3ee44294f87d885c0fcc46e1e872993e14d0fe4ad7af86a063b76265"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-status.json",
+      "bytes": 1636,
+      "sha256": "b429df1c452287d359a94ef0908998dccd4c8d6af342d5024f0613b25bec8c8f"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance-top.png",
+      "bytes": 1216339,
+      "sha256": "8527ab76b5779bdc2df0ce07c11af099c00b8c31e3a30013e7c140673c6d1e9f"
+    },
+    {
+      "path": "output/cad/refinement-v6/appearance_v6.py",
+      "bytes": 24944,
+      "sha256": "2894872655ef8bf124059dc5b5127f461e2e32e679460e7b8b247ffbe8bb2a42"
+    },
+    {
+      "path": "output/cad/refinement-v7/ITERATION-REVIEW.md",
+      "bytes": 3007,
+      "sha256": "ee761e6c2122092d068f34235c0d416f9f71c8134445d7314fc778688af84c32"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-base-detail.png",
+      "bytes": 1154641,
+      "sha256": "195e86a00a9781a50ae177b39fc4e2dbd83be0e747fbac2d4ae07931d982d254"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-cap-top.png",
+      "bytes": 1150199,
+      "sha256": "8e491d77a9cfac1d0298d19550b15d70ca16c14377cde089e8fd404784eec9de"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-detail.png",
+      "bytes": 1272009,
+      "sha256": "e988e147851e17d5bacd45faf4e6d1c62a182c929d39326454e802bb8643dc48"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-front-noplaque.png",
+      "bytes": 1225158,
+      "sha256": "b1ec72bb2388bc0ab43ec9efd5a7469bf8ce1a9d315a783260a9bd1a3421e7e4"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-front-reference.png",
+      "bytes": 1220762,
+      "sha256": "2002168fe186b07debfa03ac89a28d96cddc4ff42a9cbb5e72d2c9a001929d8c"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-front.png",
+      "bytes": 1220762,
+      "sha256": "0182a051d7de4fc5b1d25a931a825b4a1d55c4125a9487af84230573956c8407"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-rear-reference.png",
+      "bytes": 1220203,
+      "sha256": "79a2224f3a650357d2483aae8f2c99779f9c0066dc7ebacc2379366bf9c19b68"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-rear.png",
+      "bytes": 1220203,
+      "sha256": "670e552e00c97b8408fc89c1d0f70d85cc1b13dff54d0cec87c98a286d888992"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-side.png",
+      "bytes": 1143931,
+      "sha256": "e251c80c3f55db9b12816e90ddd589f23ba13a2cfc31d6ca873fd162ec6dc75e"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-status.json",
+      "bytes": 3487,
+      "sha256": "2a286f169c4dde0594a4d10af99176b9d214724b2b480f97f2b9855271976ad8"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance-top.png",
+      "bytes": 1202650,
+      "sha256": "1ffc259ab609571f1343544112806d198f372577f816ef444dc1e111cb4d52ac"
+    },
+    {
+      "path": "output/cad/refinement-v7/appearance_v7.py",
+      "bytes": 28666,
+      "sha256": "3b56fd1ff77476da0b4476272808c2da768546af0c8406c24ee26a0641d88774"
+    },
+    {
+      "path": "output/cad/review/Every-Step-Legacy-review-v2.pdf",
+      "bytes": 4464494,
+      "sha256": "07ab2d28c5c1658c71f1df143da56e894aa89ecbc92a25173f238b549a990437"
+    },
+    {
+      "path": "output/cad/review/candidate-bottom.png",
+      "bytes": 606227,
+      "sha256": "70c7af8a6452c9ae59df5d45cb5ceb2f367503439a6cfe0451670733ac36ba6e"
+    },
+    {
+      "path": "output/cad/review/candidate-front.png",
+      "bytes": 648360,
+      "sha256": "711c2f414d2ba39819cf36207c13fc30b811c2a19f19e04a273e608848846d70"
+    },
+    {
+      "path": "output/cad/review/candidate-perspective.png",
+      "bytes": 673058,
+      "sha256": "a235b083cacd25997d8ab7a68b4d7267782dff58b0a0f04963b383fe0ec773b9"
+    },
+    {
+      "path": "output/cad/review/candidate-rear.png",
+      "bytes": 662501,
+      "sha256": "b442168533bcf82f331a821f21c18842a638f9b80d63f2e75b0982609f78f104"
+    },
+    {
+      "path": "output/cad/review/candidate-section.png",
+      "bytes": 605112,
+      "sha256": "8129f780b817ce957e9b46c5fe01c8387c0a633b759e9b096240c6a246e26d73"
+    },
+    {
+      "path": "output/cad/review/candidate-side.png",
+      "bytes": 650957,
+      "sha256": "418d8ef31add4c13579e0b7343e1ba18373c74c20002a0809f25464e3c8b08f1"
+    },
+    {
+      "path": "output/cad/review/candidate-top.png",
+      "bytes": 628042,
+      "sha256": "ffb168fb50e186cabddabae2fae55d0ea477777101d6b5a8ea2a958c75f9e572"
+    },
+    {
+      "path": "output/cad/review/index.html",
+      "bytes": 4962,
+      "sha256": "9be56a87142111f4af0b8d22e78d086f8cf76947396bdc04e90c522ced2d2642"
+    },
+    {
+      "path": "output/cad/review/original-reference.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-base-detail.png",
+      "bytes": 1211258,
+      "sha256": "1103d1288d1580fe0f54c2eb8b816164175dfcc00378cc463ea36e3e79f30e5c"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-detail.png",
+      "bytes": 1384777,
+      "sha256": "36aeffbf977bfe958a047c0c1e5e277451bdad73be40ff0b7e76d806a12da12f"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-front-reference.png",
+      "bytes": 1279087,
+      "sha256": "13cc7fb9fcaf8ad74a299ea5887d34c9f086e3debc9a9c1e825a29e2dbee184a"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-front.png",
+      "bytes": 1252137,
+      "sha256": "e88a306df0c7339db91f7982698d40edd158d6e06bbfd61e0585eee35bf79f15"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-left.png",
+      "bytes": 1292303,
+      "sha256": "28e2bc5cd4dd271fcf37b1b81c163a60601ff7361308a5d94acc95f5447333f0"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-perspective.png",
+      "bytes": 1274775,
+      "sha256": "51d6d0979eea1b28aa19ca64f4e6a6683dbedfdb92039264cfacbf6ff2c0cdd0"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-rear-reference.png",
+      "bytes": 1268496,
+      "sha256": "a888d38636eb02a114d1774e5d8c69deb3b575e12780441a39590cc84f2df8e6"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-rear.png",
+      "bytes": 1238000,
+      "sha256": "dade88b415ec00a6c41da014342d5ab06688ae825939f062a7a490c0cb7dddf5"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-side.png",
+      "bytes": 1137993,
+      "sha256": "c7f6b3103121fe1588edc78f6051f6b6a7cea4f87b6892ddee090735faf877e8"
+    },
+    {
+      "path": "output/cad/review-v3/appearance-top.png",
+      "bytes": 1316802,
+      "sha256": "c88fe3a05fb19e90376f2fd53891040146152245b2488ea60f52d0e3ce258f7a"
+    },
+    {
+      "path": "output/cad/review-v3/index.html",
+      "bytes": 3721,
+      "sha256": "fdc49822ff8499a535a89531acb988c939937d350d01de96c77b54d93a3a38a7"
+    },
+    {
+      "path": "output/cad/review-v3/reference.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-base-detail.png",
+      "bytes": 1140567,
+      "sha256": "49a00b7d012adefeac581ed905d3ef9b39169735d3cef1fa62423da576c4a9c9"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-detail.png",
+      "bytes": 1238444,
+      "sha256": "35357a751be21c274d08b0d2eb84ce6ec69e253bbc7b5ddd2275caeb36ea75b6"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-front-reference.png",
+      "bytes": 1195782,
+      "sha256": "f8297637453bad3e6b29a0a24519f15e8bfef14f23a994f598d46052cf2cfd66"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-front.png",
+      "bytes": 1169957,
+      "sha256": "08a38520a5d9b70ae7baa52cb274316e1cf3a4620070caf536c7108b5f87704c"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-left.png",
+      "bytes": 1251743,
+      "sha256": "76c51b4b570d244627e965457851c78d7ced13fbf2318f62d355c2b9a8edf47f"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-perspective.png",
+      "bytes": 1212215,
+      "sha256": "65c4f9baa32ee9e3bfb1d45dc4731f26cd9f623a2639c6e71f10c2337d360419"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-rear-reference.png",
+      "bytes": 1213756,
+      "sha256": "cfe7691c964f392a48f00a93613d4758a99b65d7209e1b04e821e78c4f73cc62"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-rear.png",
+      "bytes": 1184566,
+      "sha256": "b28d1d98579b9002ccf07b873010d3a9e37c94f55a353fe70377764ffa17b6fe"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-side.png",
+      "bytes": 1112435,
+      "sha256": "b3cfde57ba15cac2bc4e888fcc26592e912d515347bc32a9b550c4d0138389c8"
+    },
+    {
+      "path": "output/cad/review-v4/appearance-top.png",
+      "bytes": 1262337,
+      "sha256": "a9e3f8c31f0cf0847e2e503aacf7e0624a717fa303fd942c9da8544fdb046ced"
+    },
+    {
+      "path": "output/cad/review-v4/index.html",
+      "bytes": 4033,
+      "sha256": "ec4b5d935aaa9ebe9c7f54c7c97d369cc75af64085a184fa8822b12ff62c1960"
+    },
+    {
+      "path": "output/cad/review-v4/reference.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-base-detail.png",
+      "bytes": 1137532,
+      "sha256": "cc6deed443ec1da8ae8fa31418dec29662427f17cb428de5c2e6c92c63da5699"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-detail.png",
+      "bytes": 1275799,
+      "sha256": "b8083c56a3d266a5bb80ff174fe84aa43cfe30d46442903fe2165f2f20e0eed9"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-front-reference.png",
+      "bytes": 1217733,
+      "sha256": "1f49abc8e9cce0da784acf204bb2d7c4d45d6f81305a54c9b5caedf0ce4fcb62"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-front.png",
+      "bytes": 1217733,
+      "sha256": "72dbe01c7ca30d7cf65747f9d2a05c6a021ba749ab40e2d1132265d60bfe2b8e"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-rear-reference.png",
+      "bytes": 1214397,
+      "sha256": "2aab30a060d131b3a785194860c95c5231436fce410f8daff1478ee0b3e0d569"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-rear.png",
+      "bytes": 1214397,
+      "sha256": "9077f1e792fb79021d9a29cd924c4c23b5a3f530e4ea2dcf5afcec400c300401"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-side.png",
+      "bytes": 1130378,
+      "sha256": "cdd663fcc0bd41a6db13a1d1cad5ccb6826eb52483e5ad92c6e34150316c2f98"
+    },
+    {
+      "path": "output/cad/review-v5/appearance-top.png",
+      "bytes": 1202959,
+      "sha256": "083caeba1feb3e208f0c9955fcba632e4b194e757ba8124a611267b9cce9c49d"
+    },
+    {
+      "path": "output/cad/review-v5/front-comparison.png",
+      "bytes": 676066,
+      "sha256": "7ce4b2209b357fc53bf1bbb7b7b0367dbe5163eb3ceb60655e1f1bd3a7ec19ac"
+    },
+    {
+      "path": "output/cad/review-v5/index.html",
+      "bytes": 4211,
+      "sha256": "f94096b1a27136e72228f6a72ee7c3982038aba0464c70a516e68e19957f8811"
+    },
+    {
+      "path": "output/cad/review-v5/rear-comparison.png",
+      "bytes": 684897,
+      "sha256": "30d6a0f4d2223759d0bdc7349886af7f961f5a2b4d7a616c7113f9212198eb99"
+    },
+    {
+      "path": "output/cad/review-v5/reference.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-base-detail.png",
+      "bytes": 1147405,
+      "sha256": "fab67f1627d4817e72b87e6320d2e3f2e96e7b489c2b6995f1cf05d8478d9297"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-cap-top.png",
+      "bytes": 1151779,
+      "sha256": "18455e8d792d4bde5ede2ccae85ce10b7263d1f514d219d04e0ab631eb1137b5"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-detail.png",
+      "bytes": 1267678,
+      "sha256": "2526cf2b2d60a191fd53106767b226e161df0dfc367c5cd9c9f46692ec259a09"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-front-reference.png",
+      "bytes": 1217180,
+      "sha256": "a675f5e8776b7b4a2c01e0ca143c147f5c10599ae2d6ce7ea53d61e97d3690da"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-front.png",
+      "bytes": 1217180,
+      "sha256": "560ba7d47578a82d8556d0719733066809f75866bc5796e5aad2ebe6626e024c"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-rear-reference.png",
+      "bytes": 1216399,
+      "sha256": "cf4f7eca09372683b0ad26a2b96ba5c6e97a5133112a5343a7f63dac1f8d1472"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-rear.png",
+      "bytes": 1216399,
+      "sha256": "e1451d45a30685162a93563e44757a4c50577ef940aed9d489537162d928554a"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-side.png",
+      "bytes": 1148848,
+      "sha256": "2e144bdc3ee44294f87d885c0fcc46e1e872993e14d0fe4ad7af86a063b76265"
+    },
+    {
+      "path": "output/cad/review-v6/appearance-top.png",
+      "bytes": 1216339,
+      "sha256": "8527ab76b5779bdc2df0ce07c11af099c00b8c31e3a30013e7c140673c6d1e9f"
+    },
+    {
+      "path": "output/cad/review-v6/front-comparison.png",
+      "bytes": 679857,
+      "sha256": "a23609475f393cc336842a89746e53472c0ce5b5a2f4a40c69d4edf58c577c2a"
+    },
+    {
+      "path": "output/cad/review-v6/index.html",
+      "bytes": 4455,
+      "sha256": "4532f517ea7210795d444796f8a4e464eec6675f47ece14b2002b5097d05a453"
+    },
+    {
+      "path": "output/cad/review-v6/reference.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-base-detail.png",
+      "bytes": 1154641,
+      "sha256": "195e86a00a9781a50ae177b39fc4e2dbd83be0e747fbac2d4ae07931d982d254"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-cap-top.png",
+      "bytes": 1150199,
+      "sha256": "8e491d77a9cfac1d0298d19550b15d70ca16c14377cde089e8fd404784eec9de"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-detail.png",
+      "bytes": 1272009,
+      "sha256": "e988e147851e17d5bacd45faf4e6d1c62a182c929d39326454e802bb8643dc48"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-front-noplaque.png",
+      "bytes": 1225158,
+      "sha256": "b1ec72bb2388bc0ab43ec9efd5a7469bf8ce1a9d315a783260a9bd1a3421e7e4"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-front-reference.png",
+      "bytes": 1220762,
+      "sha256": "2002168fe186b07debfa03ac89a28d96cddc4ff42a9cbb5e72d2c9a001929d8c"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-front.png",
+      "bytes": 1220762,
+      "sha256": "0182a051d7de4fc5b1d25a931a825b4a1d55c4125a9487af84230573956c8407"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-rear-reference.png",
+      "bytes": 1220203,
+      "sha256": "79a2224f3a650357d2483aae8f2c99779f9c0066dc7ebacc2379366bf9c19b68"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-rear.png",
+      "bytes": 1220203,
+      "sha256": "670e552e00c97b8408fc89c1d0f70d85cc1b13dff54d0cec87c98a286d888992"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-side.png",
+      "bytes": 1143931,
+      "sha256": "e251c80c3f55db9b12816e90ddd589f23ba13a2cfc31d6ca873fd162ec6dc75e"
+    },
+    {
+      "path": "output/cad/review-v7/appearance-top.png",
+      "bytes": 1202650,
+      "sha256": "1ffc259ab609571f1343544112806d198f372577f816ef444dc1e111cb4d52ac"
+    },
+    {
+      "path": "output/cad/review-v7/front-comparison.png",
+      "bytes": 689477,
+      "sha256": "17b1a7115cd4b110f53de2b86dd01bb14682c722d5e95f3db1969eb73520d50f"
+    },
+    {
+      "path": "output/cad/review-v7/index.html",
+      "bytes": 4997,
+      "sha256": "95d4d312245f0bdcce1946952e2c5964bc6c45e05f9fa11f699085de1468efb2"
+    },
+    {
+      "path": "output/cad/review-v7/reference.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "output/cad/sculptural-validation-6in-sloped.json",
+      "bytes": 1896,
+      "sha256": "d173290e37968dcce82164760e5b1106bdc712076fef00484bdb5edc6209a47b"
+    },
+    {
+      "path": "output/cad/sculptural-validation-initial-5.5in.json",
+      "bytes": 1966,
+      "sha256": "81c56c14a6a85dbae1dc7792416878613be3888cd6048fda4054faa7ee42cf86"
+    },
+    {
+      "path": "output/cad/sculptural-validation-mechanical-baseline.json",
+      "bytes": 2243,
+      "sha256": "e0dc084436e815cbb8fca8a0a6af959c5d53005693a0cdece35b99d7b42f00e5"
+    },
+    {
+      "path": "output/cad/sculptural-validation.json",
+      "bytes": 2545,
+      "sha256": "42378e55832824617088f9c781d5a88598990649eb82a60cb61a48f499e8a18f"
+    },
+    {
+      "path": "output/cad/sculptural_candidate.py",
+      "bytes": 14391,
+      "sha256": "d854be6f2619588bb40c0e375736650482a12bb203587769e9b5e3a64e07da49"
+    },
+    {
+      "path": "output/cad/verify_gasket.py",
+      "bytes": 1177,
+      "sha256": "3ff16bbf820e5982d7a15f5482c16f27ea9e8ffc6d2afe99616a556da4c1422c"
+    },
+    {
+      "path": "output/catalog/D57-generation-prompt.txt",
+      "bytes": 1177,
+      "sha256": "8ea68aeac59d7d3edeebbc98a3ea0a0339d6c1b86b96c64db3dcd61873d07fe4"
+    },
+    {
+      "path": "output/catalog/P01-correction-prompt.txt",
+      "bytes": 427,
+      "sha256": "733ca87404388d4213a3e664ec8419ba75afb5d770b812c5991aabb578171a8d"
+    },
+    {
+      "path": "output/catalog/README.md",
+      "bytes": 1130,
+      "sha256": "4c709432bf419311ed3b4dccef457dca335f94a0943a07b2c7015d5c21cc5a0c"
+    },
+    {
+      "path": "output/catalog/assets/D57-infinite-loop-concept-v1.png",
+      "bytes": 1798011,
+      "sha256": "3d4a99447bbe92c6548daf4ad5769cd0366fba03998092c0f9145af0bc32371b"
+    },
+    {
+      "path": "output/catalog/assets/D57-infinite-loop-concept-v2.png",
+      "bytes": 1740574,
+      "sha256": "6ab3859918ee667a556b27c5de7de1e2a28defb5784e2860d240022e1cbbbb40"
+    },
+    {
+      "path": "output/catalog/assets/P01-hero-v2.png",
+      "bytes": 2227279,
+      "sha256": "c15bdf7b2fd815577d583663746ee79e1e157ac3e03a4b38bac238e7fb2d8919"
+    },
+    {
+      "path": "output/catalog/assets/P01-hero-v3.png",
+      "bytes": 2003099,
+      "sha256": "535dbc5e8109803c40715fb0504fa237a1c5e6eb8f1a9eb4cd1657324bd86466"
+    },
+    {
+      "path": "output/catalog/assets/P01-source-doc-36.png",
+      "bytes": 417625,
+      "sha256": "51b332b34a6a06735ed8e3a188eea9522dd11275418474bd0c130b47e74a0545"
+    },
+    {
+      "path": "output/catalog/assets/P02-hero-v2.png",
+      "bytes": 2177473,
+      "sha256": "0e70fc1a3f1cd586474982b7ea7f24e1b392658c6b141401563cd1a76bcd4033"
+    },
+    {
+      "path": "output/catalog/assets/P02-source-doc-37.png",
+      "bytes": 2348468,
+      "sha256": "c175a0ad4c5c963f291eaa8ad6968defbe3d1272c2222646814ca481f67b576e"
+    },
+    {
+      "path": "output/catalog/assets/P03-hero-v2.png",
+      "bytes": 2068383,
+      "sha256": "bd04021a13cf408e0aebc4735cac083376c100eb03b7bba161d0bb8a8f64e9c9"
+    },
+    {
+      "path": "output/catalog/assets/P03-source-doc-38.png",
+      "bytes": 981014,
+      "sha256": "8e7755433c08911848562f5868148ff29327d3822cef150bbef022c783ffeea6"
+    },
+    {
+      "path": "output/catalog/assets/P04-hero-v2.png",
+      "bytes": 1995848,
+      "sha256": "d044f657bb2ceb40ed23e6415c2fda1d43e32f0d01ef942529a1d10ce334bef3"
+    },
+    {
+      "path": "output/catalog/assets/P04-source-doc-39.png",
+      "bytes": 390666,
+      "sha256": "9a29ae5aa0241f5b9638a70d6a0ccdbcaa0192be5d3122c8a1b9096995bde0b9"
+    },
+    {
+      "path": "output/catalog/assets/P05-hero-v2.png",
+      "bytes": 2114525,
+      "sha256": "1f8feb490eef7a8d36a2a617275b60e6071567d9db9e6e686e494a9c118cc43a"
+    },
+    {
+      "path": "output/catalog/assets/P05-source-doc-40.png",
+      "bytes": 1922638,
+      "sha256": "57b42b3126e5cadfed89a0ef88dbd5235d1e8064047d1d8d90ed970a46a285e5"
+    },
+    {
+      "path": "output/catalog/assets/P06-accessories-concept-v1.png",
+      "bytes": 2807647,
+      "sha256": "1f66f73c1c842bee4ef7ec17e16d52e58e952dd607fc7cbf7d175e8845d60d76"
+    },
+    {
+      "path": "output/catalog/assets/P06-hero-v2.png",
+      "bytes": 2006110,
+      "sha256": "e84dfcf5ceedbac83faf04a11f642835a425144c6deb8f35a748dc11ca1be41d"
+    },
+    {
+      "path": "output/catalog/assets/P06-source-doc-63.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "output/catalog/build_pilot.py",
+      "bytes": 8633,
+      "sha256": "1c37bd31697f1910ec6d381e670651111d7ab5715c1489238d842b538c7a4d50"
+    },
+    {
+      "path": "output/catalog/catalog-review-v2.pdf",
+      "bytes": 27448702,
+      "sha256": "a36c3d042b8c240f774d183b00ce3b484416fc1056f6fd4e051a11b58d9c59b0"
+    },
+    {
+      "path": "output/catalog/index-v1.html",
+      "bytes": 9573,
+      "sha256": "a5d60e39185b72f1c343cdc9a633b6e20294f313bbf4738dac59cbe08fa405c0"
+    },
+    {
+      "path": "output/catalog/index.html",
+      "bytes": 11996,
+      "sha256": "6632f5ff44e26f3ed458a21a4202b6dacaad15f4ac66833ccdd12d5d36ad3bf8"
+    },
+    {
+      "path": "output/catalog/manifest.json",
+      "bytes": 365,
+      "sha256": "f60f0036ee7767137190fe206c5492e38a1bdc0938ada3d516292b7061ea3f2d"
+    },
+    {
+      "path": "output/catalog/pilot-v2-manifest.json",
+      "bytes": 5051,
+      "sha256": "2b944b899ec07f5dc422beb6f7978d94241f6624db9a5dc79f9ed2834740c493"
+    },
+    {
+      "path": "output/catalog/pilot-v2-prompts.json",
+      "bytes": 7465,
+      "sha256": "c17add335bdbd28d23cadd989678cc378e9f46ce7f05cc00b143e5f4550273f6"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 564,
+      "sha256": "bf17042e2b12a75aa7c3018015dda5b99c45ffd5f522d208377cacdb0ec90a8d"
+    },
+    {
+      "path": "references/legacy-collections/eternal-embrace/images/image1.png",
+      "bytes": 5236079,
+      "sha256": "d851dec71e3c717e81db17608711bc10a8f8f3ce9392f0bba12b0115544066fb"
+    },
+    {
+      "path": "references/legacy-collections/relationship-figurines/images/image1.png",
+      "bytes": 5236079,
+      "sha256": "d851dec71e3c717e81db17608711bc10a8f8f3ce9392f0bba12b0115544066fb"
+    },
+    {
+      "path": "references/legacy-collections/relationship-figurines/images/image2.png",
+      "bytes": 4943903,
+      "sha256": "a2c6daff4af9843bc2109bfc194930ffb50d1f337e32179419883eada5f3a470"
+    },
+    {
+      "path": "references/legacy-collections/snack-nostalgia/images/image1.png",
+      "bytes": 450130,
+      "sha256": "5e906822ce095385ea74f822ff12acbe08b9d2589d05bafff490e079f2c329bb"
+    },
+    {
+      "path": "references/legacy-collections/sneaker-culture/images/image1.png",
+      "bytes": 412059,
+      "sha256": "65e87d912e35d17774479a7c38ead2df6f58b2ef07c1959b3672236a9b8762df"
+    },
+    {
+      "path": "references/legacy-collections/sports-legends/images/image1.png",
+      "bytes": 1431748,
+      "sha256": "766f4ed94e7b20f510eb51d06b4ee4c48735576cfe65f3f4b7bbdb41a685fa82"
+    },
+    {
+      "path": "references/manifest.json",
+      "bytes": 32199,
+      "sha256": "c319e2d5dcefb1cd3f4bddffa6cccde4afb8f4b18d6767a2bf8cc974c54e8148"
+    },
+    {
+      "path": "references/source-documents/10/image1.png",
+      "bytes": 1609977,
+      "sha256": "e6800bb98850a1866af871d559460b759c1b54cb9b87256218335574c07c7e8f"
+    },
+    {
+      "path": "references/source-documents/10/image2.png",
+      "bytes": 2374826,
+      "sha256": "1548229fc2dcfc089860528d899519cb68aa8de74c31c7c5b980344dc6c47184"
+    },
+    {
+      "path": "references/source-documents/11/image1.png",
+      "bytes": 952622,
+      "sha256": "a697ca6f917df8f79dee219a17cb5923e13854acd2e11b0e70668f8e78b63aec"
+    },
+    {
+      "path": "references/source-documents/11/image2.png",
+      "bytes": 1525861,
+      "sha256": "30ab1f7a0198415776cc9108d533611d39187258234b80af140eca4d53bcce5c"
+    },
+    {
+      "path": "references/source-documents/12/image1.png",
+      "bytes": 967518,
+      "sha256": "7bea83b23c69ce005ec558bf23d21a226c1482a9e30f4f2457a8cc8438161afd"
+    },
+    {
+      "path": "references/source-documents/12/image2.png",
+      "bytes": 1493738,
+      "sha256": "103f118fd89ec4b427752ea610ef20cc4687445d690aca07f0c1b919afe3feb7"
+    },
+    {
+      "path": "references/source-documents/13/image1.png",
+      "bytes": 1505581,
+      "sha256": "280bc86379caaff16f208cff5cbeb48f6097db1ff0629405b765967a73aa80c6"
+    },
+    {
+      "path": "references/source-documents/13/image2.png",
+      "bytes": 829787,
+      "sha256": "c93f0838af8cef7f830356645031123a49bef739cd5660066a0b3262efff2203"
+    },
+    {
+      "path": "references/source-documents/13/image3.png",
+      "bytes": 1437034,
+      "sha256": "4194f9ef1b70bf4392a2abc724ef31ab203fc5e9bc98dd420fcb63a014da49e1"
+    },
+    {
+      "path": "references/source-documents/14/image1.png",
+      "bytes": 1441254,
+      "sha256": "6ba0e59f156d4bdc330aed1f8be5bf0d1ecd3e663e73232c4ae738eae0e00155"
+    },
+    {
+      "path": "references/source-documents/14/image2.png",
+      "bytes": 2425960,
+      "sha256": "22d81fec90bd2c91e782155bc9e81e54aa5a7f98887beb3fdf10fe2447ba38e2"
+    },
+    {
+      "path": "references/source-documents/14/image3.png",
+      "bytes": 952908,
+      "sha256": "aaa3593f5dbe54645dd5ece7e57c2db4169e0a008a9d57285534e30559d3f693"
+    },
+    {
+      "path": "references/source-documents/15/image1.png",
+      "bytes": 902740,
+      "sha256": "5afe54f07b905626438a3799bc577d9cd90369f29aff8e64c379e7564abd9541"
+    },
+    {
+      "path": "references/source-documents/15/image2.png",
+      "bytes": 1240191,
+      "sha256": "bd39050b48dfd57edd8d7aba09180ca8bc248ed3d6377867a253e1305d1868d7"
+    },
+    {
+      "path": "references/source-documents/16/image1.png",
+      "bytes": 2654788,
+      "sha256": "0bd94d80bf9f789eb92eaad02dafb5091d71abf5b6929c75df1089446d3155bb"
+    },
+    {
+      "path": "references/source-documents/16/image2.png",
+      "bytes": 873254,
+      "sha256": "10c8750cfe41e6dfc86ee6e12711fe02754ae59648ab8bf6a654c3c46b6d7661"
+    },
+    {
+      "path": "references/source-documents/17/image1.png",
+      "bytes": 2054805,
+      "sha256": "046d154ed19ba5270015856e7896d3a4b44f2b2981acad487f5f41dd2924b6be"
+    },
+    {
+      "path": "references/source-documents/17/image2.png",
+      "bytes": 2268398,
+      "sha256": "0ada057d3cca26013606c6fdbc00c9d4c1e963436b9ced1efa32d8c81db9f365"
+    },
+    {
+      "path": "references/source-documents/18/image1.png",
+      "bytes": 812442,
+      "sha256": "00d5a921ef2dbb88d6921a040a1e21e7481586f871ca3d7b7aca53f07edb228f"
+    },
+    {
+      "path": "references/source-documents/18/image2.png",
+      "bytes": 1435092,
+      "sha256": "199e0ee52ce2e09b65c966f1c8e7aff6520aec4ce7e8a8e3cbf60ede2476fd05"
+    },
+    {
+      "path": "references/source-documents/19/image1.png",
+      "bytes": 1649144,
+      "sha256": "8e35985ae9ee5aa8ea14eff7236cb84ba31e1a94e163277070f67c4dec92063a"
+    },
+    {
+      "path": "references/source-documents/19/image2.png",
+      "bytes": 1949749,
+      "sha256": "f576cab3bfeaf616235437309f4cf1cbaf48ea6b89a5e3627a2ae8540883681b"
+    },
+    {
+      "path": "references/source-documents/19/image3.png",
+      "bytes": 3425988,
+      "sha256": "312f5a4535ab11dea27d1e2a4d174fe93e9f0c159671f5144a08edba0b2e7858"
+    },
+    {
+      "path": "references/source-documents/2/image1.png",
+      "bytes": 971934,
+      "sha256": "bc6e9761c6d90a8de75da1471cfd4fda582ac62780c4a51778a67fd5b209e694"
+    },
+    {
+      "path": "references/source-documents/2/image2.png",
+      "bytes": 1484964,
+      "sha256": "2702b045ea80ce83335b4b6f6cc1557aaa63a18adac9cb79dda0a74c792dd147"
+    },
+    {
+      "path": "references/source-documents/20/image1.png",
+      "bytes": 964349,
+      "sha256": "650c4f31584bbee78500c01d6fd3fbb8dad193c8b165b03e1726d952c5fc811f"
+    },
+    {
+      "path": "references/source-documents/20/image2.png",
+      "bytes": 735962,
+      "sha256": "bba46d051fab210f9120a4c73e7c35078c91fb842a30b78c90e23c0cce013be9"
+    },
+    {
+      "path": "references/source-documents/21/image1.png",
+      "bytes": 1271237,
+      "sha256": "da3631d070622624fbd03dba66fd4b52349df5ab2307c978b42961442cc5778f"
+    },
+    {
+      "path": "references/source-documents/21/image2.png",
+      "bytes": 878275,
+      "sha256": "71b5611aefae8c7d0eb0f2b4fa848ee5bf816ec47b6aa4eeb312e88fe2e31403"
+    },
+    {
+      "path": "references/source-documents/22/image1.png",
+      "bytes": 996081,
+      "sha256": "335ab924eb37dfa4f7e5b0c75119f39586625e69e488533015254c74c168ff2b"
+    },
+    {
+      "path": "references/source-documents/22/image2.png",
+      "bytes": 1332802,
+      "sha256": "bdc42baef9435a57d9ca23e41f566967b5d3792ac6ea3eae47b674a757ef9bcc"
+    },
+    {
+      "path": "references/source-documents/23/image1.png",
+      "bytes": 930265,
+      "sha256": "eabfdce7997f5e9c97db02c9f51a24266d86d0f5d598fc9402c9994e3d1d8574"
+    },
+    {
+      "path": "references/source-documents/23/image2.png",
+      "bytes": 1313236,
+      "sha256": "cc5b589571164b779e5142badf7d262301a0f171232b7ceedf72fdaaaeaf28a2"
+    },
+    {
+      "path": "references/source-documents/24/image1.png",
+      "bytes": 896509,
+      "sha256": "995b9b2bd27fd3b3a9fb19fc117b90ec623c697eb98abfe2bd57925c9bb01b1b"
+    },
+    {
+      "path": "references/source-documents/24/image2.png",
+      "bytes": 1509708,
+      "sha256": "a0a0a08b86b554df3d0be822a57f0b842fed3e1e8f26aac5032493fb170298cd"
+    },
+    {
+      "path": "references/source-documents/25/image1.png",
+      "bytes": 1549266,
+      "sha256": "ed33ad646d71d298b416de207a741c139d4f5b30d1b9468ead7d8f357a70a654"
+    },
+    {
+      "path": "references/source-documents/25/image2.png",
+      "bytes": 896552,
+      "sha256": "12d6f47efb62893e8b99c08eb565be946b87c59a4c398917e42e46b793982fde"
+    },
+    {
+      "path": "references/source-documents/26/image1.png",
+      "bytes": 1247220,
+      "sha256": "43d13eaaabdd5345066c58b6d61eac1a179c997c459ebafa22b1ff02b6a752a0"
+    },
+    {
+      "path": "references/source-documents/26/image2.png",
+      "bytes": 932171,
+      "sha256": "eb11d7aa8309f13a1a335a0a8d9b888166a6082e65ffda3f0494e8bc506e6673"
+    },
+    {
+      "path": "references/source-documents/27/image1.png",
+      "bytes": 2165715,
+      "sha256": "0d0912c0415a6b1e03133f6aeeae0ba0a42e48a6193da6de109a8ff1e501f0b3"
+    },
+    {
+      "path": "references/source-documents/27/image2.png",
+      "bytes": 1483479,
+      "sha256": "503cbba61ec3464d4759fd9c275b9473ffa5c85af979437db4ef2f64042476e6"
+    },
+    {
+      "path": "references/source-documents/28/image1.png",
+      "bytes": 1010463,
+      "sha256": "ac71462fdf9bce011dbf72a7793616fea1fd44db9eb71495087356bd4a091b1d"
+    },
+    {
+      "path": "references/source-documents/28/image2.png",
+      "bytes": 1550333,
+      "sha256": "9f53276cfbc3c87c26218a104c78e7eb32df3fd276ddc0b4583aafac731ee3b6"
+    },
+    {
+      "path": "references/source-documents/29/image1.png",
+      "bytes": 1185676,
+      "sha256": "e275ade93b3e116cc10390f79de566853d0baa1a70ca26ab1de3e9c812ab7e61"
+    },
+    {
+      "path": "references/source-documents/29/image2.png",
+      "bytes": 1520684,
+      "sha256": "04fad4a4d6c8e97399a26c2a006d4f82cbc16458c53308ec154e4b473691284c"
+    },
+    {
+      "path": "references/source-documents/3/image1.png",
+      "bytes": 885412,
+      "sha256": "350a6412a92aa676ac66fe0baa501c1783be80af389d06a522b896f149184e57"
+    },
+    {
+      "path": "references/source-documents/3/image2.png",
+      "bytes": 1279393,
+      "sha256": "691aee082555f5196724234d052ce71f3d1d89e6b2c32ea01291e60817abfe52"
+    },
+    {
+      "path": "references/source-documents/30/image1.png",
+      "bytes": 1619712,
+      "sha256": "8e894b42d6e4d1dbdac80d9d41c77ca2cf4634ae7455e305cbb8588169b16595"
+    },
+    {
+      "path": "references/source-documents/30/image2.png",
+      "bytes": 1033167,
+      "sha256": "52bbd4c618adb8361087cb1b81978fd3bc44c486da00296745329085653c0308"
+    },
+    {
+      "path": "references/source-documents/31/image1.png",
+      "bytes": 900584,
+      "sha256": "297891f8283f1451e07e4a4371c782e266e8dab3bd6f0416434591d31728ebe6"
+    },
+    {
+      "path": "references/source-documents/31/image2.png",
+      "bytes": 2589710,
+      "sha256": "d09c1625da42b5b6774bb96cc8a039b5fdec47a740bf04d0846ed39fb5154e0e"
+    },
+    {
+      "path": "references/source-documents/32/image1.png",
+      "bytes": 2226467,
+      "sha256": "211788690b3ffdad6bca2c456a06a34c16e6c5854664906cac04d38b12cc5daa"
+    },
+    {
+      "path": "references/source-documents/32/image2.png",
+      "bytes": 2031868,
+      "sha256": "86abae2a7b883b2c7eef0146aded18947789858eb0aeecb461d1a04b15341f48"
+    },
+    {
+      "path": "references/source-documents/33/image1.png",
+      "bytes": 1496689,
+      "sha256": "1e6297c5220f4e983107ef5c084d1a3ddef6b45612026c681de5f40a49a1a7b6"
+    },
+    {
+      "path": "references/source-documents/33/image2.png",
+      "bytes": 1088376,
+      "sha256": "32e02847a45921209c38282d7e685f451482723837f541fb8e6eecbbefa5fb21"
+    },
+    {
+      "path": "references/source-documents/34/image1.png",
+      "bytes": 1025100,
+      "sha256": "9e8a7d28393371adbf7f5c5f2d33462554eb40e4acbf44ae468292d1177c649a"
+    },
+    {
+      "path": "references/source-documents/34/image2.png",
+      "bytes": 1869614,
+      "sha256": "39650b41b6034d2c59fb3217f05820db0d642bea9c65a80e9f63363418c72d71"
+    },
+    {
+      "path": "references/source-documents/35/image1.png",
+      "bytes": 909586,
+      "sha256": "a8a70fd6b649817a7f8f4d9bf05f02c880a4ff4eed4d03e83c410b95f49ba439"
+    },
+    {
+      "path": "references/source-documents/35/image2.png",
+      "bytes": 2576110,
+      "sha256": "df5973ed3a1cefc7f0695489a8d3977559e49cacb4f55bdeb38686143b991519"
+    },
+    {
+      "path": "references/source-documents/36/image1.png",
+      "bytes": 417625,
+      "sha256": "51b332b34a6a06735ed8e3a188eea9522dd11275418474bd0c130b47e74a0545"
+    },
+    {
+      "path": "references/source-documents/37/image1.png",
+      "bytes": 2348468,
+      "sha256": "c175a0ad4c5c963f291eaa8ad6968defbe3d1272c2222646814ca481f67b576e"
+    },
+    {
+      "path": "references/source-documents/38/image1.png",
+      "bytes": 981014,
+      "sha256": "8e7755433c08911848562f5868148ff29327d3822cef150bbef022c783ffeea6"
+    },
+    {
+      "path": "references/source-documents/39/image1.png",
+      "bytes": 390666,
+      "sha256": "9a29ae5aa0241f5b9638a70d6a0ccdbcaa0192be5d3122c8a1b9096995bde0b9"
+    },
+    {
+      "path": "references/source-documents/4/image1.png",
+      "bytes": 1557166,
+      "sha256": "ce083183ebb8883c7036602d4c75b88a178597047fe80f15f23cc47092dcac2f"
+    },
+    {
+      "path": "references/source-documents/4/image2.png",
+      "bytes": 2201074,
+      "sha256": "11abebdfbfaf9f387fed5a9d3aadd69391e4b77b00bfd65a865fb2e4bbb967cc"
+    },
+    {
+      "path": "references/source-documents/40/image1.png",
+      "bytes": 1922638,
+      "sha256": "57b42b3126e5cadfed89a0ef88dbd5235d1e8064047d1d8d90ed970a46a285e5"
+    },
+    {
+      "path": "references/source-documents/41/image1.png",
+      "bytes": 732016,
+      "sha256": "b911569afda3509e57837d1cd04b236e1fae211a83f4f6c41217d90715f0e7b9"
+    },
+    {
+      "path": "references/source-documents/41/image2.png",
+      "bytes": 1389830,
+      "sha256": "38df955586e81e809a8d746e2c99fada92ab8d2aa5db0bf4a918d6975ff41b9b"
+    },
+    {
+      "path": "references/source-documents/42/image1.png",
+      "bytes": 1412238,
+      "sha256": "780fb03b8e7e2625d4275ed7049df1ebaab9027ccb7f9d9472677d843bceb664"
+    },
+    {
+      "path": "references/source-documents/42/image2.png",
+      "bytes": 818117,
+      "sha256": "d323ef167d5f379c54d0b95ce82871fb757c4a0b19b29247dad3ec43b6582402"
+    },
+    {
+      "path": "references/source-documents/43/image1.png",
+      "bytes": 940245,
+      "sha256": "7c70561e5ef0fc685159a483a4ba0898158a2d41e3238276c870185b75276906"
+    },
+    {
+      "path": "references/source-documents/43/image2.png",
+      "bytes": 2422793,
+      "sha256": "74933e89deea2468aeb9d576f6cc3bc30ca49179815d85aeae2bba56bf262507"
+    },
+    {
+      "path": "references/source-documents/44/image1.png",
+      "bytes": 1635538,
+      "sha256": "d0900f83271c03114127c39d476c2b70e296b1d05bb7e1352c89ada2ee320ed9"
+    },
+    {
+      "path": "references/source-documents/44/image2.png",
+      "bytes": 1503089,
+      "sha256": "597f9760e79a06e17ee703da118e010408336ef58f113c93407ebe25701d85a6"
+    },
+    {
+      "path": "references/source-documents/45/image1.png",
+      "bytes": 896280,
+      "sha256": "b1d3664cdfa52e0fe2af926dc9e6105493f4b02b2506233fafbc5ef575e3bb6b"
+    },
+    {
+      "path": "references/source-documents/45/image2.png",
+      "bytes": 2308293,
+      "sha256": "cfb88bcce703c42205a713e495e5021ce9d087f3aeb3204cacbd89ad22b1fb00"
+    },
+    {
+      "path": "references/source-documents/46/image1.png",
+      "bytes": 838634,
+      "sha256": "f2bfb044a2eb44282b3637203b03cce1c6356c78cb74abaf2308562780e73187"
+    },
+    {
+      "path": "references/source-documents/46/image2.png",
+      "bytes": 1566773,
+      "sha256": "92bdd4fb6ec6529271d83bc3620d49bf4b187d44866309a393e50d65ebe1d0b9"
+    },
+    {
+      "path": "references/source-documents/46/image3.png",
+      "bytes": 1627119,
+      "sha256": "e727ac68d4f8064a4a653e0ac791b93563a90e60d007fbf8bbf8924d6506fa48"
+    },
+    {
+      "path": "references/source-documents/47/image1.png",
+      "bytes": 928338,
+      "sha256": "733b137b595d21400c2381579677346b1a9e653d78a38f650aaad133d403cb76"
+    },
+    {
+      "path": "references/source-documents/47/image2.png",
+      "bytes": 1570830,
+      "sha256": "5f990d91d0001d16349e3b3162c704a86037101c30afe1a29d4c6dcae381206b"
+    },
+    {
+      "path": "references/source-documents/48/image1.png",
+      "bytes": 945034,
+      "sha256": "01f00ac0c22691e50a6c5cb20d6d70ba653b697829b03bf712dc970fee8803be"
+    },
+    {
+      "path": "references/source-documents/48/image2.png",
+      "bytes": 1545376,
+      "sha256": "24f66c7f07cbaabf3ac8cff72449b2081c06957c020c77c3e1c37e841d74a926"
+    },
+    {
+      "path": "references/source-documents/49/image1.png",
+      "bytes": 2189372,
+      "sha256": "702926e450f94c71c14219d3ce660f2fe4cce3a785b9ecccb4d4849cc85aaaa6"
+    },
+    {
+      "path": "references/source-documents/49/image2.png",
+      "bytes": 2425148,
+      "sha256": "825ca3a7f5ee6897edab2ca8d476dffa73640476252ed3565680286b1721187e"
+    },
+    {
+      "path": "references/source-documents/49/image3.png",
+      "bytes": 1644136,
+      "sha256": "adf75a06b78262e04b74853b2b858cdff7e913c618d51f5d8c50e9ebec13a1d9"
+    },
+    {
+      "path": "references/source-documents/5/image1.png",
+      "bytes": 997747,
+      "sha256": "be700735db47ddb072560d0af9c1a6913d2809b0d20a0f56f8a878b927f0759b"
+    },
+    {
+      "path": "references/source-documents/5/image2.png",
+      "bytes": 389143,
+      "sha256": "746b9a4540a6276c941f19bb9a6f724e34d0f6c7c7809ebf29b8fc2ec97e1f34"
+    },
+    {
+      "path": "references/source-documents/50/image1.png",
+      "bytes": 2474427,
+      "sha256": "b8c1f5cbc896bd7d23c98f141637d480d311b890651e384d11ff3309fdd11aac"
+    },
+    {
+      "path": "references/source-documents/50/image2.png",
+      "bytes": 872979,
+      "sha256": "42cc49112d052cfbb7a6769018d107dea09e03f986f5661326b02f9b02cbabe4"
+    },
+    {
+      "path": "references/source-documents/50/image3.png",
+      "bytes": 2043238,
+      "sha256": "a6647413ee90e6c03d9e8a60e79db63b6aeabac6a1bfa3c75bdfe6cc4597ba3e"
+    },
+    {
+      "path": "references/source-documents/50/image4.png",
+      "bytes": 1620527,
+      "sha256": "6c6c984d8560b34a72f26a657ffc3142972a9d7d7faaea3aa9dc692f08a9fdaa"
+    },
+    {
+      "path": "references/source-documents/6/image1.png",
+      "bytes": 940754,
+      "sha256": "2914250c3e36f4e97469405ec8916b26569fc0b5ef820716ebe950087f5c03cf"
+    },
+    {
+      "path": "references/source-documents/6/image2.png",
+      "bytes": 1396101,
+      "sha256": "088cddf367904de002c6c260af5d2dccca7452920d16532130ec9df5be6572df"
+    },
+    {
+      "path": "references/source-documents/60/image1.png",
+      "bytes": 1071463,
+      "sha256": "0bcc92a22835e34b5746144e9c46b37134e78c0d05a650c7b2cd9d074448d5db"
+    },
+    {
+      "path": "references/source-documents/60/image2.png",
+      "bytes": 1588159,
+      "sha256": "c6f506ff8fc2f69c494a33cfc237e994790d5d43030b060da8b20fc76bbf3042"
+    },
+    {
+      "path": "references/source-documents/61/image1.png",
+      "bytes": 861066,
+      "sha256": "4e71e3522a8a229541b18decb22fbe33b91fe38e018e09e0889331ff51b3e3b7"
+    },
+    {
+      "path": "references/source-documents/61/image2.png",
+      "bytes": 1626047,
+      "sha256": "c522ec8b5ecb07d04b8a202add75dadfe5e7f733540f3d33ad362934fe00b1a8"
+    },
+    {
+      "path": "references/source-documents/62/image1.png",
+      "bytes": 811330,
+      "sha256": "d685ae83ab4e5fee932c52dc6adff74e48435a8d07e8a142dc93fc57b7175259"
+    },
+    {
+      "path": "references/source-documents/62/image2.png",
+      "bytes": 1238319,
+      "sha256": "436e86541214281b2a93da8f8baf1dfe6bb23706f14af86808b6859d28d4b3a1"
+    },
+    {
+      "path": "references/source-documents/63/image1.png",
+      "bytes": 901307,
+      "sha256": "1a8f61dedf1e7c28468e3302bd91a62be603f6c9145c8776e3d247441a44a2ea"
+    },
+    {
+      "path": "references/source-documents/63/image2.png",
+      "bytes": 2199224,
+      "sha256": "c4e0f716dcf5de014806118dc28409bc3d1bf17d348ed279eb7d12d8e482c786"
+    },
+    {
+      "path": "references/source-documents/64/image1.png",
+      "bytes": 1456443,
+      "sha256": "414ca4e013575725547f3924ed9c2a8203f817ead24139e16d3d47d36e019d5d"
+    },
+    {
+      "path": "references/source-documents/64/image2.png",
+      "bytes": 1026056,
+      "sha256": "ae8e21e2ce255a7f422861a7523e6a324e86dd4b0e54b14460e1d87b813765af"
+    },
+    {
+      "path": "references/source-documents/65/image1.png",
+      "bytes": 2361709,
+      "sha256": "396b0e020296617165eafac87d52bc847601fc8966294fa48214cea6314d678c"
+    },
+    {
+      "path": "references/source-documents/65/image2.png",
+      "bytes": 1905968,
+      "sha256": "8b0de42cea07d2d84a52aabf3076d629ba21cdfd31e467c228120d82feebca68"
+    },
+    {
+      "path": "references/source-documents/66/image1.png",
+      "bytes": 1005163,
+      "sha256": "deda16169aca50c8d55db2353055f7b61dbbad4de1a32156d08ef7837c78c4e4"
+    },
+    {
+      "path": "references/source-documents/66/image2.png",
+      "bytes": 2452266,
+      "sha256": "03636b005004a8c46cf277fbfa40a58c9b53b869e1c598b1fae18061d681110f"
+    },
+    {
+      "path": "references/source-documents/67/image1.png",
+      "bytes": 1751029,
+      "sha256": "ed0d56b7d22fd362d9828f58cbe5ffbf672a25b6ad06f6d23e61dc0ec1538351"
+    },
+    {
+      "path": "references/source-documents/67/image2.png",
+      "bytes": 851300,
+      "sha256": "ba47e783482e0c61f70c35a61aa734d35d645edd661f81828b7136812dd41823"
+    },
+    {
+      "path": "references/source-documents/67/image3.png",
+      "bytes": 933426,
+      "sha256": "f6e45f5169f293e3803c124c4496e050380e7b8a590ae8ddf1162a29a6282fc3"
+    },
+    {
+      "path": "references/source-documents/68/image1.png",
+      "bytes": 877586,
+      "sha256": "a868ffb719d4cf71b0a6f70e1350fd8bab6d9e3e4f8092a6d1f63aeb2dd9bab3"
+    },
+    {
+      "path": "references/source-documents/69/image1.png",
+      "bytes": 868851,
+      "sha256": "e3f4d939749b2f9dd69ce566df5f07f2aae4f28deeb6886d35aba8b754bee1b6"
+    },
+    {
+      "path": "references/source-documents/69/image2.png",
+      "bytes": 1365680,
+      "sha256": "55579d4af8f4ae962026101c22cfc441ee03bce4dc009927eca1b39a563912e0"
+    },
+    {
+      "path": "references/source-documents/7/image1.png",
+      "bytes": 1200760,
+      "sha256": "a24519d9f73bf5bc1517500e8dc0976d1b9402c4c4c7135e74814a2378dca287"
+    },
+    {
+      "path": "references/source-documents/7/image2.png",
+      "bytes": 1561745,
+      "sha256": "ef271245164b8b854da6862147e8a1792fe7fd12110618228cc91922e5d245c9"
+    },
+    {
+      "path": "references/source-documents/70/image1.png",
+      "bytes": 893966,
+      "sha256": "22cf05139bf4f63dff822434b68b847c517cff02a78b50d5f0118df585ae7539"
+    },
+    {
+      "path": "references/source-documents/70/image2.png",
+      "bytes": 1387753,
+      "sha256": "6cc206e7e31915dfaba90e2b9788bc9af5a9b1b7b422df90eb323b516ed544ad"
+    },
+    {
+      "path": "references/source-documents/71/image1.png",
+      "bytes": 1060570,
+      "sha256": "59a3a7249655287aa554d420d26c6dac9b513e91adf5a4d25a7498bbe3b1fac0"
+    },
+    {
+      "path": "references/source-documents/71/image2.png",
+      "bytes": 2707851,
+      "sha256": "e7023ef347fc8fc8172c05a692d41c26c6297e6301f8402c696d915fc2a24779"
+    },
+    {
+      "path": "references/source-documents/71/image3.png",
+      "bytes": 2692222,
+      "sha256": "fa766d1e6cb5d6f6116d3de57f95d040a9746e17a461fea8e86f9485b1cfc436"
+    },
+    {
+      "path": "references/source-documents/72/image1.png",
+      "bytes": 928950,
+      "sha256": "b755c7fb8aee61deb80ecbe78a9b0f7631263081d0357a638707ff44c7acee83"
+    },
+    {
+      "path": "references/source-documents/72/image2.png",
+      "bytes": 1478263,
+      "sha256": "7ca715903ca77420f261f0efc1ed690dbd84d07a7fa1f86cae4b05811901d5bb"
+    },
+    {
+      "path": "references/source-documents/73/image1.png",
+      "bytes": 1045434,
+      "sha256": "465b995ef32192b60b7ef8a3485479753311e26c4d1c721f6819b030cfc94128"
+    },
+    {
+      "path": "references/source-documents/73/image2.png",
+      "bytes": 1707757,
+      "sha256": "6bf00231da1d9884e30e0dde9a910cb9e18d54c05a328ea40e7be69137568482"
+    },
+    {
+      "path": "references/source-documents/74/image1.png",
+      "bytes": 2106455,
+      "sha256": "3d23403564216c38098ad8167ec7e30c46e46eef66e4686a60a9e754f7be5b64"
+    },
+    {
+      "path": "references/source-documents/74/image2.png",
+      "bytes": 2018893,
+      "sha256": "402d37e135e8f01ee080f3577681c07705e33a05c8e0520a11874bf7092c3b9c"
+    },
+    {
+      "path": "references/source-documents/74/image3.png",
+      "bytes": 1330765,
+      "sha256": "1e12a124249c58fc1a72aaa3d10bdafde473c2b18b66ce312d3811f688fd5960"
+    },
+    {
+      "path": "references/source-documents/75/image1.png",
+      "bytes": 1003312,
+      "sha256": "581002a714ba05a23ddf06da4e92f7f896864656c773abe0cf322cdfebbce585"
+    },
+    {
+      "path": "references/source-documents/75/image2.png",
+      "bytes": 1498361,
+      "sha256": "cb2922390689a63cf5d1d5434ee231ad1cd1e05ba115fc3ed1435af8a2c0dad9"
+    },
+    {
+      "path": "references/source-documents/76/image1.png",
+      "bytes": 877461,
+      "sha256": "79108d14d272e1aed670240a67306b9ec4deffdbe7718b993179e9c9006e0c0f"
+    },
+    {
+      "path": "references/source-documents/76/image2.png",
+      "bytes": 1540183,
+      "sha256": "23f16fa2e224897726afcdc56421260a90fab6a5da7b5496506e52318163c2f8"
+    },
+    {
+      "path": "references/source-documents/77/image1.png",
+      "bytes": 1131636,
+      "sha256": "5757e7df46553741bc41cf49a625fb8106c4aacb99ff6d40fabcaf9620b0fb6d"
+    },
+    {
+      "path": "references/source-documents/78/image1.png",
+      "bytes": 1390383,
+      "sha256": "ea4fa98373944f4f0775f84af1b44aeb0791c49c18a1f38c0a7ec367f7cc190e"
+    },
+    {
+      "path": "references/source-documents/78/image2.png",
+      "bytes": 822567,
+      "sha256": "80b60ae3f8cf34bfdc2796f9d4a135124b03d248711a38cf0b4516ffe60e5f99"
+    },
+    {
+      "path": "references/source-documents/79/image1.png",
+      "bytes": 2107858,
+      "sha256": "1bf2f3dd3ce48586485771c4305c7491c8bd803f789fa60c0a0c20476a4350cc"
+    },
+    {
+      "path": "references/source-documents/79/image2.png",
+      "bytes": 1396761,
+      "sha256": "64fe71c4385e2bb38e596e0a1cde4bd9acc5bcee9ec014ac10416a9d85485e6c"
+    },
+    {
+      "path": "references/source-documents/8/image1.png",
+      "bytes": 819562,
+      "sha256": "b4f719c6454aae44550dca9eba8c3275122b1cc33172970d556daaff687f34dd"
+    },
+    {
+      "path": "references/source-documents/8/image2.png",
+      "bytes": 1510203,
+      "sha256": "0a644db3f35d0ccbfa716d76c861eb94a0966b1ecd31c0258b147cf65377d457"
+    },
+    {
+      "path": "references/source-documents/80/image1.png",
+      "bytes": 894753,
+      "sha256": "99fff949551f465fd91bfb4cab97671d6962216fc9de48d74f5e126fbd0a0cd6"
+    },
+    {
+      "path": "references/source-documents/80/image2.png",
+      "bytes": 1673467,
+      "sha256": "4eaa2b0bf48ec9527ac8644dcf4cb9cf30f2ee83434142a874af9ef104299267"
+    },
+    {
+      "path": "references/source-documents/81/image1.png",
+      "bytes": 864555,
+      "sha256": "93afc25255326745426dbe84f7bbf17ffa6ed53ccbc86bd71aab9a851f22aec6"
+    },
+    {
+      "path": "references/source-documents/81/image2.png",
+      "bytes": 2035394,
+      "sha256": "da38af96b789259e11e42288fb16d003f0b0e421c8db311ff6a87d8942da2b34"
+    },
+    {
+      "path": "references/source-documents/81/image3.png",
+      "bytes": 1462300,
+      "sha256": "db50bc4a7511479e8d78469cbde9369b38f39607bb5d1920473bb48e19984470"
+    },
+    {
+      "path": "references/source-documents/82/image1.png",
+      "bytes": 2118763,
+      "sha256": "1d204f7301f209e2a551feaa9a6e4c03edb49843023cdc41b65b3d3760ef1399"
+    },
+    {
+      "path": "references/source-documents/83/image1.png",
+      "bytes": 993158,
+      "sha256": "62141c19e07759914b32b7b4e705b010275038c17926fda39d5d9d55c4a02e06"
+    },
+    {
+      "path": "references/source-documents/83/image2.png",
+      "bytes": 1483279,
+      "sha256": "6bf8678d3b641d76edd493c06a10eaedccdd20749a36e61f560b713735038c6e"
+    },
+    {
+      "path": "references/source-documents/84/image1.png",
+      "bytes": 1062076,
+      "sha256": "ab1452bfa32baeed8543d3aecceda53a55e68c91a7b84ca6ff7c32ea64c59dca"
+    },
+    {
+      "path": "references/source-documents/84/image2.png",
+      "bytes": 2602579,
+      "sha256": "e4c469da19ca0517c2c4bec6d4cbe090a652c2e66f647f65aa513c36483fdf99"
+    },
+    {
+      "path": "references/source-documents/85/image1.png",
+      "bytes": 1535620,
+      "sha256": "fa25b64cb00d7197eca34b1ad5046e595e5e4bc289041fde0dcb80d808131ee1"
+    },
+    {
+      "path": "references/source-documents/85/image2.png",
+      "bytes": 1099159,
+      "sha256": "b364397c217cd246b92af4d7bfd5f11c075de6f42522cbd9180c776b6c645376"
+    },
+    {
+      "path": "references/source-documents/86/image1.png",
+      "bytes": 792702,
+      "sha256": "261a76c0c31c7a79ac25e05c8cd792bcbf200ce1672cc6973d5fd65e08a0acc2"
+    },
+    {
+      "path": "references/source-documents/86/image2.png",
+      "bytes": 2409619,
+      "sha256": "c827ad34af9e1c5d67521a201941e65b845ec0201378dbeec6388de441afd188"
+    },
+    {
+      "path": "references/source-documents/87/image1.png",
+      "bytes": 1412245,
+      "sha256": "27ebab4ae31d791081b033eb5e2e28f8ab7758fce10e32bafa1bf184e89f4357"
+    },
+    {
+      "path": "references/source-documents/87/image2.png",
+      "bytes": 1114668,
+      "sha256": "3acc7ede8561861077e55f9fd0de68d8c281fec757c731491c680c4330cfdee3"
+    },
+    {
+      "path": "references/source-documents/88/image1.png",
+      "bytes": 3103925,
+      "sha256": "99393dde093918fad93da070fb3ef1a0a50450a559c0fda7a71cbb6498659126"
+    },
+    {
+      "path": "references/source-documents/88/image2.png",
+      "bytes": 2503475,
+      "sha256": "a364c8fd493d4ca570ff51dff53a0d791dc6a0bdacf386bac5855a5ace9e1b24"
+    },
+    {
+      "path": "references/source-documents/9/image1.png",
+      "bytes": 821058,
+      "sha256": "173085555857e3d9de10d6f947334bcc5fdc0f717ffae8f8a4338e10280f9bf5"
+    },
+    {
+      "path": "references/source-documents/9/image2.png",
+      "bytes": 1373760,
+      "sha256": "a6db80dc58661f6852a70a3dcb90f1626020b880e8c49bc16abdfaad53b6d289"
+    },
+    {
+      "path": "tools/check_assets.py",
+      "bytes": 1712,
+      "sha256": "4c1c1c1a14fd9dbb8c34587c8dfb09b6a32202187fbd763565f1cfa836edb917"
+    },
+    {
+      "path": "websites/README.md",
+      "bytes": 1256,
+      "sha256": "4ec2ade993b275a1b87d3af9c09c6d433b597de5f39c6cdecc56b9bdf1b44ad7"
+    },
+    {
+      "path": "websites/aeterna/app.js",
+      "bytes": 5310,
+      "sha256": "8e230ee6cb14de9b100458a868bbf857a28d11dfc3ba2068d93caad28381e0c4"
+    },
+    {
+      "path": "websites/aeterna/cart.js",
+      "bytes": 8801,
+      "sha256": "8db4bd80ffa86a9358cc9efb00a1c9319858d80dc0e81b87751b4715a0198bde"
+    },
+    {
+      "path": "websites/aeterna/customize.css",
+      "bytes": 7026,
+      "sha256": "726389132ebc99fcbef2bd3ec4870f432dd6ccfdff935aeedd4554e563af29b0"
+    },
+    {
+      "path": "websites/aeterna/customize.html",
+      "bytes": 15345,
+      "sha256": "9311911430fd6a98eb808e71a20055bd733edab97afb926905efcf2b9b1fab60"
+    },
+    {
+      "path": "websites/aeterna/customize.js",
+      "bytes": 10847,
+      "sha256": "780dbb0e4472a7d0ac8462f028905809e44378b945bcd95ec3687c935a49bc28"
+    },
+    {
+      "path": "websites/aeterna/imagine.css",
+      "bytes": 10989,
+      "sha256": "1d59000047e3fe68fb839c763a7b072bbbfa0561a55b3cfe36bbed870e97a23a"
+    },
+    {
+      "path": "websites/aeterna/imagine.html",
+      "bytes": 12072,
+      "sha256": "450d81ef7c324d30fa9947cab44d81e1e21fc1c8971e9b22801f3aae50c41ec5"
+    },
+    {
+      "path": "websites/aeterna/imagine.js",
+      "bytes": 6645,
+      "sha256": "aa44e63bf93d0ec167fbc4b0a9665341e5f4c9b11a4138e667dcbb35894fee3d"
+    },
+    {
+      "path": "websites/aeterna/index.html",
+      "bytes": 23969,
+      "sha256": "307a55026f739f55fa700eecb5a6e8857fe07ca653de28b627be22b5e805d8c0"
+    },
+    {
+      "path": "websites/aeterna/product.css",
+      "bytes": 6552,
+      "sha256": "ab82ac47875e5eef9f0c486b2b3c1982180772027ec05f730e54bba572c370fb"
+    },
+    {
+      "path": "websites/aeterna/product.html",
+      "bytes": 11539,
+      "sha256": "bb81538b705b93bfda3fb19a50860ef2ccc7c6559ff47b1406e138103849f465"
+    },
+    {
+      "path": "websites/aeterna/product.js",
+      "bytes": 11388,
+      "sha256": "68683ffc280b6c54c7daca4066d6d00afbb60815011ff8d66dbec2f61e22d001"
+    },
+    {
+      "path": "websites/aeterna/shop.css",
+      "bytes": 6719,
+      "sha256": "9cd7892394d876a58b978285bae937aa3ffe69112bc6bae6f34ccca542dd6c7d"
+    },
+    {
+      "path": "websites/aeterna/shop.html",
+      "bytes": 12632,
+      "sha256": "30465600a8c0ad3bcab0a9ce825ed816aea9c70134a24783d64131d2ae522943"
+    },
+    {
+      "path": "websites/aeterna/shop.js",
+      "bytes": 7008,
+      "sha256": "1a01ecbc919d32b5e90e8448bf77fcbce7c44ce542a29b97dce9900533f52d6d"
+    },
+    {
+      "path": "websites/aeterna/style.css",
+      "bytes": 43249,
+      "sha256": "baed7097ffd8a99aba2d6f0cb35bb539a8493e1dcc49e3b3f7f9acd8a138bc20"
+    },
+    {
+      "path": "websites/graceful-tributes/.eslintrc.json",
+      "bytes": 40,
+      "sha256": "1589a15e55fbebc6519c95d91d8f0a090618f20dc78e479858b9c27552484961"
+    },
+    {
+      "path": "websites/graceful-tributes/.gitignore",
+      "bytes": 277,
+      "sha256": "dfd403a734ef0d4a99bfbcadfbfac0968083213a759c114514f98ea1af703a18"
+    },
+    {
+      "path": "websites/graceful-tributes/next.config.mjs",
+      "bytes": 578,
+      "sha256": "5f4ad24a067310f067c3192c9fd128c27677c438d4a8509308520e7353702bc0"
+    },
+    {
+      "path": "websites/graceful-tributes/package-lock.json",
+      "bytes": 222693,
+      "sha256": "3a166af00a0cddad548c509c0fe73a6a9bb74a67a816631dfa6f64d97d2f6a07"
+    },
+    {
+      "path": "websites/graceful-tributes/package.json",
+      "bytes": 985,
+      "sha256": "06a01607c38f76f0a595645a784c9247cb28ff868425da36729629a0e4d4c3df"
+    },
+    {
+      "path": "websites/graceful-tributes/postcss.config.mjs",
+      "bytes": 157,
+      "sha256": "efa65c65e17d51d58570edce9d702b0604fdf6a9b8db65afaed8f075af8867c7"
+    },
+    {
+      "path": "websites/graceful-tributes/public/README.md",
+      "bytes": 1039,
+      "sha256": "70eb2d29bc2308402a18400c8f2713433c3988841f5dac0eb8144407ffcd2d39"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/a/page.tsx",
+      "bytes": 625,
+      "sha256": "29b7712af23b0976f9fbdabe6484f6e3819c8588f3b1bbaeca10da1fc10742e2"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/a2/page.tsx",
+      "bytes": 671,
+      "sha256": "833c6d07b4fb210f5c9963b0d3dc88aa78e422877a34495ba33aafc10b7fc898"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/ap/page.tsx",
+      "bytes": 699,
+      "sha256": "c26dd453f8df01228df533c56e0b312d78cf691234f1173513794acdf01f3776"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/api/checkout/route.ts",
+      "bytes": 5352,
+      "sha256": "fa5f55ebdccc4a5a92c3b2bdcf260e477d96deb5d8674205ec236cc068430326"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/api/report/route.ts",
+      "bytes": 3154,
+      "sha256": "494907b3c8f3db6d04450eb231cac2499b33bac93b895e74bb622618e5d7a8f2"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/api/schedule/route.ts",
+      "bytes": 2083,
+      "sha256": "a6b63b56a1a23b845e2cac579e4d4b0a81434982e6864bff8447222617d1adf4"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/b/page.tsx",
+      "bytes": 427,
+      "sha256": "3cb896493450e2e54b6a6a133acdc023ae8e60cc9eff9f167ebda899e327b489"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/checkout/page.tsx",
+      "bytes": 686,
+      "sha256": "ef340703a10b0caab444ed3ca51be8192feb48b4ee8d14743ac5374b949cd4fd"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/checkout/thank-you/page.tsx",
+      "bytes": 1125,
+      "sha256": "5f4c6869d03b55971387696063697fcf9d9ff7e15e760fbbbc42f8e0e707fc9f"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/globals.css",
+      "bytes": 6996,
+      "sha256": "a6b11500520b9e1f14b4beb2c6cf129d633cc84c8acd03e2a4e218a2ea6c333d"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/icon.svg",
+      "bytes": 639,
+      "sha256": "a2e0cbfc60f04dd55aac7e27da5cea83b030cea3ba248606d66508c8f2cf096e"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/layout.tsx",
+      "bytes": 2258,
+      "sha256": "c21b82ad51485b84a9e19375fcb08ad50c65521e7abf3d8a586e420faf271381"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/page.tsx",
+      "bytes": 4359,
+      "sha256": "21ebcd91f9579fe0a2e6e60111382428d7cea75d7f480b76e9cb7b13ceb42f0c"
+    },
+    {
+      "path": "websites/graceful-tributes/src/app/urns/page.tsx",
+      "bytes": 366,
+      "sha256": "306bb0de1500747e64b64d1c86b8df64bf170d3d79a1dd2dabf58a8a2817ff04"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/checkout/CheckoutClient.tsx",
+      "bytes": 9609,
+      "sha256": "358b81972263e68f0e1fb9c977beecf48b1a8b453faa6c2dbaae37b865fe8ad0"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/shared/ChatPanel.tsx",
+      "bytes": 4697,
+      "sha256": "482c3f61fdf277e8303d0fc3edd705000648578ce5e0c391f71881b4f9169409"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/shared/FaithChat.tsx",
+      "bytes": 14110,
+      "sha256": "32d276d855b9350583143086b1431790857d8c493f10efe76125444ec7c173b8"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/shared/GlassCard.tsx",
+      "bytes": 733,
+      "sha256": "b97f84e677a76e66d3e510910005315cd0a71a8c3a61517a38268edd1cae41fb"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/shared/LeadForm.tsx",
+      "bytes": 5400,
+      "sha256": "854ee9421a04b512e0be83ac6459b6fde9a14f434517f190ad9c6ee943ec8a56"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/shared/MonoLabel.tsx",
+      "bytes": 454,
+      "sha256": "672cce0bb04e720ae75f582e05559b5f6ce415798c0914a3a2ddefcff9ba193f"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/shared/UrnSculpture.tsx",
+      "bytes": 3006,
+      "sha256": "07b85e740f3f03f0174579b703c42c0038b3c5c7db64abea58cb1c5ea5ce897c"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/shared/VariantSwitcher.tsx",
+      "bytes": 1558,
+      "sha256": "9b4a819b98e1c1655edd8edbbb6be9994f024f74e05fd6e2fd87dbd78efc4217"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/urns/UrnGallery.tsx",
+      "bytes": 5371,
+      "sha256": "ec5f51d2ec3f63b8d8d7b325884312162b35aa76558ca4717eeb3cd872b3967f"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/AriaGuide.tsx",
+      "bytes": 1949,
+      "sha256": "ef9a238e5611d23fbd51cfc28a77ea9b515734fed6d917982d2ba8b8cbde7c0d"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/Footer.tsx",
+      "bytes": 4163,
+      "sha256": "550fbaa555c9b1e59f7d3ca3d6f1ea45b990a50125be1486cdc2d6eb1a63567b"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/Hero.tsx",
+      "bytes": 6186,
+      "sha256": "90e78831199c1924461bd46b4f521e68dd2ef8e0e034a64d4cdf9a35545c2bce"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/Nav.tsx",
+      "bytes": 9235,
+      "sha256": "36d190ac9a5b9f215014eafd4e758c18d228a64c758952106c943cb728e0f6a0"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/PricingA.tsx",
+      "bytes": 5624,
+      "sha256": "368847510e2d590031af0a229a7e1f592f74f0337f068164fbeef1616566c2f2"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/Process.tsx",
+      "bytes": 4469,
+      "sha256": "beb018970c0e9edd76f425c8d0cb1ffeb8218928d4aaa1bf3f28516eae87328e"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/PromiseSection.tsx",
+      "bytes": 2710,
+      "sha256": "7f4ee64db0b06610c1c5afd5c3563255d10725d6a5200cb383523a1dd2f29a2a"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/ReportSection.tsx",
+      "bytes": 4592,
+      "sha256": "e078a8c4a19793d14542f7a8440c7f2f9c5178e7809d82f6722768dee705ea71"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/Scheduler.tsx",
+      "bytes": 10394,
+      "sha256": "d16a30b4fc3e4348ffa9e71dbab05029b5abfffa73a398dc4a3ad5f1388d3429"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/Services.tsx",
+      "bytes": 3985,
+      "sha256": "21bb569c95648e9623ffffd784df2e4cd320735917cb2d626d5652e9c5b6bc2d"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/Testimonials.tsx",
+      "bytes": 4975,
+      "sha256": "b9628bef9c95599c2c9bf88e1fe9740efc0c2f39566c0a676c92c4b7833d8038"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/TrustStrip.tsx",
+      "bytes": 1466,
+      "sha256": "6e76da32dfc84493a5083c3778a6f9260633ecdf5fb12cf345ba2de1e5eebcc4"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/UrgencyBar.tsx",
+      "bytes": 1092,
+      "sha256": "bde85baceea8dc21e021d5ea2adfb431ccaaa9dd534880f8a8cd5296adebafc3"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/UrnSection.tsx",
+      "bytes": 7723,
+      "sha256": "980ec2b6853c98f3c06a2fe2dd59c9c1a52fdbed3a81decbf0055d933049673a"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-a/VariantA.tsx",
+      "bytes": 1998,
+      "sha256": "2575108e2f73ca4cce8f6b10b506375c5a07878e441d2accf3144ae64300a671"
+    },
+    {
+      "path": "websites/graceful-tributes/src/components/variant-b/VariantB.tsx",
+      "bytes": 32637,
+      "sha256": "548ee5f391d0fafa759eb91f6ee127649c0730cb19ad8b1ae7b9dcb856a4328b"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/analytics.ts",
+      "bytes": 1615,
+      "sha256": "50a2b2b8bdc7fef4d2ffcc232c91c9074fec88fc3d81503fc739b47524a9e530"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/content/checkout.ts",
+      "bytes": 2489,
+      "sha256": "18ddb83bf20e02e129a1cda980e5bb493c5e8396c3e93d89c42551c719720d9b"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/content/faith.ts",
+      "bytes": 2327,
+      "sha256": "7d1487459b51fde85aabaca443e4ec44bfe010c5fdef7f2610db401c96686406"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/content/variant-a.ts",
+      "bytes": 8953,
+      "sha256": "06b370c39ab3bce579b350711ff7ebd553fb1b531dd051781110ed8f9482eceb"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/content/variant-b.ts",
+      "bytes": 6325,
+      "sha256": "bd944e2cb55143164ca7eeea2a8b05328f2ce62afb8e5cc2b00e74909dbb8bde"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/pricing.ts",
+      "bytes": 5829,
+      "sha256": "44436f8f2b50cc10fe6bd337354420cc595f8c97420ad2ec35764efc8175317b"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/site-config.ts",
+      "bytes": 2849,
+      "sha256": "2f692025fbb325d1fb9e9b99d1627f339c08073f08c33c2230c15b9bfd5c1a10"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/useReveal.ts",
+      "bytes": 1347,
+      "sha256": "77725b0b252b9ed727cce548fecaf47825f3ba27fc5de129256f752e8a63e3d4"
+    },
+    {
+      "path": "websites/graceful-tributes/src/lib/utils.ts",
+      "bytes": 563,
+      "sha256": "a8a2e544ebc3badaadbba08e0a32d3b1094dc34a41ce4d427e4af61f3e2817e0"
+    },
+    {
+      "path": "websites/graceful-tributes/src/middleware.ts",
+      "bytes": 1235,
+      "sha256": "40c1b8349cd06e169b4f41d4345c4b9757c459a29c00278366f6c19fc11d8aeb"
+    },
+    {
+      "path": "websites/graceful-tributes/tailwind.config.ts",
+      "bytes": 1283,
+      "sha256": "2f8161c1537044a7b9524f276584f39fa8bb702d3b16677eaa2f10a847827bb3"
+    },
+    {
+      "path": "websites/graceful-tributes/tsconfig.json",
+      "bytes": 728,
+      "sha256": "28ef8753dd0c58469efd3ea26c80b5ccf11f74b87f818639ee2e5a9fd1ce4c38"
+    }
+  ]
+}

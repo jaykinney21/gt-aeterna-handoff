@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AETERNA — Art That Holds Everything</title>
+<meta name="description" content="Handcrafted art urns where art meets memory. Museum-quality vessels designed to be displayed, not hidden away. For the lives that mattered most.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="AETERNA — Art That Holds Everything">
+<meta property="og:description" content="Handcrafted art urns where art meets memory. Museum-quality vessels for the lives that mattered most.">
+<meta property="og:type" content="website">
+
+<!-- Preconnect for fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://api.fontshare.com">
+
+<link rel="stylesheet" href="./style.css">
+
+<!-- Favicon (inline SVG data URI) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='none' stroke='%23C4A87C' stroke-width='1.5'/><path d='M16 6 L22 24 H10 Z' fill='none' stroke='%23C4A87C' stroke-width='1.5' stroke-linejoin='round'/></svg>">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "AETERNA",
+  "description": "Handcrafted art urns where art meets memory",
+  "url": "#",
+  "creator": {
+    "@type": "SoftwareApplication",
+    "name": "Perplexity Computer",
+    "url": "https://www.perplexity.ai/computer"
+  }
+}
+</script>
+</head>
+<body>
+
+  <!-- ============================================
+       Navigation
+       ============================================ -->
+  <nav class="nav nav--hero" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="AETERNA home">
+        <!-- SVG Logo: Abstract vessel mark -->
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="18" cy="18" r="16.5" stroke="currentColor" stroke-width="1"/>
+          <path d="M18 6.5L24.5 27H11.5L18 6.5Z" stroke="currentColor" stroke-width="1" stroke-linejoin="round" fill="none"/>
+          <circle cx="18" cy="18" r="4" stroke="currentColor" stroke-width="0.8" fill="none"/>
+        </svg>
+        <span class="nav__logo-text">AETERNA</span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#philosophy">Philosophy</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#process">Process</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" style="display:none">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+          </svg>
+        </button>
+        <button class="cart-trigger" onclick="openCartDrawer()" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/>
+          </svg>
+          <span class="cart-badge">0</span>
+        </button>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+    <a href="#philosophy" class="mobile-menu__link">Philosophy</a>
+    <a href="shop.html" class="mobile-menu__link">Shop</a>
+    <a href="#collection" class="mobile-menu__link">Collection</a>
+    <a href="#materials" class="mobile-menu__link">Materials</a>
+    <a href="#story" class="mobile-menu__link">Our Story</a>
+    <a href="#process" class="mobile-menu__link">Process</a>
+  </div>
+
+  <!-- ============================================
+       Hero Section
+       ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__shape hero__shape--1"></div>
+      <div class="hero__shape hero__shape--2"></div>
+      <div class="hero__shape hero__shape--3"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__tagline">AETERNA</p>
+      <h1 class="hero__title">Art That Holds<br>Everything</h1>
+      <p class="hero__subtitle">Handcrafted vessels where art meets memory.<br>For the lives that mattered most.</p>
+      <div class="hero__ctas">
+        <a href="shop.html" class="btn btn--primary">View Collection</a>
+        <a href="#story" class="btn btn--outline">Our Story</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Philosophy Section
+       ============================================ -->
+  <section class="section philosophy" id="philosophy">
+    <div class="container">
+      <div class="section__header section__header--center fade-in">
+        <span class="section__label">Our Philosophy</span>
+        <h2 class="section__title">More Than a Vessel</h2>
+        <p class="section__subtitle">We believe memorials should celebrate life, not mourn it. Every AETERNA piece is designed as art first — a beautiful object that honors a beautiful life.</p>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar fade-in">
+          <div class="pillar__icon">
+            <!-- Art First icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Art First</h3>
+          <p class="pillar__text">Every piece is conceived as a work of art. We collaborate with sculptors, ceramicists, and glass artists to create objects of genuine beauty.</p>
+        </div>
+
+        <div class="pillar fade-in">
+          <div class="pillar__icon">
+            <!-- Crafted with Purpose icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+              <path d="M12 6V12L16 14"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Crafted with Purpose</h3>
+          <p class="pillar__text">Each vessel is handmade by master artisans using time-honored techniques. No mass production — only intention, care, and craft.</p>
+        </div>
+
+        <div class="pillar fade-in">
+          <div class="pillar__icon">
+            <!-- For Every Life icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">For Every Life</h3>
+          <p class="pillar__text">From human to pet, from full-size to keepsake — we offer vessels for every life that deserves to be remembered beautifully.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Collections Section
+       ============================================ -->
+  <section class="section collections" id="collection">
+    <div class="container">
+      <div class="section__header section__header--center fade-in">
+        <span class="section__label">Shop</span>
+        <h2 class="section__title">The Collection</h2>
+        <p class="section__subtitle">Each piece is a one-of-a-kind work of art, handcrafted by master artisans.</p>
+      </div>
+
+      <div class="filter-tabs fade-in" role="tablist" aria-label="Filter products">
+        <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-tab" data-filter="human" role="tab" aria-selected="false">Human</button>
+        <button class="filter-tab" data-filter="pet" role="tab" aria-selected="false">Pet</button>
+        <button class="filter-tab" data-filter="keepsake" role="tab" aria-selected="false">Keepsake</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- 1. Solace -->
+        <a href="product.html#solace" class="product-card fade-in" data-category="human">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--solace"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Solace</h3>
+            <p class="product-card__material">White Ceramic · Minimalist Sphere</p>
+            <p class="product-card__price">$245</p>
+          </div>
+        </a>
+
+        <!-- 2. Ember -->
+        <a href="product.html#ember" class="product-card fade-in" data-category="human">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--ember"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Ember</h3>
+            <p class="product-card__material">Hand-Blown Glass · Amber Gradient</p>
+            <p class="product-card__price">$385</p>
+          </div>
+        </a>
+
+        <!-- 3. Meridian -->
+        <a href="product.html#meridian" class="product-card fade-in" data-category="human">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--meridian"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Meridian</h3>
+            <p class="product-card__material">Bronze · Sculptural Form</p>
+            <p class="product-card__price">$780</p>
+          </div>
+        </a>
+
+        <!-- 4. Vesper -->
+        <a href="product.html#vesper" class="product-card fade-in" data-category="human">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--vesper"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Vesper</h3>
+            <p class="product-card__material">Carved Walnut · Organic Curves</p>
+            <p class="product-card__price">$320</p>
+          </div>
+        </a>
+
+        <!-- 5. Lumina -->
+        <a href="product.html#lumina" class="product-card fade-in" data-category="human">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--lumina"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Lumina</h3>
+            <p class="product-card__material">Crystal Glass · Gold Leaf</p>
+            <p class="product-card__price">$1,450</p>
+          </div>
+        </a>
+
+        <!-- 6. Terra -->
+        <a href="product.html#terra" class="product-card fade-in" data-category="human">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--terra"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Terra</h3>
+            <p class="product-card__material">Earthen Ceramic · Wabi-Sabi</p>
+            <p class="product-card__price">$195</p>
+          </div>
+        </a>
+
+        <!-- 7. Companion (Pet) -->
+        <a href="product.html#companion" class="product-card fade-in" data-category="pet">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--companion"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Companion</h3>
+            <p class="product-card__material">Ceramic · River Stone</p>
+            <p class="product-card__price">$165</p>
+          </div>
+        </a>
+
+        <!-- 8. Whisper (Keepsake) -->
+        <a href="product.html#whisper" class="product-card fade-in" data-category="keepsake">
+          <div class="product-card__image">
+            <div class="art-shape art-shape--whisper"></div>
+            <div class="product-card__overlay"><span>View Piece</span></div>
+          </div>
+          <div class="product-card__info">
+            <h3 class="product-card__name">Whisper</h3>
+            <p class="product-card__material">Glass Pendant · Keepsake</p>
+            <p class="product-card__price">$125</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Materials Section
+       ============================================ -->
+  <section class="section materials" id="materials">
+    <div class="container">
+      <div class="section__header fade-in">
+        <span class="section__label">Craftsmanship</span>
+        <h2 class="section__title">Our Materials</h2>
+        <p class="section__subtitle">Selected for beauty, durability, and the story they tell.</p>
+      </div>
+
+      <div class="materials__track fade-in">
+        <div class="material-card">
+          <div class="material-card__visual material-texture--ceramic"></div>
+          <div class="material-card__content">
+            <h3 class="material-card__name">Ceramic</h3>
+            <p class="material-card__desc">Hand-thrown and kiln-fired stoneware. Each piece carries the subtle marks of the maker's hand — no two are identical.</p>
+          </div>
+        </div>
+
+        <div class="material-card">
+          <div class="material-card__visual material-texture--glass"></div>
+          <div class="material-card__content">
+            <h3 class="material-card__name">Glass</h3>
+            <p class="material-card__desc">Mouth-blown borosilicate and crystal. Light passes through, creating ever-changing interplay of color and transparency.</p>
+          </div>
+        </div>
+
+        <div class="material-card">
+          <div class="material-card__visual material-texture--metal"></div>
+          <div class="material-card__content">
+            <h3 class="material-card__name">Metal</h3>
+            <p class="material-card__desc">Sand-cast bronze and hand-patinated copper. Develops a living patina over time — growing more beautiful with age.</p>
+          </div>
+        </div>
+
+        <div class="material-card">
+          <div class="material-card__visual material-texture--wood"></div>
+          <div class="material-card__content">
+            <h3 class="material-card__name">Wood</h3>
+            <p class="material-card__desc">Sustainably sourced walnut and oak, hand-turned on a lathe. Warm, organic forms that connect us to the natural world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Story Section
+       ============================================ -->
+  <section class="section story" id="story">
+    <div class="container">
+      <div class="story__grid">
+        <div class="story__text fade-in">
+          <span class="section__label">About</span>
+          <h2 class="section__title">Our Story</h2>
+          <p>AETERNA was born from a simple belief: the objects that hold our most precious memories should be worthy of them. We saw an industry stuck in the past — utilitarian, somber, impersonal — and knew there had to be a better way.</p>
+          <p>We partnered with contemporary artists and master artisans to create memorial vessels that are, first and foremost, beautiful works of art. Pieces you would proudly display on a shelf, a mantle, in a garden — not hidden in a closet.</p>
+
+          <blockquote class="story__quote">
+            "Every piece is designed to be displayed, not hidden away."
+          </blockquote>
+
+          <p>Our name, AETERNA, means "eternal" — because the love we carry for those we've lost never fades. Neither should the vessel that holds their memory.</p>
+        </div>
+
+        <div class="story__visual fade-in">
+          <!-- Abstract art composition rendered via CSS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Process Section
+       ============================================ -->
+  <section class="section process" id="process">
+    <div class="container">
+      <div class="section__header section__header--center fade-in">
+        <span class="section__label">How It Works</span>
+        <h2 class="section__title">Your Journey</h2>
+        <p class="section__subtitle">From first consultation to doorstep delivery, we guide you with care.</p>
+      </div>
+
+      <div class="process__steps">
+        <div class="process-step fade-in">
+          <div class="process-step__number">1</div>
+          <h3 class="process-step__title">Commission</h3>
+          <p class="process-step__text">Choose from our collection or work with us to commission a fully custom piece that tells your unique story.</p>
+        </div>
+
+        <div class="process-step fade-in">
+          <div class="process-step__number">2</div>
+          <h3 class="process-step__title">Design</h3>
+          <p class="process-step__text">Our artisans bring your vision to life. You'll receive progress updates and approve the design before final creation.</p>
+        </div>
+
+        <div class="process-step fade-in">
+          <div class="process-step__number">3</div>
+          <h3 class="process-step__title">Deliver</h3>
+          <p class="process-step__text">Your piece arrives in bespoke packaging, accompanied by a certificate of authenticity and care guide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       Footer
+       ============================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="18" cy="18" r="16.5" stroke="currentColor" stroke-width="1"/>
+              <path d="M18 6.5L24.5 27H11.5L18 6.5Z" stroke="currentColor" stroke-width="1" stroke-linejoin="round" fill="none"/>
+              <circle cx="18" cy="18" r="4" stroke="currentColor" stroke-width="0.8" fill="none"/>
+            </svg>
+            <span class="footer__logo-text">AETERNA</span>
+          </div>
+          <p class="footer__tagline">Art that holds everything. Handcrafted memorial vessels designed to celebrate life through beautiful art.</p>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Collection</h4>
+          <ul class="footer__links">
+            <li><a href="#collection">All Pieces</a></li>
+            <li><a href="#collection">Human Urns</a></li>
+            <li><a href="#collection">Pet Urns</a></li>
+            <li><a href="#collection">Keepsakes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Company</h4>
+          <ul class="footer__links">
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="#footer">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Join the Gallery</h4>
+          <p class="footer__newsletter-text">Be the first to discover new pieces and artist collaborations.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault();">
+            <input type="email" placeholder="Your email" aria-label="Email address" required>
+            <button type="submit">Join</button>
+          </form>
+          <div class="footer__social">
+            <!-- Instagram -->
+            <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="5"/>
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+              </svg>
+            </a>
+            <!-- Pinterest -->
+            <a href="#" aria-label="Pinterest" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6C8.5 6 7 9 8 12C8.5 13.5 9.5 14 10 14C10.5 14 10.5 12.5 10 11.5C9.5 10.5 10 8 12 8C14 8 15 9.5 14.5 12C14 14.5 12.5 16 11 18"/>
+              </svg>
+            </a>
+            <!-- X/Twitter -->
+            <a href="#" aria-label="X" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 AETERNA. All rights reserved.</p>
+        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./cart.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>

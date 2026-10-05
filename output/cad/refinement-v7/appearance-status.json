@@ -1,0 +1,122 @@
+{
+  "scope": "V7 appearance revision only, not engineering release",
+  "iterations": 8,
+  "source": "document63/image1.png",
+  "actual_appearance_bounds_mm": [
+    145.94010162353516,
+    146.114990234375,
+    273.6800231933594
+  ],
+  "source_written_base_diameter_mm": 171.45,
+  "appearance_xy_scale": 0.85,
+  "proportion_decision": "Source picture is narrower than its written dimensions; appearance intentionally follows picture proportions. No capacity or manufacturing-size claim.",
+  "body_font_mm_before_proportion_transform": 14.8,
+  "body_text_width_multiplier": 1.23,
+  "render_resolution": [
+    900,
+    1100
+  ],
+  "cycles_samples": 64,
+  "review_views": [
+    "front",
+    "rear",
+    "side",
+    "top",
+    "detail",
+    "base-detail",
+    "front-reference",
+    "rear-reference",
+    "cap-top",
+    "front-noplaque"
+  ],
+  "requested_changes": {
+    "cap_outline": "Fuller rounded teardrop, taper coefficient 0.4 versus v6 0.6; +X point at copper join",
+    "cap_rim_pre_scale_radial_width_mm": 8,
+    "upper_foil_profile_pre_scale_mm": [
+      [
+        215,
+        37
+      ],
+      [
+        225,
+        40
+      ],
+      [
+        235,
+        37.5
+      ],
+      [
+        244,
+        34.51
+      ]
+    ],
+    "recess": "Continuous curved closed appearance join 0.65 mm below writing rim, attached to actual foil boundary",
+    "bronze_s_half_width_pre_scale_formula": "(.4 + 6*(k/160)**.7)*min(1,k/25)",
+    "stitching": "Approved right-shifted upper position retained; slight leftward lower taper; visible points clipped against bronze border",
+    "stitch_sampling_z_mm": [
+      102,
+      263
+    ],
+    "cross_stitch_spacing_mm": 5,
+    "cross_stitch_radius_mm_before_xy_scale": 0.36,
+    "core_pebbles": {
+      "rows": 94,
+      "placements_per_row": 120,
+      "radius_range_mm": [
+        0.9,
+        1.25
+      ],
+      "height_radius_ratio": 0.48,
+      "roughness": 0.55
+    },
+    "writing_grain": {
+      "generated_noise_scale": 260,
+      "bump_strength": 0.15,
+      "bump_distance": 0.065
+    },
+    "body_inscription": {
+      "font_size_mm": 14.8,
+      "previous_font_size_mm": 12.3,
+      "center_x_pre_scale_mm": 11,
+      "previous_center_x_pre_scale_mm": 17,
+      "width_multiplier": 1.23
+    },
+    "heart": {
+      "scale_relative_v6": 1.2,
+      "center_x_pre_scale_mm": 11,
+      "center_z_before_body_translation_mm": 92
+    },
+    "base_height_scale": 0.9,
+    "body_downward_translation_mm": 5.08,
+    "base_rows": 8,
+    "beads_per_complete_row": 136,
+    "base_row_centers_after_z_transform_mm": [
+      7.2,
+      11.764285714285714,
+      16.32857142857143,
+      20.892857142857146,
+      25.457142857142856,
+      30.021428571428576,
+      34.58571428571429,
+      39.15
+    ],
+    "outer_base_trim_height_after_z_transform_mm": 3.24,
+    "bronze_material": {
+      "rgb": [
+        0.32,
+        0.125,
+        0.04
+      ],
+      "metallic": 0.6,
+      "roughness": 0.48
+    },
+    "plaque": "Retained in actual model; separate front-noplaque comparison restores complete bead rows behind plaque"
+  },
+  "cap_top_view": "Isolated actual cap component; camera roll puts tapered point upward; geometry unchanged",
+  "limitations": [
+    "Source front/rear perspectives are conceptual and do not uniquely determine a consistent solid",
+    "Hidden depth and rolled return remain interpretations",
+    "No cavity, capacity, closure, tolerance or printability approval",
+    "Owner visual approval remains outstanding"
+  ]
+}

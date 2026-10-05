@@ -1,0 +1,17 @@
+{
+  "created": "2026-09-19",
+  "tool": "built-in image_gen",
+  "new_concept": "D57",
+  "source": "DOC NOTES sections 3 and 5",
+  "generated_asset": "assets/D57-infinite-loop-concept-v1.png",
+  "prompt": "D57-generation-prompt.txt",
+  "reference_documents": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    63
+  ],
+  "status": "internal concept review; not published"
+}

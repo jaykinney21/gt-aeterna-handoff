@@ -1,0 +1,90 @@
+{
+  "status": "SOURCE-INFORMED ENGINEERING CANDIDATE; NOT APPROVED TO MANUFACTURE",
+  "parameters_mm": {
+    "height": 279.4,
+    "base_height": 50.8,
+    "base_diameter": 171.45,
+    "body_width": 160.0,
+    "body_depth": 127,
+    "nominal_radial_wall": 4,
+    "base_floor": 6.0,
+    "plate_width": 98,
+    "plate_depth": 78,
+    "plate_thickness": 3,
+    "screw_clearance_diameter": 4.5,
+    "insert_pilot_diameter": 5
+  },
+  "shell": {
+    "components": 1,
+    "volume_mm3": 614727.2659452043,
+    "nonmanifold_edges": 0,
+    "vertices": 11549,
+    "bounds_mm": [
+      170.30001831054688,
+      169.64999389648438,
+      279.3999938964844
+    ]
+  },
+  "plate": {
+    "components": 1,
+    "volume_mm3": 22550.851820745287,
+    "nonmanifold_edges": 0,
+    "vertices": 1292,
+    "bounds_mm": [
+      98.0,
+      78.0,
+      3.0
+    ]
+  },
+  "empty_cavity_after_conservative_hardware": {
+    "components": 1,
+    "volume_mm3": 3361053.890785795,
+    "nonmanifold_edges": 0,
+    "vertices": 2307,
+    "bounds_mm": [
+      161.0,
+      161.0,
+      269.3999938964844
+    ]
+  },
+  "capacity_in3": 205.10409251991666,
+  "capacity_target_in3": 200,
+  "capacity_target_pass": true,
+  "Every-Step-Legacy-shell-CANDIDATE-mm.stl": {
+    "triangles": 23094,
+    "reimport_bounds_mm": [
+      170.30001831054688,
+      169.64999389648438,
+      279.3999938964844
+    ]
+  },
+  "Every-Step-Legacy-plate-CANDIDATE-mm.stl": {
+    "triangles": 2596,
+    "reimport_bounds_mm": [
+      98.0,
+      78.0,
+      3.0
+    ]
+  },
+  "limitations": [
+    "Ring loft approximates reference; not traced or owner-approved",
+    "4mm is radial construction allowance, not verified minimum normal thickness",
+    "Top is fixed; bottom plate baseline provisional",
+    "90-degree countersinks and 2mm-wide x1mm gasket seat are provisional; screws, inserts and gasket not selected",
+    "No leak, load, fit, heat, finish or packaging tests",
+    "Lacing, tread and base texture integrated in shell STL; folded ribbon, circumferential bronze bands and lettering remain visual guides",
+    "Cavity excludes access opening volume and conservatively deducts full boss cylinders",
+    "6mm base floor leaves2mm above provisional gasket groove; minimum normal shell thickness not validated"
+  ],
+  "assembled_visual_bounds_mm": [
+    171.4499969482422,
+    171.4499969482422,
+    279.3999938964844
+  ],
+  "gasket_centerline_samples": 164,
+  "gasket_centerline_roof_z_mm": [
+    3.999998092651367,
+    4.000001907348633
+  ],
+  "pilot_to_groove_min_clearance_mm": 3.1568542494923806
+}

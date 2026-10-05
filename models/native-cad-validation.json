@@ -1,0 +1,147 @@
+{
+  "tool": "Blender 5.2.1 LTS",
+  "check": "Read-open every portable scene with auto-execution disabled; no render or scene save",
+  "scenes": [
+    {
+      "path": "output/cad/Every-Step-Legacy-envelope-study.blend",
+      "objects": 3,
+      "meshes": 3,
+      "render_output": "/tmp/",
+      "fonts": [],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-sculptural-candidate-mechanical-baseline.blend",
+      "objects": 15,
+      "meshes": 8,
+      "render_output": "//candidate-section.png",
+      "fonts": [
+        "<builtin>"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-sculptural-candidate.blend",
+      "objects": 261,
+      "meshes": 254,
+      "render_output": "//candidate-section.png",
+      "fonts": [
+        "<builtin>"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/refinement-v2/Every-Step-Legacy-sculptural-candidate.blend",
+      "objects": 305,
+      "meshes": 298,
+      "render_output": "//candidate-top.png",
+      "fonts": [
+        "<builtin>"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/refinement-v3/Every-Step-Legacy-appearance-v3.blend",
+      "objects": 79,
+      "meshes": 26,
+      "render_output": "/tmp/",
+      "fonts": [
+        "<builtin>",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/refinement-v4/Every-Step-Legacy-appearance-v4.blend",
+      "objects": 107,
+      "meshes": 27,
+      "render_output": "/tmp/",
+      "fonts": [
+        "<builtin>",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/refinement-v5/Every-Step-Legacy-appearance-v5.blend",
+      "objects": 98,
+      "meshes": 30,
+      "render_output": "//appearance-rear-reference.png",
+      "fonts": [
+        "<builtin>",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-15.blend",
+      "objects": 98,
+      "meshes": 30,
+      "render_output": "//appearance-detail.png",
+      "fonts": [
+        "<builtin>",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/refinement-v6/Every-Step-Legacy-appearance-v6.blend",
+      "objects": 63,
+      "meshes": 28,
+      "render_output": "//appearance-cap-top.png",
+      "fonts": [
+        "<builtin>",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    },
+    {
+      "path": "output/cad/refinement-v7/Every-Step-Legacy-appearance-v7.blend",
+      "objects": 65,
+      "meshes": 56,
+      "render_output": "//appearance-cap-top.png",
+      "fonts": [
+        "<builtin>",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf",
+        "/System/Library/Fonts/Supplemental/Georgia.ttf"
+      ],
+      "linked_libraries": [],
+      "opened": true
+    }
+  ],
+  "all_opened": true,
+  "font_errors": 0,
+  "linked_libraries": 0
+}

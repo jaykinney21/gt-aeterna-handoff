@@ -1,0 +1,122 @@
+{
+  "bundle": "GT-AETERNA-editable-blender-cad.zip",
+  "scope": "Ten editable Blender scenes spanning the envelope study, mechanical baseline, sculptural v1/v2 candidates and appearance v3–v7, including preserved v5 pass15. Portable copies replace only fixed-width local home/render path metadata and resolve the macOS Georgia font path independently of extraction folder depth. All other decompressed bytes remain identical; local original scene files are preserved. No geometry, material, camera or manufacturing changes were made. Georgia is a system font dependency for exact typography.",
+  "members": [
+    {
+      "path": "output/cad/Every-Step-Legacy-envelope-study.blend",
+      "bytes": 126796,
+      "sha256": "acb226a5ece9ec81c2852eca6b0082e57e25edb2ff2cd38231650b067a0b2969"
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-sculptural-candidate-mechanical-baseline.blend",
+      "bytes": 405514,
+      "sha256": "0f597873c61d5deadbfd193e92171a38be166b9a6ef4a0712160ff8ccf002932"
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-sculptural-candidate.blend",
+      "bytes": 768988,
+      "sha256": "01d66010ddfee7748218ad9e550026bba6a00f6826e57b94e492e9091374f593"
+    },
+    {
+      "path": "output/cad/refinement-v2/Every-Step-Legacy-sculptural-candidate.blend",
+      "bytes": 1312460,
+      "sha256": "457d7d2e8cc70e6c590b681e8bfa6f301390ab3089e6a459278bea82594d7c27"
+    },
+    {
+      "path": "output/cad/refinement-v3/Every-Step-Legacy-appearance-v3.blend",
+      "bytes": 12881240,
+      "sha256": "bef2d00a142262e730297916781fa9e2cacc85378bad153d3e1d87353af55775"
+    },
+    {
+      "path": "output/cad/refinement-v4/Every-Step-Legacy-appearance-v4.blend",
+      "bytes": 25890259,
+      "sha256": "46a2349c64001636c2908eb9916b9c1016f004b761a05ad6fd17781d9a53cafc"
+    },
+    {
+      "path": "output/cad/refinement-v5/Every-Step-Legacy-appearance-v5.blend",
+      "bytes": 21725094,
+      "sha256": "70b096ca7e7ee32c0d825bad2608511e360fb94da5554f4bc82c5241fd89cdcb"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-15.blend",
+      "bytes": 21707351,
+      "sha256": "2efa427f3279181959d3365447768397e3d3254add720e925144fc95816b3585"
+    },
+    {
+      "path": "output/cad/refinement-v6/Every-Step-Legacy-appearance-v6.blend",
+      "bytes": 21683148,
+      "sha256": "d1b98aa4a257305dc47e6726946f8e33ae8d433e812c63cea7c80280fed4b703"
+    },
+    {
+      "path": "output/cad/refinement-v7/Every-Step-Legacy-appearance-v7.blend",
+      "bytes": 20693949,
+      "sha256": "3c4b1e8c96ccdae6ff97c90711bbfb2016ef4ddbaf8112cc8ea56b489be24a74"
+    }
+  ],
+  "bytes": 122345205,
+  "sha256": "08754c79715b7b5512f1d4750449252bcfa1e8af66602b9c40b16811a1f91676",
+  "file_count": 10,
+  "raw_bytes": 127194799,
+  "archive_members": [
+    {
+      "path": "output/cad/Every-Step-Legacy-envelope-study.blend",
+      "bytes": 126796,
+      "sha256": "acb226a5ece9ec81c2852eca6b0082e57e25edb2ff2cd38231650b067a0b2969"
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-sculptural-candidate-mechanical-baseline.blend",
+      "bytes": 405514,
+      "sha256": "0f597873c61d5deadbfd193e92171a38be166b9a6ef4a0712160ff8ccf002932"
+    },
+    {
+      "path": "output/cad/Every-Step-Legacy-sculptural-candidate.blend",
+      "bytes": 768988,
+      "sha256": "01d66010ddfee7748218ad9e550026bba6a00f6826e57b94e492e9091374f593"
+    },
+    {
+      "path": "output/cad/refinement-v2/Every-Step-Legacy-sculptural-candidate.blend",
+      "bytes": 1312460,
+      "sha256": "457d7d2e8cc70e6c590b681e8bfa6f301390ab3089e6a459278bea82594d7c27"
+    },
+    {
+      "path": "output/cad/refinement-v3/Every-Step-Legacy-appearance-v3.blend",
+      "bytes": 12881240,
+      "sha256": "bef2d00a142262e730297916781fa9e2cacc85378bad153d3e1d87353af55775"
+    },
+    {
+      "path": "output/cad/refinement-v4/Every-Step-Legacy-appearance-v4.blend",
+      "bytes": 25890259,
+      "sha256": "46a2349c64001636c2908eb9916b9c1016f004b761a05ad6fd17781d9a53cafc"
+    },
+    {
+      "path": "output/cad/refinement-v5/Every-Step-Legacy-appearance-v5.blend",
+      "bytes": 21725094,
+      "sha256": "70b096ca7e7ee32c0d825bad2608511e360fb94da5554f4bc82c5241fd89cdcb"
+    },
+    {
+      "path": "output/cad/refinement-v5/pass-15.blend",
+      "bytes": 21707351,
+      "sha256": "2efa427f3279181959d3365447768397e3d3254add720e925144fc95816b3585"
+    },
+    {
+      "path": "output/cad/refinement-v6/Every-Step-Legacy-appearance-v6.blend",
+      "bytes": 21683148,
+      "sha256": "d1b98aa4a257305dc47e6726946f8e33ae8d433e812c63cea7c80280fed4b703"
+    },
+    {
+      "path": "output/cad/refinement-v7/Every-Step-Legacy-appearance-v7.blend",
+      "bytes": 20693949,
+      "sha256": "3c4b1e8c96ccdae6ff97c90711bbfb2016ef4ddbaf8112cc8ea56b489be24a74"
+    },
+    {
+      "path": "MEMBERS.json",
+      "bytes": 2595,
+      "sha256": "b1fb8f8d41d18e7971d29ed64fc6b422e83740552a9182dd1d8c2749e86d9b28"
+    },
+    {
+      "path": "BUNDLE-README.md",
+      "bytes": 804,
+      "sha256": "d49f981f991a2e1b53b8b921ac22287d2abe74b439556acaa555fe568aad0f75"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "scope": "Source-traced V4 appearance only, not engineering release",
+  "bronze_front_trace_mm": [
+    [
+      53,
+      -59.5
+    ],
+    [
+      133,
+      -53.55
+    ],
+    [
+      191,
+      -33.32
+    ],
+    [
+      231,
+      11.9
+    ],
+    [
+      260,
+      34.51
+    ]
+  ],
+  "black_second_trace_mm": [
+    [
+      53,
+      -53.55
+    ],
+    [
+      133,
+      -45.22
+    ],
+    [
+      177,
+      -23.8
+    ],
+    [
+      203,
+      17.85
+    ],
+    [
+      220,
+      63.07
+    ]
+  ],
+  "body_font_mm": 9.3,
+  "base_diameter_target_mm": 171.45,
+  "source": "document63/image1.png",
+  "limitations": [
+    "Reference is a concept board, not measured orthographic drawings",
+    "Rear depth and hidden surfaces are interpretations",
+    "No cavity, capacity, closure, tolerance or printability approval"
+  ],
+  "final_render_log": "review-build.log",
+  "review_checks": [
+    "Two distinct full-height boundaries independently traced",
+    "Broad black blade and side return welded with matched tangents",
+    "Cap has one closed planar face",
+    "Base nodules excluded behind plaques",
+    "Source body text9.3mm (50% increase overv3)",
+    "Ten final consistent actual-model renders"
+  ],
+  "render_sha256": {
+    "appearance-top.png": "f759837c0dd5ef67bc6bcf902f000c675e351c44e408842e4a6de419f2c5608c",
+    "appearance-front.png": "ea4809c440cba3fc4d993be8fa10056ada9e99ee483745e73b9677877aa1990c",
+    "appearance-detail.png": "013adc9bca27e99f0c63e25970330903294c52759c13dfcace8385b64325a256",
+    "appearance-base-detail.png": "f4b6fcf0dcd0703b83c8be96db0fa27e5c16f160bb7d640f274faf4bbb3d60a9",
+    "appearance-left.png": "75fc4d5c893b51a37d803f8f3c50ccb3046115e17d515aee568885136f4bd207",
+    "appearance-rear-reference.png": "144fc318c77e538b81e919f5bf7935ad94fcb39344366d8811d90e2a7d05a8e7",
+    "appearance-rear.png": "a6b795e83e44fbb90219b069593fc370de231f981a1f0d5e3968c9f4d5297a8d",
+    "appearance-side.png": "740b8fdeb055eee8628bf5860b09b3b286b5aa52877495166c39658112eaafa1",
+    "appearance-perspective.png": "d4c2d8219cf65d1e14af103ea6f0efaf5df9688e1b24f55e6c537503728b75b5",
+    "appearance-front-reference.png": "db6ecdc77e15b39c9c03c0edb2d06a6e334cd686f1dd2bcb1c0f07d914a3841c"
+  }
+}

@@ -1,0 +1,10 @@
+36. Forever in the Game
+
+**Original target:** 12 in overall × 8.5 in diameter; 200+ in³; bottom steel plate, four screws, brass inserts, silicone gasket.
+
+**Finish brief:** High-strength SLA resin target; purple/gold basketball, matte black dry-brushed snake, faux-wood pedestal.
+
+**Mismatch / unresolved work:** Body bounds 232.43 × 216.22 × 293.76 mm (9.15 × 8.51 × 11.57 in), assuming mm. Sculpted snake could explain maximum width, but height differs. Listed ball 7 in + base 2.5 in does not independently explain 12 in overall. Confirm actual assembly and connected cavity.
+
+
+Units and geometry are preliminary; no automatic rescaling authorized.

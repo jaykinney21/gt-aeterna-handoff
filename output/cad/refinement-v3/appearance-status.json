@@ -1,0 +1,43 @@
+{
+  "scope": "Original Every Step Legacy appearance only",
+  "engineering_status": "Not engineered; no capacity or STL manufacturing claim",
+  "features": [
+    "two overlapping masses",
+    "slender silhouette",
+    "front/rear tapered bronze folds",
+    "textured inset cap and bronze rim",
+    "smooth front/rear writing panels",
+    "dense fine pebble field",
+    "connected lace seam",
+    "three dense base bands",
+    "front/rear framed plaques",
+    "source-case phrases and heart motifs",
+    "smooth independently editable surfaces",
+    "warm bronze neutral lighting"
+  ],
+  "interpretations": [
+    "Rear mirrors composition across Y, with no duplicated front lace seam",
+    "Placeholder personalization reads YOUR LOVED ONE and generic dates",
+    "Appearance base approximately171mm; broadened tapered body for source proportions; not production dimensions",
+    "Fixed decorative cap; bottom loading to be engineered afterward"
+  ],
+  "final_review_checks": [
+    "Front/rear words and hearts visually checked after projection",
+    "Outer writing-shell side boundary welded; false vertical seam removed",
+    "Single exact planar cap face; duplicate top n-gon removed",
+    "Cap low-specular charcoal material checked in close-up",
+    "All ten PNGs rendered from final saved model/materials"
+  ],
+  "files": {
+    "appearance-top.png": "7f436de8106392ec73472ab14a6dfac911adfd3d62cb5665d6bf5fa90e7293c6",
+    "appearance-front.png": "df5a864d84cef835abb71d7772769464f3dc7097636e8910e4ee416a93b0460e",
+    "appearance-detail.png": "32f60dfbe1a77ad56ce0ae77b68eb84f45c677c95b41718fc13e49df2bd530b7",
+    "appearance-base-detail.png": "f747d072a0d23a37620df71fde0b5d7480d3d76f88b815fffb6c9ae2c2149d02",
+    "appearance-left.png": "835de9b1a27a4b5dcd58e41e586299a00c4eafa79a3cf8459cc10a7151bf169e",
+    "appearance-rear-reference.png": "42739d2efbe5869ac49cb722fb750d1f523f9df7271366282fc5cb05cde2cd34",
+    "appearance-rear.png": "8f07ad8b60a291ce43c35380bcd31d9ee2cf5c2adc8b292647e9bf442781ae00",
+    "appearance-side.png": "bdd56327a6cfa6de076ffb0e370a95f27393bec353746e367913ae51f89ae701",
+    "appearance-perspective.png": "fa5db04d5ac3cb6d93c6f332e8e3f1810e157d176688c2fae91b7e98b6f02584",
+    "appearance-front-reference.png": "67176138f1537377414cfd32d5bffebb71d6a054169040fdf9570cc05aecf167"
+  }
+}

@@ -1,0 +1,10 @@
+38. Mom’s Tough Love
+
+**Original target:** 13 in overall × 8 in maximum diameter; 200+ in³; 5.5 in top threaded wood-look lid.
+
+**Finish brief:** High-resolution resin target; intricate hand-painted kitchen/figures, faux wood, protective clear coat. Quoted weight and outdoor durability in source are unverified targets.
+
+**Mismatch / unresolved work:** Body bounds 176.14 × 179.94 × 270.64 mm (6.93 × 7.08 × 10.66 in), assuming mm. Supplied second part is a base plate, not a separate top lid. Original top-loading architecture is not established by this file set. Resolve/rebuild closure rather than silently switching to updated bottom-loading design.
+
+
+Units and geometry are preliminary; no automatic rescaling authorized.

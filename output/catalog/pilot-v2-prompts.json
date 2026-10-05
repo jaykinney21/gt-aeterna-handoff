@@ -1,0 +1,52 @@
+[
+  {
+    "id": "P01",
+    "prompt": "Use case: product-mockup. Create one standalone luxury catalog hero of the urn shown in the upper LEFT front view of the supplied reference sheet. Preserve the exact design: purple and gold basketball, black snake wrapping in figure-eight coils with small red eye, dark circular wood-look pedestal. Same proportions and arrangement. Front three-quarter studio view, entire object visible, centered, portrait 4:5, charcoal seamless backdrop, soft dramatic rim and key lighting, detailed photoreal concept render. Do not include the source sheet, labels, dimensions, cutaways, icons, dates, capacities, extra objects or redesign. Plaque may be blank; all catalog lettering will be editable outside the image. This is a concept visualization, not a photograph of a manufactured product.",
+    "source": "Built-in image generation; retained project asset: assets/P01-hero-v2.png",
+    "asset": "assets/P01-hero-v2.png",
+    "correction_prompt": "P01-correction-prompt.txt",
+    "corrected_asset": "assets/P01-hero-v3.png"
+  },
+  {
+    "id": "P02",
+    "prompt": "Use case: product-mockup. Create a single luxury catalog hero of the FRONT LEFT urn in the reference sheet. Faithfully preserve worn brown leather baseball glove holding one baseball, three supporting baseballs underneath on dirt-textured disc and dark wood-look tiered circular pedestal. Same silhouette, lacing and proportions. Entire object centered front view with slight depth, portrait 4:5, charcoal studio backdrop and soft dramatic rim lighting. No source sheet, measurements, cutaway, icons or capacities. Blank gold plaque; omit dates and generated words. Photorealistic concept visualization, not manufactured product photography.",
+    "source": "Built-in image generation; retained project asset: assets/P02-hero-v2.png",
+    "asset": "assets/P02-hero-v2.png"
+  },
+  {
+    "id": "P03",
+    "prompt": "Use case: product-mockup. One standalone catalog hero of the exact urn in FRONT LEFT of the reference sheet. Preserve cylindrical kitchen diorama urn with mother in purple dress and floral apron holding rolling pin, young boy green shirt blue jeans, honey wood cabinets behind them, wood-look domed knob lid and circular wood base. Same proportions, poses and colors. Remove speech bubble and all lettering entirely for editable catalog text later, keep gold base plaque blank. Entire urn centered front view, portrait4:5, charcoal seamless studio backdrop, luxury rim and key lighting. No diagram, measurements, cutaway or icons. Faithful photoreal concept render, not actual product photo.",
+    "source": "Built-in image generation; retained project asset: assets/P03-hero-v2.png",
+    "asset": "assets/P03-hero-v2.png"
+  },
+  {
+    "id": "P04",
+    "prompt": "Use case: product-mockup. Generate standalone luxury catalog hero of FRONT LEFT urn in reference sheet. Preserve exact black amphora urn body, richly patterned gold floral mandala ornament, fine horizontal gold pinstripes, domed black lid with gold edge and narrow gold foot. Same silhouette and proportions, NO added pedestal. Entire object centered frontal view slight depth on charcoal studio seamless backdrop, portrait4:5, dramatic soft rim/key lighting, crisp relief, photoreal concept. No diagram text, dimensions, cutaways, icons or capacities. Do not redesign floral pattern into unrelated ornament.",
+    "source": "Built-in image generation; retained project asset: assets/P04-hero-v2.png",
+    "asset": "assets/P04-hero-v2.png"
+  },
+  {
+    "id": "P05",
+    "prompt": "Use case: product-mockup. One luxury catalog hero of exact FRONT LEFT urn in supplied reference. Matte royal-blue suede-look curved asymmetrical athletic vessel, sculpted white shoelaces with bow, broad curved white stripe on right-front, thin gold neck band and foot band, matching rectangular blue stepped plinth with blank gold plaque. Preserve reference proportions, lid, silhouette, placement. Entire product centered front view with small depth, charcoal seamless studio, portrait4:5, dramatic soft rim lighting. No words, diagrams, dimensions, dates, cutaway, capacities, icons or logos. Photoreal concept visualization. Do not turn this abstract vessel into a literal shoe.",
+    "source": "Built-in image generation; retained project asset: assets/P05-hero-v2.png",
+    "asset": "assets/P05-hero-v2.png"
+  },
+  {
+    "id": "P06",
+    "prompt": "Use case: product-mockup. One luxury catalog hero faithful to FRONT LEFT Every Step urn in reference sheet. Asymmetrical sculptural matte-black athletic vessel: tall rear tread/stipple panel with vertical bronze stitching on left; lower rounded smooth front panel on right; sweeping metallic bronze divider ribbon diagonally wraps between panels; slanted pill-shaped textured cap. Short circular base with three black texture bands and bronze thin rims, small blank front plaque. Preserve exact reference silhouette and balance; do not replace with simple cylinder or topographical trail. Omit all lettering and heart marks for editable text later. Entire object front view slight depth, portrait4:5 charcoal studio background dramatic soft rim/key lighting. No diagrams, dimensions, cutaways, icons or capacity claims. Photoreal concept visualization.",
+    "source": "Built-in image generation; retained project asset: assets/P06-hero-v2.png",
+    "asset": "assets/P06-hero-v2.png"
+  },
+  {
+    "id": "D57",
+    "prompt": "Use case: precise-object-edit. Refine supplied Infinite Loop luxury urn concept. Preserve black cylindrical body and tiered black circular pedestal, charcoal studio lighting, proportions and composition. Change lid to perfectly FLAT flush disk, not dome. Refine surrounding broad black ribbon into a continuous loop with one visible smooth half-twist on the right side, gracefully orbiting cylinder. Ensure ribbon has physical width/thickness and one connected path, no disconnected ends. Photoreal concept render portrait4:5. No text, measurements, logos or engineering claims. This artwork will be labeled a conceptual interpretation, mathematical topology not proven.",
+    "source": "Built-in image generation; retained project asset: assets/D57-infinite-loop-concept-v2.png",
+    "asset": "assets/D57-infinite-loop-concept-v2.png"
+  },
+  {
+    "id": "A06",
+    "prompt": "Use case: product-mockup. Luxury accessory concept flat lay on charcoal stone, landscape16:9, photoreal studio macro lighting. Three objects only, coordinated matte black and ROSE GOLD tone. Left: miniature sculptural fluid-step contour urn using attached reference solely for silhouette: asymmetric tall tread-textured rear and curved smooth front, sweeping divider, circular textured base; rose-gold accents instead of bronze. Center: rose-gold pendant on fine chain shaped as a continuous infinity-path loop with subtle engraved relief. Right: rectangular black dog-tag keychain with rose-gold rim and ring, blank face. Approximate visual relative sizes mini3.5in, pendant1.5in, fob2.75in, not scale proof. Omit text and QR code entirely; editable labels outside image. Do not show internal cavity or claims of working mechanics. Distinct rose-gold accessory concept variant, not exact finished product or matching original bronze finish. All three objects separated, fully visible.",
+    "source": "Built-in image generation; retained project asset: assets/P06-accessories-concept-v1.png",
+    "asset": "assets/P06-accessories-concept-v1.png"
+  }
+]

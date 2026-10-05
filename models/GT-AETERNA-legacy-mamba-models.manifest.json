@@ -1,0 +1,62 @@
+{
+  "bundle": "GT-AETERNA-legacy-mamba-models.zip",
+  "scope": "Two recovered user project artwork sets: Mamba Mentality and Mamba Tripo3D, each as GLB and STL. Original bytes retained. Display viewers and render references are in the repository; these are historical design studies with unverified dimensions, capacity and printability.",
+  "members": [
+    {
+      "path": "models/legacy-mamba/kobe-mamba-mentality.glb",
+      "bytes": 6829192,
+      "sha256": "318a3b1f969f785aef0f64d849abd10e7bd35d87239ec1fa406a8b80d6f7b8e9"
+    },
+    {
+      "path": "models/legacy-mamba/kobe-mamba-mentality.stl",
+      "bytes": 12239884,
+      "sha256": "d1d0d45f646cd23e0a915c3f451ea2ffe6e6d717da3344701a0b8c8ddadf92c7"
+    },
+    {
+      "path": "models/legacy-mamba/kobe-mamba-tripo3d.glb",
+      "bytes": 10856828,
+      "sha256": "dd40b3fc6492ae07155807d1bdf95cf2d01851d8b013b43fe0596b7e456df418"
+    },
+    {
+      "path": "models/legacy-mamba/kobe-mamba-tripo3d.stl",
+      "bytes": 17588184,
+      "sha256": "d4ca0142f1ab67e1aa442f5826e9c4a213eb319c676507d21c0833dd38ca61de"
+    }
+  ],
+  "bytes": 22076913,
+  "sha256": "f1d3a0322fe795d72b9a44748955d924ceffa02e0822994a19b90a3a59fe7926",
+  "file_count": 4,
+  "raw_bytes": 47514088,
+  "archive_members": [
+    {
+      "path": "models/legacy-mamba/kobe-mamba-mentality.glb",
+      "bytes": 6829192,
+      "sha256": "318a3b1f969f785aef0f64d849abd10e7bd35d87239ec1fa406a8b80d6f7b8e9"
+    },
+    {
+      "path": "models/legacy-mamba/kobe-mamba-mentality.stl",
+      "bytes": 12239884,
+      "sha256": "d1d0d45f646cd23e0a915c3f451ea2ffe6e6d717da3344701a0b8c8ddadf92c7"
+    },
+    {
+      "path": "models/legacy-mamba/kobe-mamba-tripo3d.glb",
+      "bytes": 10856828,
+      "sha256": "dd40b3fc6492ae07155807d1bdf95cf2d01851d8b013b43fe0596b7e456df418"
+    },
+    {
+      "path": "models/legacy-mamba/kobe-mamba-tripo3d.stl",
+      "bytes": 17588184,
+      "sha256": "d4ca0142f1ab67e1aa442f5826e9c4a213eb319c676507d21c0833dd38ca61de"
+    },
+    {
+      "path": "MEMBERS.json",
+      "bytes": 1087,
+      "sha256": "41e3afd0d51d37492c2e4505d77367df63979524fbf0715ac1a359e6ab5bf47e"
+    },
+    {
+      "path": "BUNDLE-README.md",
+      "bytes": 548,
+      "sha256": "55e53277de7f557bdd00cdfdad928be8633d28827e0cb4a8c824dd00ecfacced"
+    }
+  ]
+}
